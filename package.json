@@ -1,0 +1,24 @@
+{
+  "name": "npm-algorithms-package",
+  "version": "0.1.0",
+  "description": "collecting solved algorithms and wrapping in an npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agtravis/npm-algorithms-package.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "algorithm"
+  ],
+  "author": "Alexander Travis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agtravis/npm-algorithms-package/issues"
+  },
+  "homepage": "https://github.com/agtravis/npm-algorithms-package#readme"
+}
