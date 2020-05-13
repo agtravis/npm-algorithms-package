@@ -1,1 +1,3 @@
 # npm-algorithms-package
+
+These are some basic test functions, more coming soon...
