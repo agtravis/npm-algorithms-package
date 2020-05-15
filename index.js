@@ -7,4 +7,5 @@ const algorithms = require(`./algorithms`);
 module.exports = {
   sum,
   subtract,
+  algorithms,
 };
