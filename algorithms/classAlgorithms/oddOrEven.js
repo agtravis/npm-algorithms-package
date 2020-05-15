@@ -7,7 +7,7 @@
  * @returns {boolean} false if incorrect
  */
 
-const oddOrEven = function (num) {
+module.exports = (num) => {
   if (num !== parseInt(num) || num === 0) return false;
   if (num % 2 === 0) {
     return `even`;
@@ -17,5 +17,3 @@ const oddOrEven = function (num) {
     return false;
   }
 };
-
-export default oddOrEven;

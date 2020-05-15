@@ -28,3 +28,18 @@ classAlgorithms.oddOrEven(10); // === `even`
 classAlgorithms.oddOrEven(9); // === `odd`
 classAlgorithms.oddOrEven(`10`); // === false
 ```
+
+## codeWars
+
+First, destructure the Code Wars Algorithms:
+
+```js
+const { codeWars } = algorithms;
+```
+
+Then you can run the following functions:
+
+```js
+codeWars.duplicateEncode(`recede`); // === `()()()`
+codeWars.duplicateEncode(`Success`); // === `)())())`
+```
