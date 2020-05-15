@@ -39,6 +39,8 @@ const { codeWars } = algorithms;
 
 Then you can run the following functions:
 
+[https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/train/javascript](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/train/javascript)
+
 ```js
 codeWars.duplicateEncode(`recede`); // === `()()()`
 codeWars.duplicateEncode(`Success`); // === `)())())`
