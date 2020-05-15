@@ -22,3 +22,9 @@ classAlgorithms.arithmetic.subtract(10, 2); // === 8
 classAlgorithms.arithmetic.multiply(10, 2); // === 20
 classAlgorithms.arithmetic.divide(10, 2); // === 5
 ```
+
+```js
+classAlgorithms.oddOrEven(10); // === `even`
+classAlgorithms.oddOrEven(9); // === `odd`
+classAlgorithms.oddOrEven(`10`); // === false
+```
