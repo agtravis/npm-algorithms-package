@@ -1,3 +1,8 @@
 # npm-algorithms-package
 
-These are some basic test functions, more coming soon...
+## classAlgorithms
+
+`arithmetic.add`
+`arithmetic.subtract`
+`arithmetic.multiply`
+`arithmetic.divide`
