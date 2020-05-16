@@ -29,6 +29,10 @@ classAlgorithms.oddOrEven(9); // === `odd`
 classAlgorithms.oddOrEven(`10`); // === false
 ```
 
+```js
+classAlgorithms.logNums(10); // logs all positive integers from 1 to 10
+```
+
 ## codeWars
 
 First, destructure the Code Wars Algorithms:
