@@ -45,3 +45,20 @@ Then you can run the following functions:
 codeWars.duplicateEncode(`recede`); // === `()()()`
 codeWars.duplicateEncode(`Success`); // === `)())())`
 ```
+
+[https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa/train/javascript](https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa/train/javascript)
+
+```js
+codeWars.openOrSenior([
+  [45, 12],
+  [55, 21],
+  [19, -2],
+  [104, 20],
+]); // === ['Open', 'Senior', 'Open', 'Senior']
+codeWars.openOrSenior([
+  [3, 12],
+  [55, 1],
+  [91, -2],
+  [54, 23],
+]); // === ['Open', 'Open', 'Open', 'Open']
+```
