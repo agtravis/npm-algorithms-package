@@ -6,6 +6,22 @@ Import the algorithms package as follows:
 const { algorithms } = require(`npm-algorithms-package`);
 ```
 
+## preClassDrills
+
+First, destructure the Pre Class Drills:
+
+```js
+const { preClassDrills } = algorithms;
+```
+
+Then you can run the following functions:
+
+```js
+preClassDrills.greatestOfTwo.greatestOfTwo(1, 2); // === 2
+preClassDrills.greatestOfTwo.greatestOfTwoReturnTernary(4, -6); // === 4
+preClassDrills.greatestOfTwo.greatestOfTwoReturnMax(3.4, 2); // === 3.4
+```
+
 ## classAlgorithms
 
 First, destructure the Class Algorithms:
