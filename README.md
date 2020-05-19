@@ -82,3 +82,10 @@ codeWars.openOrSenior([
   [54, 23],
 ]); // === ['Open', 'Open', 'Open', 'Open']
 ```
+
+[https://www.codewars.com/kata/530e15517bc88ac656000716/train/javascript](https://www.codewars.com/kata/530e15517bc88ac656000716/train/javascript)
+
+```js
+codeWars.rot13(`test`); // === grfg
+codeWars.rot13(`Test`); // === Grfg
+```
