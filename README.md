@@ -106,3 +106,19 @@ codeWars.sumStrings(
 codeWars.findOutlier([0, 1, 2]); // === 1
 codeWars.findOutlier([2, 6, 8, 10, 3]); // === 3
 ```
+
+## binarySearch
+
+First, destructure the Binary Search Algorithms:
+
+```js
+const { binarySearch } = algorithms;
+```
+
+Then you can run the following functions:
+
+### Take 5 from each number in an array
+
+```js
+binarySearch.take5([8, 5, 0, 1, 2]); // === [3, 0, -5, -4, -3]
+```
