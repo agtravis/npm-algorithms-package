@@ -89,3 +89,13 @@ codeWars.openOrSenior([
 codeWars.rot13(`test`); // === grfg
 codeWars.rot13(`Test`); // === Grfg
 ```
+
+[https://www.codewars.com/kata/5324945e2ece5e1f32000370/train/javascript](https://www.codewars.com/kata/5324945e2ece5e1f32000370/train/javascript)
+
+```js
+codeWars.sumStrings(`123`, `456`); // === `579`
+codeWars.sumStrings(
+  `50095301248058391139327916261`,
+  `81055900096023504197206408605`
+); // === `131151201344081895336534324866`
+```
