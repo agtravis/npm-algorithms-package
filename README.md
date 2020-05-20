@@ -99,3 +99,10 @@ codeWars.sumStrings(
   `81055900096023504197206408605`
 ); // === `131151201344081895336534324866`
 ```
+
+[https://www.codewars.com/kata/5526fc09a1bbd946250002dc/train/javascript/5e7bd08621b52d0027ad328c](https://www.codewars.com/kata/5526fc09a1bbd946250002dc/train/javascript/5e7bd08621b52d0027ad328c)
+
+```js
+codeWars.findOutlier([0, 1, 2]); // === 1
+codeWars.findOutlier([2, 6, 8, 10, 3]); // === 3
+```
