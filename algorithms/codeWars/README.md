@@ -16,12 +16,16 @@ const { codeWars } = algorithms;
 
 Then you can run the following functions:
 
+### Duplicate Encode
+
 [https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/train/javascript](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/train/javascript)
 
 ```js
 codeWars.duplicateEncode(`recede`); // === `()()()`
 codeWars.duplicateEncode(`Success`); // === `)())())`
 ```
+
+### Open or Senior
 
 [https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa/train/javascript](https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa/train/javascript)
 
@@ -40,11 +44,13 @@ codeWars.openOrSenior([
 ]); // === ['Open', 'Open', 'Open', 'Open']
 ```
 
+### Rot 13
+
 [https://www.codewars.com/kata/530e15517bc88ac656000716/train/javascript](https://www.codewars.com/kata/530e15517bc88ac656000716/train/javascript)
 
 ```js
-codeWars.rot13(`test`); // === grfg
-codeWars.rot13(`Test`); // === Grfg
+codeWars.rot13a(`test`); // === grfg
+codeWars.rot13b(`Test`); // === Grfg
 ```
 
 [https://www.codewars.com/kata/5324945e2ece5e1f32000370/train/javascript](https://www.codewars.com/kata/5324945e2ece5e1f32000370/train/javascript)
