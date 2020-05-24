@@ -53,6 +53,8 @@ codeWars.rot13a(`test`); // === grfg
 codeWars.rot13b(`Test`); // === Grfg
 ```
 
+### Sum Strings
+
 [https://www.codewars.com/kata/5324945e2ece5e1f32000370/train/javascript](https://www.codewars.com/kata/5324945e2ece5e1f32000370/train/javascript)
 
 ```js
@@ -62,6 +64,8 @@ codeWars.sumStrings(
   `81055900096023504197206408605`
 ); // === `131151201344081895336534324866`
 ```
+
+### Find Outlier
 
 [https://www.codewars.com/kata/5526fc09a1bbd946250002dc/train/javascript/5e7bd08621b52d0027ad328c](https://www.codewars.com/kata/5526fc09a1bbd946250002dc/train/javascript/5e7bd08621b52d0027ad328c)
 
