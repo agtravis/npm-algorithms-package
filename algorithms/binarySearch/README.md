@@ -52,3 +52,11 @@ binarySearch.flattenLists([
   [3, 4, 5],
 ]); // === [1, 2, 3, 4, 5]
 ```
+
+### Manhattan Distance
+
+Given integers x0, y0, x1 and y1 return the sum of the absolute differences of their Cartesian coordinates (x0, y0) and (x1, y1).
+
+```js
+binarySearch.manhattanDistance(0, 1, 3, 2); // === 4
+```
