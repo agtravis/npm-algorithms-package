@@ -41,3 +41,14 @@ The relative positions of the even and odd numbers remain the same
 ```js
 binarySearch.mixedSorting([8, 13, 11, 90, -5, 4]); // === [4, 13, 11, 8, -5, 90]
 ```
+
+### Flatten Lists
+
+Given a list of lists of integers, flatten the elements into a single list and return it.
+
+```js
+binarySearch.flattenLists([
+  [1, 2],
+  [3, 4, 5],
+]); // === [1, 2, 3, 4, 5]
+```
