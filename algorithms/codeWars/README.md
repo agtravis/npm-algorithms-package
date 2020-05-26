@@ -73,3 +73,13 @@ codeWars.sumStrings(
 codeWars.findOutlier([0, 1, 2]); // === 1
 codeWars.findOutlier([2, 6, 8, 10, 3]); // === 3
 ```
+
+### Length of a Loop in a Linked List
+
+[https://www.codewars.com/kata/52a89c2ea8ddc5547a000863/train/javascript/5ec2b420b6a0c30014cc1f0b](https://www.codewars.com/kata/52a89c2ea8ddc5547a000863/train/javascript/5ec2b420b6a0c30014cc1f0b)
+
+NOTE: Needs [this](./linkedlist.md) to run successfully (`Linked List` set up)
+
+```js
+codeWars.loopSize(linkedList.head);
+```

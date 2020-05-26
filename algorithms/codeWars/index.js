@@ -5,6 +5,7 @@ const openOrSenior = require(`./openOrSenior`);
 const { rot13a, rot13b } = require(`./rot13`);
 const sumStrings = require(`./sumStrings`);
 const findOutlier = require(`./findOutlier`);
+const loopSize = require(`./loopSize`);
 
 module.exports = {
   duplicateEncode,
@@ -13,4 +14,5 @@ module.exports = {
   rot13b,
   sumStrings,
   findOutlier,
+  loopSize,
 };
