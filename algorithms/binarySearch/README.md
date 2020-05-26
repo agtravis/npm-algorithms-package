@@ -73,3 +73,18 @@ Given two lists of integers, compute their dot product.
 binarySearch.dotProductA([1, 2, 3], [4, 5, 6]); // === 32
 binarySearch.dotProductB([1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11, 12]); // === 217
 ```
+
+### Multiplication Table
+
+Given an integer n, return a two dimensional matrix representing an n by n multiplication table. For example, given n=3, return `[[1, 2, 3], [2, 4, 6], [3, 6, 9]]`
+
+```js
+binarySearch.multiplicationTable(5);
+/*
+[[1, 2, 3, 4, 5],
+[2, 4, 6, 8, 10],
+[3, 6, 9, 12, 15],
+[4, 8, 12, 16, 20],
+[5, 10, 15, 20, 25]]
+*/
+```

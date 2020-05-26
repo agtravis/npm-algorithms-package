@@ -6,6 +6,7 @@ const mixedSorting = require(`./mixedSorting`);
 const flattenLists = require(`./flattenLists`);
 const manhattanDistance = require(`./manhattanDistance`);
 const { dotProductA, dotProductB } = require(`./dotProduct`);
+const multiplicationTable = require(`./multiplicationTable`);
 
 module.exports = {
   take5,
@@ -15,4 +16,5 @@ module.exports = {
   manhattanDistance,
   dotProductA,
   dotProductB,
+  multiplicationTable,
 };
