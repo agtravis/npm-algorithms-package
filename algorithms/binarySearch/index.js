@@ -5,6 +5,7 @@ const oddNumberOfDigits = require(`./oddNumberOfDigits`);
 const mixedSorting = require(`./mixedSorting`);
 const flattenLists = require(`./flattenLists`);
 const manhattanDistance = require(`./manhattanDistance`);
+const { dotProductA, dotProductB } = require(`./dotProduct`);
 
 module.exports = {
   take5,
@@ -12,4 +13,6 @@ module.exports = {
   mixedSorting,
   flattenLists,
   manhattanDistance,
+  dotProductA,
+  dotProductB,
 };

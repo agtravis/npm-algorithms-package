@@ -60,3 +60,16 @@ Given integers x0, y0, x1 and y1 return the sum of the absolute differences of t
 ```js
 binarySearch.manhattanDistance(0, 1, 3, 2); // === 4
 ```
+
+### Dot Product
+
+The dot product of two lists is the sum of the products of their corresponding entries.
+
+For example, given a = [1, 2, 3] and b = [4, 5, 6], the dot product is 32, since (1 × 4) + (2 × 5) + (3 × 6) = 32.
+
+Given two lists of integers, compute their dot product.
+
+```js
+binarySearch.dotProductA([1, 2, 3], [4, 5, 6]); // === 32
+binarySearch.dotProductB([1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11, 12]); // === 217
+```
