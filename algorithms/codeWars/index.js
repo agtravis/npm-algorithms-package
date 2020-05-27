@@ -6,6 +6,10 @@ const { rot13a, rot13b } = require(`./rot13`);
 const sumStrings = require(`./sumStrings`);
 const findOutlier = require(`./findOutlier`);
 const loopSize = require(`./loopSize`);
+const {
+  commonDenominatorsShort,
+  commonDenominatorsLong,
+} = require(`./commonDenominators`);
 
 module.exports = {
   duplicateEncode,
@@ -15,4 +19,6 @@ module.exports = {
   sumStrings,
   findOutlier,
   loopSize,
+  commonDenominatorsShort,
+  commonDenominatorsLong,
 };

@@ -81,5 +81,22 @@ codeWars.findOutlier([2, 6, 8, 10, 3]); // === 3
 NOTE: Needs [this](./linkedlist.md) to run successfully (`Linked List` set up)
 
 ```js
-codeWars.loopSize(linkedList.head);
+codeWars.loopSize(linkedList.head); // === answer dependent on the input list, see linkedlist.md
+```
+
+### Greatest Common Denominators
+
+[https://www.codewars.com/kata/54d7660d2daf68c619000d95/train/javascript/5ec181c34ecb1400132b95d8](https://www.codewars.com/kata/54d7660d2daf68c619000d95/train/javascript/5ec181c34ecb1400132b95d8)
+
+```js
+codeWars.commonDenominatorsShort([
+  [1, 2],
+  [1, 3],
+  [1, 4],
+]); // === `(6,12)(4,12)(3,12)`
+codeWars.commonDenominatorsLong([
+  [1, 2],
+  [1, 3],
+  [1, 4],
+]); // === `(6,12)(4,12)(3,12)`
 ```
