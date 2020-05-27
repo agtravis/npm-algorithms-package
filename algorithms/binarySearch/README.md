@@ -88,3 +88,12 @@ binarySearch.multiplicationTable(5);
 [5, 10, 15, 20, 25]]
 */
 ```
+
+### Reverse Words
+
+Given a string of words delimited by spaces, reverse the order of words. For example, given "hello there my friend", return "friend my there hello".
+
+```js
+binarySearch.reverseWordsWithReverse(`hello there my friend`); // === `friend my there hello`
+binarySearch.reverseWordsWithoutReverse(`hello there my friend`); // === `friend my there hello`
+```
