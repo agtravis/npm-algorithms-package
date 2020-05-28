@@ -108,3 +108,12 @@ codeWars.commonDenominatorsLong([
 ```js
 codeWars.chainAddingFunction([1, 2, 3, 4]); // === chainAdd(1)(2)(3)(4) === 10
 ```
+
+### Memoized Fibonacci
+
+[https://www.codewars.com/kata/529adbf7533b761c560004e5/train/javascript/](https://www.codewars.com/kata/529adbf7533b761c560004e5/train/javascript/)
+
+```js
+codeWars.memoizedFibonacci(7); // === 13
+codeWars.memoizedFibonacci(102); // === 927372692193079200000
+```
