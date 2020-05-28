@@ -11,6 +11,7 @@ const {
   reverseWordsWithReverse,
   reverseWordsWithoutReverse,
 } = require(`./reverseWords`);
+const reverseAList = require(`./reverseAList`);
 
 module.exports = {
   take5,
@@ -23,4 +24,5 @@ module.exports = {
   multiplicationTable,
   reverseWordsWithReverse,
   reverseWordsWithoutReverse,
+  reverseAList,
 };

@@ -97,3 +97,11 @@ Given a string of words delimited by spaces, reverse the order of words. For exa
 binarySearch.reverseWordsWithReverse(`hello there my friend`); // === `friend my there hello`
 binarySearch.reverseWordsWithoutReverse(`hello there my friend`); // === `friend my there hello`
 ```
+
+### Reverse a List
+
+Given a list of integers `nums`, return the reverse of the list.
+
+```js
+binarySearch.reverseAList([1, 5, 9, 4]); // === [4, 9, 5, 1]
+```
