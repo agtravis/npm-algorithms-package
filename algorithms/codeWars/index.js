@@ -10,6 +10,7 @@ const {
   commonDenominatorsShort,
   commonDenominatorsLong,
 } = require(`./commonDenominators`);
+const chainAddingFunction = require(`./chainAddingFunction`);
 
 module.exports = {
   duplicateEncode,
@@ -21,4 +22,5 @@ module.exports = {
   loopSize,
   commonDenominatorsShort,
   commonDenominatorsLong,
+  chainAddingFunction,
 };

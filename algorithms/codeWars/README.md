@@ -100,3 +100,11 @@ codeWars.commonDenominatorsLong([
   [1, 4],
 ]); // === `(6,12)(4,12)(3,12)`
 ```
+
+### Chain Adding Function
+
+[https://www.codewars.com/kata/539a0e4d85e3425cb0000a88/train/javascript](https://www.codewars.com/kata/539a0e4d85e3425cb0000a88/train/javascript)
+
+```js
+codeWars.chainAddingFunction([1, 2, 3, 4]); // === chainAdd(1)(2)(3)(4) === 10
+```
