@@ -114,3 +114,11 @@ Given an integer n greater than or equal to 0, return the number of 1 bits in n.
 binarySearch.numberOfBits(2); // === 1 (2 === 10)
 binarySearch.numberOfBits(3); // === 2 (3 === 11)
 ```
+
+### Euclidean Distance
+
+Given integers x0, y0, x1, y1, and k, return whether the euclidean distance between (x0, y0) and (x1, y1) is less than k.
+
+```js
+binarySearch.euclideanDistance(0, 1, 3, 5, 6); // === true
+```

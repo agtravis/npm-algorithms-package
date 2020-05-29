@@ -13,6 +13,7 @@ const {
 } = require(`./reverseWords`);
 const reverseAList = require(`./reverseAList`);
 const numberOfBits = require(`./numberOfBits`);
+const euclideanDistance = require(`./euclideanDistance`);
 
 module.exports = {
   take5,
@@ -27,4 +28,5 @@ module.exports = {
   reverseWordsWithoutReverse,
   reverseAList,
   numberOfBits,
+  euclideanDistance,
 };
