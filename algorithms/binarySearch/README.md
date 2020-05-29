@@ -105,3 +105,12 @@ Given a list of integers `nums`, return the reverse of the list.
 ```js
 binarySearch.reverseAList([1, 5, 9, 4]); // === [4, 9, 5, 1]
 ```
+
+### Number of Bits
+
+Given an integer n greater than or equal to 0, return the number of 1 bits in n.
+
+```js
+binarySearch.numberOfBits(2); // === 1 (2 === 10)
+binarySearch.numberOfBits(3); // === 2 (3 === 11)
+```

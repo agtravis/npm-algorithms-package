@@ -12,6 +12,7 @@ const {
   reverseWordsWithoutReverse,
 } = require(`./reverseWords`);
 const reverseAList = require(`./reverseAList`);
+const numberOfBits = require(`./numberOfBits`);
 
 module.exports = {
   take5,
@@ -25,4 +26,5 @@ module.exports = {
   reverseWordsWithReverse,
   reverseWordsWithoutReverse,
   reverseAList,
+  numberOfBits,
 };
