@@ -12,6 +12,10 @@ const {
 } = require(`./commonDenominators`);
 const chainAddingFunction = require(`./chainAddingFunction`);
 const memoizedFibonacci = require(`./memoizedFibonacci`);
+const {
+  directionsReductionWithRecursion,
+  directionsReductionWithStack,
+} = require(`./directionsReduction`);
 
 module.exports = {
   duplicateEncode,
@@ -25,4 +29,6 @@ module.exports = {
   commonDenominatorsLong,
   chainAddingFunction,
   memoizedFibonacci,
+  directionsReductionWithRecursion,
+  directionsReductionWithStack,
 };

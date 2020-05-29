@@ -117,3 +117,28 @@ codeWars.chainAddingFunction([1, 2, 3, 4]); // === chainAdd(1)(2)(3)(4) === 10
 codeWars.memoizedFibonacci(7); // === 13
 codeWars.memoizedFibonacci(102); // === 927372692193079200000
 ```
+
+### Directions Reduction
+
+[https://www.codewars.com/kata/550f22f4d758534c1100025a/train/javascript/](https://www.codewars.com/kata/550f22f4d758534c1100025a/train/javascript/)
+
+```js
+directionsReductionWithStack([
+  'NORTH',
+  'SOUTH',
+  'SOUTH',
+  'EAST',
+  'WEST',
+  'NORTH',
+  'WEST',
+]); // === ['WEST']
+directionsReductionWithRecursion([
+  'NORTH',
+  'SOUTH',
+  'SOUTH',
+  'EAST',
+  'WEST',
+  'NORTH',
+  'WEST',
+]); // === ['WEST']
+```
