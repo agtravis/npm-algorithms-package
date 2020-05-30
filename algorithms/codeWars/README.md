@@ -150,3 +150,11 @@ directionsReductionWithRecursion([
 ```js
 codeWars.moveZeros([1, 2, 0, 1, 0, 1, 0, 3, 0, 1]); // === [ 1, 2, 1, 1, 3, 1, 0, 0, 0, 0 ]
 ```
+
+### Greatest Common Divisor
+
+[https://www.codewars.com/kata/5500d54c2ebe0a8e8a0003fd/train/javascript](https://www.codewars.com/kata/5500d54c2ebe0a8e8a0003fd/train/javascript)
+
+```js
+codeWars.greatestCommonDivisor(30, 12); // === 6
+```
