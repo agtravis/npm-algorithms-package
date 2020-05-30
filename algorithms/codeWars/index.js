@@ -16,6 +16,7 @@ const {
   directionsReductionWithRecursion,
   directionsReductionWithStack,
 } = require(`./directionsReduction`);
+const moveZeros = require(`./moveZeros`);
 
 module.exports = {
   duplicateEncode,
@@ -31,4 +32,5 @@ module.exports = {
   memoizedFibonacci,
   directionsReductionWithRecursion,
   directionsReductionWithStack,
+  moveZeros,
 };

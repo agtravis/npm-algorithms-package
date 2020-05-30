@@ -142,3 +142,11 @@ directionsReductionWithRecursion([
   'WEST',
 ]); // === ['WEST']
 ```
+
+### Move Zeros to the End
+
+[https://www.codewars.com/kata/52597aa56021e91c93000cb0/train/javascript](https://www.codewars.com/kata/52597aa56021e91c93000cb0/train/javascript)
+
+```js
+codeWars.moveZeros([1, 2, 0, 1, 0, 1, 0, 3, 0, 1]); // === [ 1, 2, 1, 1, 3, 1, 0, 0, 0, 0 ]
+```
