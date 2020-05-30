@@ -141,3 +141,11 @@ For example, given the list [5, 3, 7], return [5, 4, 9] since it's [5 + 0, 3 + 1
 ```js
 binarySearch.stairwayToHeaven([5, 3, 7]); // === [5, 4, 9]
 ```
+
+### Oddly Specific
+
+Given an integer n (where n ≤ 1000), return the sum of the first n positive odd integers.
+
+```js
+binarySearch.oddlySpecific(5); // === 25
+```
