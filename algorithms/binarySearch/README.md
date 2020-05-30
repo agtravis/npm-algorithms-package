@@ -131,3 +131,13 @@ You are given a lowercase alphabet string text. Return a new string where every 
 binarySearch.atbashCipherWithAlphabet(`abc`); // === `zyx`
 binarySearch.atbashCipherWithAscii(`abc`); // === `zyx`
 ```
+
+### Stairway To Heaven
+
+Given a list of integers nums, for each element, add its index to its value and return the new list.
+
+For example, given the list [5, 3, 7], return [5, 4, 9] since it's [5 + 0, 3 + 1, 7 + 2].
+
+```js
+binarySearch.stairwayToHeaven([5, 3, 7]); // === [5, 4, 9]
+```

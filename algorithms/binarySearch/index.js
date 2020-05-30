@@ -18,6 +18,7 @@ const {
   atbashCipherWithAscii,
   atbashCipherWithAlphabet,
 } = require(`./atbashCipher`);
+const stairwayToHeaven = require(`./stairwayToHeaven`);
 
 module.exports = {
   take5,
@@ -35,4 +36,5 @@ module.exports = {
   euclideanDistance,
   atbashCipherWithAscii,
   atbashCipherWithAlphabet,
+  stairwayToHeaven,
 };
