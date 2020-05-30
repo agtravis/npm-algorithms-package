@@ -14,6 +14,10 @@ const {
 const reverseAList = require(`./reverseAList`);
 const numberOfBits = require(`./numberOfBits`);
 const euclideanDistance = require(`./euclideanDistance`);
+const {
+  atbashCipherWithAscii,
+  atbashCipherWithAlphabet,
+} = require(`./atbashCipher`);
 
 module.exports = {
   take5,
@@ -29,4 +33,6 @@ module.exports = {
   reverseAList,
   numberOfBits,
   euclideanDistance,
+  atbashCipherWithAscii,
+  atbashCipherWithAlphabet,
 };

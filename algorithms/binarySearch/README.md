@@ -122,3 +122,12 @@ Given integers x0, y0, x1, y1, and k, return whether the euclidean distance betw
 ```js
 binarySearch.euclideanDistance(0, 1, 3, 5, 6); // === true
 ```
+
+### Atbash Cipher
+
+You are given a lowercase alphabet string text. Return a new string where every character in text is mapped to its reverse in the alphabet, so that a becomes z, b becomes y, c becomes x, and so on.
+
+```js
+binarySearch.atbashCipherWithAlphabet(`abc`); // === `zyx`
+binarySearch.atbashCipherWithAscii(`abc`); // === `zyx`
+```
