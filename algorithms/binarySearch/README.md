@@ -155,6 +155,14 @@ binarySearch.oddlySpecific(5); // === 25
 Given an alphabetical string s, flip every uppercase character to lowercase and every lowercase character to uppercase.
 
 ```js
-binarySearch.flipCaseWithAscii(`binarySEARCH`); // === `BINARYsearch`;
-binarySearch.flipCaseWithCaseChange(`binarySEARCH`); // === `BINARYsearch`;
+binarySearch.flipCaseWithAscii(`binarySEARCH`); // === `BINARYsearch`
+binarySearch.flipCaseWithCaseChange(`binarySEARCH`); // === `BINARYsearch`
+```
+
+### Pig Latin
+
+Given a string s, return a new string where for every word the first character is moved the end with the suffix "ay" added.
+
+```js
+binarySearch.pigLatin(`hello world`); // === ellohay orldway
 ```
