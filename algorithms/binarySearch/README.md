@@ -149,3 +149,12 @@ Given an integer n (where n ≤ 1000), return the sum of the first n positive od
 ```js
 binarySearch.oddlySpecific(5); // === 25
 ```
+
+### Flip Case
+
+Given an alphabetical string s, flip every uppercase character to lowercase and every lowercase character to uppercase.
+
+```js
+binarySearch.flipCaseWithAscii(`binarySEARCH`); // === `BINARYsearch`;
+binarySearch.flipCaseWithCaseChange(`binarySEARCH`); // === `BINARYsearch`;
+```

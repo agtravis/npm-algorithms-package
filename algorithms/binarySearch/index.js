@@ -20,6 +20,7 @@ const {
 } = require(`./atbashCipher`);
 const stairwayToHeaven = require(`./stairwayToHeaven`);
 const oddlySpecific = require(`./oddlySpecific`);
+const { flipCaseWithAscii, flipCaseWithCaseChange } = require(`./flipCase`);
 
 module.exports = {
   take5,
@@ -39,4 +40,6 @@ module.exports = {
   atbashCipherWithAlphabet,
   stairwayToHeaven,
   oddlySpecific,
+  flipCaseWithAscii,
+  flipCaseWithCaseChange,
 };
