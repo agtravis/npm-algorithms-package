@@ -18,6 +18,7 @@ const {
 } = require(`./directionsReduction`);
 const moveZeros = require(`./moveZeros`);
 const greatestCommonDivisor = require(`./greatestCommonDivisor`);
+const pascalsTriangle = require(`./pascalsTriangle`);
 
 module.exports = {
   duplicateEncode,
@@ -35,4 +36,5 @@ module.exports = {
   directionsReductionWithStack,
   moveZeros,
   greatestCommonDivisor,
+  pascalsTriangle,
 };

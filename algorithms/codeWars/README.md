@@ -158,3 +158,11 @@ codeWars.moveZeros([1, 2, 0, 1, 0, 1, 0, 3, 0, 1]); // === [ 1, 2, 1, 1, 3, 1, 0
 ```js
 codeWars.greatestCommonDivisor(30, 12); // === 6
 ```
+
+### Pascal's Triangle
+
+[https://www.codewars.com/kata/5226eb40316b56c8d500030f/train/javascript/](https://www.codewars.com/kata/5226eb40316b56c8d500030f/train/javascript/)
+
+```js
+codeWars.pascalsTriangle(6); // === [1,1,1,1,2,1,1,3,3,1,1,4,6,4,1,1,5,10,10,5,1]
+```
