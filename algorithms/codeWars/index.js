@@ -19,6 +19,7 @@ const {
 const moveZeros = require(`./moveZeros`);
 const greatestCommonDivisor = require(`./greatestCommonDivisor`);
 const pascalsTriangle = require(`./pascalsTriangle`);
+const rgbToHex = require(`./rgbToHex`);
 
 module.exports = {
   duplicateEncode,
@@ -37,4 +38,5 @@ module.exports = {
   moveZeros,
   greatestCommonDivisor,
   pascalsTriangle,
+  rgbToHex,
 };

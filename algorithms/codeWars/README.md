@@ -166,3 +166,11 @@ codeWars.greatestCommonDivisor(30, 12); // === 6
 ```js
 codeWars.pascalsTriangle(6); // === [1,1,1,1,2,1,1,3,3,1,1,4,6,4,1,1,5,10,10,5,1]
 ```
+
+### RGB to Hexadecimal Conversion
+
+[https://www.codewars.com/kata/513e08acc600c94f01000001/train/javascript/](https://www.codewars.com/kata/513e08acc600c94f01000001/train/javascript/)
+
+```js
+codeWars.rgbToHex(173, 255, 47); // === `ADFF2F`
+```
