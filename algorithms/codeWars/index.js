@@ -20,6 +20,10 @@ const moveZeros = require(`./moveZeros`);
 const greatestCommonDivisor = require(`./greatestCommonDivisor`);
 const pascalsTriangle = require(`./pascalsTriangle`);
 const rgbToHex = require(`./rgbToHex`);
+const {
+  validParenthesesDepthCount,
+  validParenthesesStack,
+} = require(`./validParentheses`);
 
 module.exports = {
   duplicateEncode,
@@ -39,4 +43,6 @@ module.exports = {
   greatestCommonDivisor,
   pascalsTriangle,
   rgbToHex,
+  validParenthesesDepthCount,
+  validParenthesesStack,
 };

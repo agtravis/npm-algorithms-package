@@ -174,3 +174,12 @@ codeWars.pascalsTriangle(6); // === [1,1,1,1,2,1,1,3,3,1,1,4,6,4,1,1,5,10,10,5,1
 ```js
 codeWars.rgbToHex(173, 255, 47); // === `ADFF2F`
 ```
+
+### Valid Parentheses
+
+[https://www.codewars.com/kata/52774a314c2333f0a7000688/train/javascript](https://www.codewars.com/kata/52774a314c2333f0a7000688/train/javascript)
+
+```js
+codeWars.validParenthesesDepthCount(`)(()))`); // === false
+codeWars.validParenthesesStack(`(())((()())())`); // === true
+```
