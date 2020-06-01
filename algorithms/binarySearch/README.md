@@ -166,3 +166,14 @@ Given a string s, return a new string where for every word the first character i
 ```js
 binarySearch.pigLatin(`hello world`); // === ellohay orldway
 ```
+
+### Pigeon Hole
+
+You are given an array of length n + 1 picked from the range 1, 2, ..., n. By the pigeonhole principle,
+there must be a duplicate. Find and return it. There is guaranteed to be exactly one duplicate.
+
+Bonus: Can you do this in linear time and constant space?
+
+```js
+binarySearch.pigeonHole([1, 2, 3, 1]); // === 1
+```

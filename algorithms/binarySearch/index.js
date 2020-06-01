@@ -22,6 +22,7 @@ const stairwayToHeaven = require(`./stairwayToHeaven`);
 const oddlySpecific = require(`./oddlySpecific`);
 const { flipCaseWithAscii, flipCaseWithCaseChange } = require(`./flipCase`);
 const pigLatin = require(`./pigLatin`);
+const pigeonHole = require(`./pigeonHole`);
 
 module.exports = {
   take5,
@@ -44,4 +45,5 @@ module.exports = {
   flipCaseWithAscii,
   flipCaseWithCaseChange,
   pigLatin,
+  pigeonHole,
 };
