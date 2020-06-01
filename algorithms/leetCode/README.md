@@ -23,3 +23,11 @@ Then you can run the following functions:
 ```js
 leetCode.smallerNumbersThanCurrent([8, 1, 2, 2, 3]); // === [4,0,1,1,3]
 ```
+
+### Remove Duplicates
+
+[https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
+
+```js
+leetCode.removeDuplicates(`abbaca`); // === `ca`
+```
