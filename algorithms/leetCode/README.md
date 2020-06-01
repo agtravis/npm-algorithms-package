@@ -47,3 +47,12 @@ leetCode.removeDuplicatesII(`deeedbbcccbdaa`, 3); // === `aa`
 ```js
 leetCode.base7(256); // === 514
 ```
+
+### Subtract Product and Sum
+
+[https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
+
+```js
+leetCode.subtractProductAndSum(234); // === 15
+leetCode.subtractProductAndSumReduce(234); // === 15
+```

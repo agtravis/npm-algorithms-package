@@ -1,6 +1,6 @@
 {
   "name": "npm-algorithms-package",
-  "version": "0.1.62",
+  "version": "0.1.64",
   "description": "collecting solved algorithms and wrapping in an npm package",
   "main": "index.js",
   "scripts": {
