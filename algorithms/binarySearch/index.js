@@ -23,6 +23,7 @@ const oddlySpecific = require(`./oddlySpecific`);
 const { flipCaseWithAscii, flipCaseWithCaseChange } = require(`./flipCase`);
 const pigLatin = require(`./pigLatin`);
 const pigeonHole = require(`./pigeonHole`);
+const leapYear = require(`./leapYear`);
 
 module.exports = {
   take5,
@@ -46,4 +47,5 @@ module.exports = {
   flipCaseWithCaseChange,
   pigLatin,
   pigeonHole,
+  leapYear,
 };

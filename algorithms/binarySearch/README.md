@@ -177,3 +177,18 @@ Bonus: Can you do this in linear time and constant space?
 ```js
 binarySearch.pigeonHole([1, 2, 3, 1]); // === 1
 ```
+
+### Leap Year
+
+Given an integer n, return whether it is a leap year. A leap year is:
+
+A year that is divisible by 4.
+Except for years that are also divisible by 100.
+Unless that year is also divisible by 400.
+
+```js
+binarySearch.leapYear(1900); // === false
+binarySearch.leapYear(2000); // === true
+binarySearch.leapYear(1996); // === true
+binarySearch.leapYear(1901); // === false
+```
