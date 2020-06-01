@@ -183,3 +183,11 @@ codeWars.rgbToHex(173, 255, 47); // === `ADFF2F`
 codeWars.validParenthesesDepthCount(`)(()))`); // === false
 codeWars.validParenthesesStack(`(())((()())())`); // === true
 ```
+
+### Is the number Prime
+
+[https://www.codewars.com/kata/5262119038c0985a5b00029f/train/javascript](https://www.codewars.com/kata/5262119038c0985a5b00029f/train/javascript)
+
+```js
+codeWars.isPrime(73); // true
+```

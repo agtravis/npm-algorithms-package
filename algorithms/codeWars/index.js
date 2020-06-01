@@ -24,6 +24,7 @@ const {
   validParenthesesDepthCount,
   validParenthesesStack,
 } = require(`./validParentheses`);
+const isPrime = require(`./isPrime`);
 
 module.exports = {
   duplicateEncode,
@@ -45,4 +46,5 @@ module.exports = {
   rgbToHex,
   validParenthesesDepthCount,
   validParenthesesStack,
+  isPrime,
 };
