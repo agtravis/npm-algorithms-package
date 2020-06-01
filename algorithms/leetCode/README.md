@@ -39,3 +39,11 @@ leetCode.removeDuplicates(`abbaca`); // === `ca`
 ```js
 leetCode.removeDuplicatesII(`deeedbbcccbdaa`, 3); // === `aa`
 ```
+
+### Base 7
+
+[https://leetcode.com/problems/base-7/](https://leetcode.com/problems/base-7/)
+
+```js
+leetCode.base7(256); // === 514
+```
