@@ -31,3 +31,11 @@ leetCode.smallerNumbersThanCurrent([8, 1, 2, 2, 3]); // === [4,0,1,1,3]
 ```js
 leetCode.removeDuplicates(`abbaca`); // === `ca`
 ```
+
+### Remove Duplicates II
+
+[https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)
+
+```js
+leetCode.removeDuplicatesII(`deeedbbcccbdaa`, 3); // === `aa`
+```
