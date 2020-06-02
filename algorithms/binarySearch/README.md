@@ -213,3 +213,15 @@ binarySearch.evenNumbers([
   [4, 6, 6],
 ]); // === 5
 ```
+
+### Collatz Sequence
+
+Given a positve integer n, find the length of its Collatz sequence. Collatz sequence is generated sequentially where:
+
+n = n / 2 if n is even
+n = 3 \* n + 1 if n is odd
+And the sequence ends if n = 1
+
+```js
+binarySearch.collatzSequence(11); // === 15
+```
