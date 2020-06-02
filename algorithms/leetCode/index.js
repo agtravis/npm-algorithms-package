@@ -10,6 +10,7 @@ const {
 } = require(`./subtractProductAndSum`);
 const replaceWords = require(`./replaceWords`);
 const maxProfit = require(`./maxProfit`);
+const findDisappearedNumbers = require(`./findDisappearedNumbers`);
 
 module.exports = {
   smallerNumbersThanCurrent,
@@ -20,4 +21,5 @@ module.exports = {
   subtractProductAndSumReduce,
   replaceWords,
   maxProfit,
+  findDisappearedNumbers,
 };

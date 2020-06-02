@@ -76,3 +76,11 @@ leetCode.replaceWords(
 leetCode.maxProfit([7, 1, 5, 3, 6, 4]); // === 5
 leetCode.maxProfit([7, 6, 4, 3, 1]); // === 0
 ```
+
+### Find All Numbers Disappeared in an Array
+
+[https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
+
+```js
+leetCode.findDisappearedNumbers([4, 3, 2, 7, 8, 2, 3, 1]); // === [5, 6]
+```
