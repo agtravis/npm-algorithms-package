@@ -24,6 +24,7 @@ const { flipCaseWithAscii, flipCaseWithCaseChange } = require(`./flipCase`);
 const pigLatin = require(`./pigLatin`);
 const pigeonHole = require(`./pigeonHole`);
 const leapYear = require(`./leapYear`);
+const longDistance = require(`./longDistance`);
 
 module.exports = {
   take5,
@@ -48,4 +49,5 @@ module.exports = {
   pigLatin,
   pigeonHole,
   leapYear,
+  longDistance,
 };

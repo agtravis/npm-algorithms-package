@@ -192,3 +192,12 @@ binarySearch.leapYear(2000); // === true
 binarySearch.leapYear(1996); // === true
 binarySearch.leapYear(1901); // === false
 ```
+
+### Long Distance
+
+Given an array of integers, return a new array where each element in the new array is the number of smaller elements to the right of that element
+in the original input array.
+
+```js
+binarySearch.longDistance([3, 4, 9, 6, 1]); // === [1, 1, 2, 1, 0]
+```
