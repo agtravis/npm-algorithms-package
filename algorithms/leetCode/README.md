@@ -100,3 +100,13 @@ leetCode.repeatedNTimes([5, 1, 5, 2, 5, 3, 5, 4]); // === 5
 ```js
 leetCode.twoSum([2, 7, 11, 15], 9); // === [0, 1]
 ```
+
+### Merge k Sorted Lists
+
+[https://leetcode.com/problems/merge-k-sorted-lists/](https://leetcode.com/problems/merge-k-sorted-lists/)
+
+NOTE: Needs [this](./linkedList.md) to run successfully (`Linked List` set up)
+
+```js
+leetCode.mergeKSortedLists([linkedList1, linkedList2, linkedList3]);
+```

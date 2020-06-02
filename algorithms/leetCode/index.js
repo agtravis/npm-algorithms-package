@@ -13,6 +13,7 @@ const maxProfit = require(`./maxProfit`);
 const findDisappearedNumbers = require(`./findDisappearedNumbers`);
 const repeatedNTimes = require(`./repeatedNTimes`);
 const twoSum = require(`./twoSum`);
+const mergeKSortedLists = require(`./mergeKSortedLists`);
 
 module.exports = {
   smallerNumbersThanCurrent,
@@ -26,4 +27,5 @@ module.exports = {
   findDisappearedNumbers,
   repeatedNTimes,
   twoSum,
+  mergeKSortedLists,
 };
