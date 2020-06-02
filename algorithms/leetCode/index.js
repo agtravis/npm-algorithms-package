@@ -8,6 +8,7 @@ const {
   subtractProductAndSum,
   subtractProductAndSumReduce,
 } = require(`./subtractProductAndSum`);
+const replaceWords = require(`./replaceWords`);
 
 module.exports = {
   smallerNumbersThanCurrent,
@@ -16,4 +17,5 @@ module.exports = {
   base7,
   subtractProductAndSum,
   subtractProductAndSumReduce,
+  replaceWords,
 };

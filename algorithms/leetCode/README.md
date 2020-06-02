@@ -56,3 +56,14 @@ leetCode.base7(256); // === 514
 leetCode.subtractProductAndSum(234); // === 15
 leetCode.subtractProductAndSumReduce(234); // === 15
 ```
+
+### Replace Words
+
+[https://leetcode.com/problems/replace-words/](https://leetcode.com/problems/replace-words/)
+
+```js
+leetCode.replaceWords(
+  [`cat`, `bat`, `rat`],
+  `the cattle was rattled by the battery`
+); // === `the cat was rat by the bat`
+```
