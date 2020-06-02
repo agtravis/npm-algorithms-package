@@ -92,3 +92,11 @@ leetCode.findDisappearedNumbers([4, 3, 2, 7, 8, 2, 3, 1]); // === [5, 6]
 ```js
 leetCode.repeatedNTimes([5, 1, 5, 2, 5, 3, 5, 4]); // === 5
 ```
+
+### Two Sum
+
+[https://leetcode.com/problems/two-sum/](https://leetcode.com/problems/two-sum/)
+
+```js
+leetCode.twoSum([2, 7, 11, 15], 9); // === [0, 1]
+```
