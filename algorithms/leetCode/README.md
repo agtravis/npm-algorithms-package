@@ -110,3 +110,11 @@ NOTE: Needs [this](./linkedList.md) to run successfully (`Linked List` set up)
 ```js
 leetCode.mergeKSortedLists([linkedList1, linkedList2, linkedList3]);
 ```
+
+### Last Stone Weight
+
+[https://leetcode.com/problems/last-stone-weight/](https://leetcode.com/problems/last-stone-weight/)
+
+```js
+leetCode.lastStoneWeight([2, 7, 4, 1, 8, 1]); // === 1
+```

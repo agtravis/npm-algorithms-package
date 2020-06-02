@@ -14,6 +14,7 @@ const findDisappearedNumbers = require(`./findDisappearedNumbers`);
 const repeatedNTimes = require(`./repeatedNTimes`);
 const twoSum = require(`./twoSum`);
 const mergeKSortedLists = require(`./mergeKSortedLists`);
+const lastStoneWeight = require(`./lastStoneWeight`);
 
 module.exports = {
   smallerNumbersThanCurrent,
@@ -28,4 +29,5 @@ module.exports = {
   repeatedNTimes,
   twoSum,
   mergeKSortedLists,
+  lastStoneWeight,
 };
