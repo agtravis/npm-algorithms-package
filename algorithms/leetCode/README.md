@@ -67,3 +67,12 @@ leetCode.replaceWords(
   `the cattle was rattled by the battery`
 ); // === `the cat was rat by the bat`
 ```
+
+### Best Time to Buy and Sell Stock
+
+[https://leetcode.com/problems/best-time-to-buy-and-sell-stock/](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+
+```js
+leetCode.maxProfit([7, 1, 5, 3, 6, 4]); // === 5
+leetCode.maxProfit([7, 6, 4, 3, 1]); // === 0
+```

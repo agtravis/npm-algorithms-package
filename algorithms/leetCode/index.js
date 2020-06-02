@@ -9,6 +9,7 @@ const {
   subtractProductAndSumReduce,
 } = require(`./subtractProductAndSum`);
 const replaceWords = require(`./replaceWords`);
+const maxProfit = require(`./maxProfit`);
 
 module.exports = {
   smallerNumbersThanCurrent,
@@ -18,4 +19,5 @@ module.exports = {
   subtractProductAndSum,
   subtractProductAndSumReduce,
   replaceWords,
+  maxProfit,
 };
