@@ -201,3 +201,15 @@ in the original input array.
 ```js
 binarySearch.longDistance([3, 4, 9, 6, 1]); // === [1, 1, 2, 1, 0]
 ```
+
+### Even Numbers
+
+Given a 2-dimensional list `matrix`, return the number of even numbers in the matrix.
+
+```js
+binarySearch.evenNumbers([
+  [1, 2, 8],
+  [3, 5, 5],
+  [4, 6, 6],
+]); // === 5
+```

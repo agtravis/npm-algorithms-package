@@ -25,6 +25,7 @@ const pigLatin = require(`./pigLatin`);
 const pigeonHole = require(`./pigeonHole`);
 const leapYear = require(`./leapYear`);
 const longDistance = require(`./longDistance`);
+const evenNumbers = require(`./evenNumbers`);
 
 module.exports = {
   take5,
@@ -50,4 +51,5 @@ module.exports = {
   pigeonHole,
   leapYear,
   longDistance,
+  evenNumbers,
 };
