@@ -11,6 +11,7 @@ const {
 const replaceWords = require(`./replaceWords`);
 const maxProfit = require(`./maxProfit`);
 const findDisappearedNumbers = require(`./findDisappearedNumbers`);
+const repeatedNTimes = require(`./repeatedNTimes`);
 
 module.exports = {
   smallerNumbersThanCurrent,
@@ -22,4 +23,5 @@ module.exports = {
   replaceWords,
   maxProfit,
   findDisappearedNumbers,
+  repeatedNTimes,
 };

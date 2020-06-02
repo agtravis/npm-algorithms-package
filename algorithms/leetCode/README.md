@@ -84,3 +84,11 @@ leetCode.maxProfit([7, 6, 4, 3, 1]); // === 0
 ```js
 leetCode.findDisappearedNumbers([4, 3, 2, 7, 8, 2, 3, 1]); // === [5, 6]
 ```
+
+### N-Repeated Element in Size 2N Array
+
+[https://leetcode.com/problems/n-repeated-element-in-size-2n-array/](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)
+
+```js
+leetCode.repeatedNTimes([5, 1, 5, 2, 5, 3, 5, 4]); // === 5
+```
