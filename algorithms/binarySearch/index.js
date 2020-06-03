@@ -27,6 +27,7 @@ const leapYear = require(`./leapYear`);
 const longDistance = require(`./longDistance`);
 const evenNumbers = require(`./evenNumbers`);
 const collatzSequence = require(`./collatzSequence`);
+const hipToBeSquare = require(`./hipToBeSquare`);
 
 module.exports = {
   take5,
@@ -54,4 +55,5 @@ module.exports = {
   longDistance,
   evenNumbers,
   collatzSequence,
+  hipToBeSquare,
 };

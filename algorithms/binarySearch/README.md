@@ -225,3 +225,13 @@ And the sequence ends if n = 1
 ```js
 binarySearch.collatzSequence(11); // === 15
 ```
+
+### Hip to be Square
+
+Given a sorted list of integers, square the elements and give the output in sorted order.
+
+Note: The integers can be 0 or negative.
+
+```js
+binarySearch.hipToBeSquare([-9, -2, 0, 2, 3]); // === [0, 4, 4, 9, 81]
+```
