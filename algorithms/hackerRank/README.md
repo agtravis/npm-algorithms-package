@@ -21,3 +21,11 @@ Then you can run the following functions:
 ```js
 hackerRank.minimumAbsoluteDifference([3, -7, 0]); // === 3
 ```
+
+### Candies
+
+[https://www.hackerrank.com/challenges/candies/problem](https://www.hackerrank.com/challenges/candies/problem)
+
+```js
+hackerRank.candies([4, 6, 4, 5, 6, 2]); // === 10
+```
