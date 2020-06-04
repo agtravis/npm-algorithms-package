@@ -44,3 +44,9 @@ classAlgorithms.logNums(10); // logs all positive integers from 1 to 10 (functio
 ```js
 classAlgorithms.logEvens(10); // logs all positive integers divisible by 2 (with return)
 ```
+
+### Log Numbers Counting Down
+
+```js
+classAlgorithms.countdown(10); // logs all positive integers from 10 to 1 (with return)
+```
