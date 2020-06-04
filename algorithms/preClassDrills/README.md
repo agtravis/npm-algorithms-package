@@ -30,3 +30,11 @@ preClassDrills.addIterantsWithReduce(100); // === 5050
 preClassDrills.addIterantsRecursively(100); // === 5050
 preClassDrills.addIterantsWithMemoization(100); // === 5050 && logs if accumulation % 10 === 0
 ```
+
+### Find Maximum number in an array
+
+```js
+preClassDrills.maxNumDP([1, 5, 9, 0, -5]); // === 9
+preClassDrills.maxNumSort([1, 5, 9, 0, -5]); // === 9
+preClassDrills.maxNumMax([1, 5, 9, 0, -5]); // === 9
+```
