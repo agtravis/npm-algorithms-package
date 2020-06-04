@@ -28,6 +28,7 @@ const longDistance = require(`./longDistance`);
 const evenNumbers = require(`./evenNumbers`);
 const collatzSequence = require(`./collatzSequence`);
 const hipToBeSquare = require(`./hipToBeSquare`);
+const acronym = require(`./acronym`);
 
 module.exports = {
   take5,
@@ -56,4 +57,5 @@ module.exports = {
   evenNumbers,
   collatzSequence,
   hipToBeSquare,
+  acronym,
 };

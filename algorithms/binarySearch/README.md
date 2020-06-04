@@ -235,3 +235,11 @@ Note: The integers can be 0 or negative.
 ```js
 binarySearch.hipToBeSquare([-9, -2, 0, 2, 3]); // === [0, 4, 4, 9, 81]
 ```
+
+### Acronym
+
+Given a string s representing a phrase, return its acronym. Acronyms should be capitalized and should not include the word "and".
+
+```js
+binarySearch.acronym(`For your information`); // === `FYI`
+```
