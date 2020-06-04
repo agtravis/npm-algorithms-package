@@ -50,3 +50,10 @@ classAlgorithms.logEvens(10); // logs all positive integers divisible by 2 (with
 ```js
 classAlgorithms.countdown(10); // logs all positive integers from 10 to 1 (with return)
 ```
+
+### Sum All Numbers in an Array
+
+```js
+classAlgorithms.sumArrayForEach([4, 8, 15, 16, 23, 42]); // === 108
+classAlgorithms.sumArrayReduce([4, 8, 15, 16, 23, 42]); // === 108
+```
