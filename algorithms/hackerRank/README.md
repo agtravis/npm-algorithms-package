@@ -29,3 +29,11 @@ hackerRank.minimumAbsoluteDifference([3, -7, 0]); // === 3
 ```js
 hackerRank.candies([4, 6, 4, 5, 6, 2]); // === 10
 ```
+
+### Marc's Cake Walk
+
+[https://www.hackerrank.com/challenges/marcs-cakewalk/problem](https://www.hackerrank.com/challenges/marcs-cakewalk/problem)
+
+```js
+hackerRank.cakeWalk([5, 10, 7]); // === 44
+```
