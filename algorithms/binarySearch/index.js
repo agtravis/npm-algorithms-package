@@ -29,6 +29,7 @@ const evenNumbers = require(`./evenNumbers`);
 const collatzSequence = require(`./collatzSequence`);
 const hipToBeSquare = require(`./hipToBeSquare`);
 const acronym = require(`./acronym`);
+const unoTree = require(`./unoTree`);
 
 module.exports = {
   take5,
@@ -58,4 +59,5 @@ module.exports = {
   collatzSequence,
   hipToBeSquare,
   acronym,
+  unoTree,
 };

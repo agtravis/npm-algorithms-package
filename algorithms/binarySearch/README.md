@@ -243,3 +243,12 @@ Given a string s representing a phrase, return its acronym. Acronyms should be c
 ```js
 binarySearch.acronym(`For your information`); // === `FYI`
 ```
+
+### Uno Tree
+
+Given a binary tree root, return whether all values in the tree are the same.
+This needs a tree in order to work, use [this](./tree.md) as a simple tree
+
+```js
+binarySearch.unoTree(root); // === requires construction of a binary tree to run on
+```
