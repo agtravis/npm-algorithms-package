@@ -13,6 +13,7 @@ const {
 } = require(`./addIterants`);
 const { maxNumDP, maxNumSort, maxNumMax } = require(`./maxNum`);
 const numVowels = require(`./numVowels`);
+const isPalindrome = require(`./isPalindrome`);
 
 module.exports = {
   greatestOfTwo,
@@ -26,4 +27,5 @@ module.exports = {
   maxNumSort,
   maxNumMax,
   numVowels,
+  isPalindrome,
 };

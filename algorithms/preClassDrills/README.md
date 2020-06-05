@@ -44,3 +44,9 @@ preClassDrills.maxNumMax([1, 5, 9, 0, -5]); // === 9
 ```js
 preClassDrills.numVowels(`bivouacked`); // === 5
 ```
+
+### Is a String a Palindrome
+
+```js
+preClassDrills.isPalindrome(`racecar`); // true
+```
