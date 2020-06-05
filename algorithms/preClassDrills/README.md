@@ -38,3 +38,9 @@ preClassDrills.maxNumDP([1, 5, 9, 0, -5]); // === 9
 preClassDrills.maxNumSort([1, 5, 9, 0, -5]); // === 9
 preClassDrills.maxNumMax([1, 5, 9, 0, -5]); // === 9
 ```
+
+### Count the Vowels in a String
+
+```js
+preClassDrills.numVowels(`bivouacked`); // === 5
+```

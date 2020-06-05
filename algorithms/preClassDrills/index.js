@@ -12,6 +12,7 @@ const {
   addIterantsWithReduce,
 } = require(`./addIterants`);
 const { maxNumDP, maxNumSort, maxNumMax } = require(`./maxNum`);
+const numVowels = require(`./numVowels`);
 
 module.exports = {
   greatestOfTwo,
@@ -24,4 +25,5 @@ module.exports = {
   maxNumDP,
   maxNumSort,
   maxNumMax,
+  numVowels,
 };
