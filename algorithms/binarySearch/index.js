@@ -30,6 +30,7 @@ const collatzSequence = require(`./collatzSequence`);
 const hipToBeSquare = require(`./hipToBeSquare`);
 const acronym = require(`./acronym`);
 const unoTree = require(`./unoTree`);
+const fizzBuzz = require(`./fizzBuzz`);
 
 module.exports = {
   take5,
@@ -60,4 +61,5 @@ module.exports = {
   hipToBeSquare,
   acronym,
   unoTree,
+  fizzBuzz,
 };

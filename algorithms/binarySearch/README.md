@@ -252,3 +252,11 @@ This needs a tree in order to work, use [this](./tree.md) as a simple tree
 ```js
 binarySearch.unoTree(root); // === requires construction of a binary tree to run on
 ```
+
+### FizzBuzz
+
+Given an integer n, return a list of integers from 1 to n as strings except for multiples of 3 use “Fizz” instead of the integer and for the multiples of 5 use “Buzz”. For integers which are multiples of both 3 and 5 use “FizzBuzz”.
+
+```js
+binarySearch.fizzBuzz(15); // === ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz"]
+```
