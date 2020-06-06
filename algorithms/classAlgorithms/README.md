@@ -57,3 +57,11 @@ classAlgorithms.countdown(10); // logs all positive integers from 10 to 1 (with 
 classAlgorithms.sumArrayForEach([4, 8, 15, 16, 23, 42]); // === 108
 classAlgorithms.sumArrayReduce([4, 8, 15, 16, 23, 42]); // === 108
 ```
+
+### Fizz Buzz
+
+Log `Fizz`, `Buzz`, or `Fizz Buzz`, or a number, based on divisibility
+
+```js
+classAlgorithms.fizzBuzz([6, 7, 8, 9, 10, 11, 12, 13, 14, 15]); // logs Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz sequentially to the console
+```
