@@ -50,3 +50,11 @@ preClassDrills.numVowels(`bivouacked`); // === 5
 ```js
 preClassDrills.isPalindrome(`racecar`); // true
 ```
+
+### Find and Return the First Non-Repeated Character in a String
+
+```js
+preClassDrills.firstNonMultiple(
+  `the quick brown fox jumps over the calm kitten quietly`
+); // === b
+```

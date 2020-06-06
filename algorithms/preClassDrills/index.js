@@ -14,6 +14,7 @@ const {
 const { maxNumDP, maxNumSort, maxNumMax } = require(`./maxNum`);
 const numVowels = require(`./numVowels`);
 const isPalindrome = require(`./isPalindrome`);
+const firstNonMultiple = require(`./firstNonMultiple`);
 
 module.exports = {
   greatestOfTwo,
@@ -28,4 +29,5 @@ module.exports = {
   maxNumMax,
   numVowels,
   isPalindrome,
+  firstNonMultiple,
 };
