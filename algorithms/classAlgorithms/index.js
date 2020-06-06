@@ -8,6 +8,7 @@ const countdown = require(`./countdown`);
 const { sumArrayForEach, sumArrayReduce } = require(`./sumArray`);
 const fizzBuzz = require(`./fizzBuzz`);
 const maxNum = require(`./maxNum`);
+const vowelCount = require(`./vowelCount`);
 
 module.exports = {
   arithmetic,
@@ -19,4 +20,5 @@ module.exports = {
   sumArrayReduce,
   fizzBuzz,
   maxNum,
+  vowelCount,
 };

@@ -75,3 +75,11 @@ This has already been solved multiple ways [here](../preClassDrills/maxNum.js), 
 ```js
 classAlgorithms.maxNum([1, 5, 9, 0, -5]); // === 9
 ```
+
+### Count Vowels in a String
+
+This has already been solved [here](../preClassDrills/numVowels.js), this is another way
+
+```js
+classAlgorithms.vowelCount(`I think, therefore I am.`); // === 8
+```
