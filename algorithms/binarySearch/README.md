@@ -260,3 +260,11 @@ Given an integer n, return a list of integers from 1 to n as strings except for 
 ```js
 binarySearch.fizzBuzz(15); // === ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz"]
 ```
+
+### Sorted Elements
+
+Give a list of numbers nums, return the number of elements that are in the correct indices, if the list were to be sorted.
+
+```js
+binarySearch.sortedElements([1, 7, 3, 4, 10]); // === 2
+```

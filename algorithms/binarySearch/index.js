@@ -31,6 +31,7 @@ const hipToBeSquare = require(`./hipToBeSquare`);
 const acronym = require(`./acronym`);
 const unoTree = require(`./unoTree`);
 const fizzBuzz = require(`./fizzBuzz`);
+const sortedElements = require(`./sortedElements`);
 
 module.exports = {
   take5,
@@ -62,4 +63,5 @@ module.exports = {
   acronym,
   unoTree,
   fizzBuzz,
+  sortedElements,
 };
