@@ -62,6 +62,16 @@ classAlgorithms.sumArrayReduce([4, 8, 15, 16, 23, 42]); // === 108
 
 Log `Fizz`, `Buzz`, or `Fizz Buzz`, or a number, based on divisibility
 
+This is different to [here](../binarySearch/fizzBuzz.js) because the output here is to log to the console instead of return an array
+
 ```js
 classAlgorithms.fizzBuzz([6, 7, 8, 9, 10, 11, 12, 13, 14, 15]); // logs Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz sequentially to the console
+```
+
+### Output the Highest Number in an Array
+
+This has already been solved multiple ways [here](../preClassDrills/maxNum.js), this is another way
+
+```js
+classAlgorithms.maxNum([1, 5, 9, 0, -5]); // === 9
 ```

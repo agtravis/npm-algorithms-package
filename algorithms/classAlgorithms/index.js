@@ -7,6 +7,7 @@ const logEvens = require(`./logEvens`);
 const countdown = require(`./countdown`);
 const { sumArrayForEach, sumArrayReduce } = require(`./sumArray`);
 const fizzBuzz = require(`./fizzBuzz`);
+const maxNum = require(`./maxNum`);
 
 module.exports = {
   arithmetic,
@@ -17,4 +18,5 @@ module.exports = {
   sumArrayForEach,
   sumArrayReduce,
   fizzBuzz,
+  maxNum,
 };
