@@ -83,3 +83,9 @@ This has already been solved [here](../preClassDrills/numVowels.js), this is ano
 ```js
 classAlgorithms.vowelCount(`I think, therefore I am.`); // === 8
 ```
+
+### Is a String a Palindrom
+
+```js
+classAlgorithms.isPalindrome(`racecar`); // === true
+```
