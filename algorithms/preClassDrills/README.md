@@ -64,3 +64,11 @@ preClassDrills.firstNonMultiple(
 ```js
 preClassDrills.averageArray([1, 4, 7]); // === 4
 ```
+
+### Is an Input an Integer
+
+```js
+preClassDrills.isInteger(`7`); // === false
+preClassDrills.isInteger(7); // === true
+preClassDrills.isInteger(4.3); // === false
+```

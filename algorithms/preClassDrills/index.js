@@ -16,6 +16,7 @@ const numVowels = require(`./numVowels`);
 const isPalindrome = require(`./isPalindrome`);
 const firstNonMultiple = require(`./firstNonMultiple`);
 const averageArray = require(`./averageArray`);
+const isInteger = require(`./isInteger`);
 
 module.exports = {
   greatestOfTwo,
@@ -32,4 +33,5 @@ module.exports = {
   isPalindrome,
   firstNonMultiple,
   averageArray,
+  isInteger,
 };
