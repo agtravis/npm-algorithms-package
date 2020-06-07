@@ -32,6 +32,7 @@ const acronym = require(`./acronym`);
 const unoTree = require(`./unoTree`);
 const fizzBuzz = require(`./fizzBuzz`);
 const sortedElements = require(`./sortedElements`);
+const intervalIntersection = require(`./intervalIntersection`);
 
 module.exports = {
   take5,
@@ -64,4 +65,5 @@ module.exports = {
   unoTree,
   fizzBuzz,
   sortedElements,
+  intervalIntersection,
 };

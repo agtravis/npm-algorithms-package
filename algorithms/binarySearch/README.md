@@ -268,3 +268,15 @@ Give a list of numbers nums, return the number of elements that are in the corre
 ```js
 binarySearch.sortedElements([1, 7, 3, 4, 10]); // === 2
 ```
+
+### Interval Intersection
+
+Given a two-dimensional integer list `intervals` representing unsorted inclusive intervals, return the intersection of the intervals.
+
+```js
+binarySearch.intervalIntersection([
+  [1, 100],
+  [10, 50],
+  [15, 65],
+]); // === [15, 50]
+```
