@@ -48,7 +48,7 @@ preClassDrills.numVowels(`bivouacked`); // === 5
 ### Is a String a Palindrome
 
 ```js
-preClassDrills.isPalindrome(`racecar`); // true
+preClassDrills.isPalindrome(`racecar`); // === true
 ```
 
 ### Find and Return the First Non-Repeated Character in a String
@@ -57,4 +57,10 @@ preClassDrills.isPalindrome(`racecar`); // true
 preClassDrills.firstNonMultiple(
   `the quick brown fox jumps over the calm kitten quietly`
 ); // === b
+```
+
+### Calculate the Average of an Array of Numbers
+
+```js
+preClassDrills.averageArray([1, 4, 7]); // === 4
 ```
