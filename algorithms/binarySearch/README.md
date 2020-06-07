@@ -280,3 +280,12 @@ binarySearch.intervalIntersection([
   [15, 65],
 ]); // === [15, 50]
 ```
+
+### Elephant Tree
+
+Given a binary tree root, for each node adjust the value to be the sum of its pair of nodes values
+This needs a tree in order to work, use [this](./tree.md) as a simple tree
+
+```js
+binarySearch.elephantTree(root); // === requires construction of a binary tree to run on
+```

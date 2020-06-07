@@ -1,4 +1,7 @@
 ```js
+// some problems use this.val, some this.value
+// if not working, try switching
+
 function Node(value) {
   this.value = value;
   // this.left = null;
@@ -9,6 +12,8 @@ function Node(value) {
 // function insertNode(tree, value) {
 //   var node = tree,
 //     key;
+//   // here also node.val / node.value
+
 //   while (node.value !== value) {
 //     key = value < node.value ? 'left' : 'right';
 //     if (!node[key]) {
@@ -24,6 +29,7 @@ function Node(value) {
 function insertNode(tree, value) {
   var node = tree,
     key;
+  // here also node.val / node.value
   while (node.value) {
     key = !node.left ? 'left' : 'right';
     if (!node[key]) {

@@ -33,6 +33,7 @@ const unoTree = require(`./unoTree`);
 const fizzBuzz = require(`./fizzBuzz`);
 const sortedElements = require(`./sortedElements`);
 const intervalIntersection = require(`./intervalIntersection`);
+const elephantTree = require(`./elephantTree`);
 
 module.exports = {
   take5,
@@ -66,4 +67,5 @@ module.exports = {
   fizzBuzz,
   sortedElements,
   intervalIntersection,
+  elephantTree,
 };
