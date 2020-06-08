@@ -15,6 +15,7 @@ const repeatedNTimes = require(`./repeatedNTimes`);
 const twoSum = require(`./twoSum`);
 const mergeKSortedLists = require(`./mergeKSortedLists`);
 const lastStoneWeight = require(`./lastStoneWeight`);
+const defangIPAddress = require(`./defangIPAddress`);
 
 module.exports = {
   smallerNumbersThanCurrent,
@@ -30,4 +31,5 @@ module.exports = {
   twoSum,
   mergeKSortedLists,
   lastStoneWeight,
+  defangIPAddress,
 };

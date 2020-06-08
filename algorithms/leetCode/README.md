@@ -118,3 +118,11 @@ leetCode.mergeKSortedLists([linkedList1, linkedList2, linkedList3]);
 ```js
 leetCode.lastStoneWeight([2, 7, 4, 1, 8, 1]); // === 1
 ```
+
+### Defanging an IP Address
+
+[https://leetcode.com/problems/defanging-an-ip-address/](https://leetcode.com/problems/defanging-an-ip-address/)
+
+```js
+leetCode.defangIPAddress(`255.100.50.0`); // === `255[.]100[.]50[.]0`
+```
