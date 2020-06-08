@@ -12,6 +12,7 @@ const vowelCount = require(`./vowelCount`);
 const isPalindrome = require(`./isPalindrome`);
 const factorial = require(`./factorial`);
 const titleCase = require(`./titleCase`);
+const longestWord = require(`./longestWord`);
 
 module.exports = {
   arithmetic,
@@ -27,4 +28,5 @@ module.exports = {
   isPalindrome,
   factorial,
   titleCase,
+  longestWord,
 };

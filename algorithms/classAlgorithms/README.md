@@ -103,3 +103,9 @@ classAlgorithms.factorial(4); // === 24
 ```js
 classAlgorithms.titleCase(`the quick brown fox jumps over the lazy dog`); // === `The Quick Brown Fox Jumps Over The Lazy Dog`
 ```
+
+### Return the Longest Word in a String
+
+```js
+classAlgorithms.longestWord(`I love programming`); // === `programming`
+```
