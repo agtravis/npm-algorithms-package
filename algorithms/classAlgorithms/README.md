@@ -89,3 +89,11 @@ classAlgorithms.vowelCount(`I think, therefore I am.`); // === 8
 ```js
 classAlgorithms.isPalindrome(`racecar`); // === true
 ```
+
+### Output the Factorial of a Number
+
+A factorial of a number is the product of all of all positive integers less than or equal to the number.
+
+```js
+classAlgorithms.factorial(4); // === 24
+```

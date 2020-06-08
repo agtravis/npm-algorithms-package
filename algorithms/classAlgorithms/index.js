@@ -10,6 +10,7 @@ const fizzBuzz = require(`./fizzBuzz`);
 const maxNum = require(`./maxNum`);
 const vowelCount = require(`./vowelCount`);
 const isPalindrome = require(`./isPalindrome`);
+const factorial = require(`./factorial`);
 
 module.exports = {
   arithmetic,
@@ -23,4 +24,5 @@ module.exports = {
   maxNum,
   vowelCount,
   isPalindrome,
+  factorial,
 };
