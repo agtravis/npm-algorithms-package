@@ -289,3 +289,11 @@ This needs a tree in order to work, use [this](./tree.md) as a simple tree
 ```js
 binarySearch.elephantTree(root); // === requires construction of a binary tree to run on
 ```
+
+### Vowels and Consonants Sort
+
+Given a lowercase alphabet string s, return a string with all the vowels of s in sorted order followed by all the consonants of s in sorted order.
+
+```js
+binarySearch.vowelsConsonantsSort(`decalin`); // === `aeicdln`
+```

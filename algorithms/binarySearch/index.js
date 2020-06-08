@@ -34,6 +34,7 @@ const fizzBuzz = require(`./fizzBuzz`);
 const sortedElements = require(`./sortedElements`);
 const intervalIntersection = require(`./intervalIntersection`);
 const elephantTree = require(`./elephantTree`);
+const vowelsConsonantsSort = require(`./vowelsConsonantsSort`);
 
 module.exports = {
   take5,
@@ -68,4 +69,5 @@ module.exports = {
   sortedElements,
   intervalIntersection,
   elephantTree,
+  vowelsConsonantsSort,
 };
