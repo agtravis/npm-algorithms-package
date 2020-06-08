@@ -11,6 +11,7 @@ const maxNum = require(`./maxNum`);
 const vowelCount = require(`./vowelCount`);
 const isPalindrome = require(`./isPalindrome`);
 const factorial = require(`./factorial`);
+const titleCase = require(`./titleCase`);
 
 module.exports = {
   arithmetic,
@@ -25,4 +26,5 @@ module.exports = {
   vowelCount,
   isPalindrome,
   factorial,
+  titleCase,
 };

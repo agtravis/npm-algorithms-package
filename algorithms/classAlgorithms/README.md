@@ -97,3 +97,9 @@ A factorial of a number is the product of all of all positive integers less than
 ```js
 classAlgorithms.factorial(4); // === 24
 ```
+
+### Convert a String to Capital Case
+
+```js
+classAlgorithms.titleCase(`the quick brown fox jumps over the lazy dog`); // === `The Quick Brown Fox Jumps Over The Lazy Dog`
+```
