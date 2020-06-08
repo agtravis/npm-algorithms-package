@@ -109,3 +109,9 @@ classAlgorithms.titleCase(`the quick brown fox jumps over the lazy dog`); // ===
 ```js
 classAlgorithms.longestWord(`I love programming`); // === `programming`
 ```
+
+### Return an Acronym of Each Word in a String
+
+```js
+classAlgorithms.acronymBuilder(`Always be coding`); // === `ABC`
+```

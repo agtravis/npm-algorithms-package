@@ -13,6 +13,7 @@ const isPalindrome = require(`./isPalindrome`);
 const factorial = require(`./factorial`);
 const titleCase = require(`./titleCase`);
 const longestWord = require(`./longestWord`);
+const acronymBuilder = require(`./acronymBuilder`);
 
 module.exports = {
   arithmetic,
@@ -29,4 +30,5 @@ module.exports = {
   factorial,
   titleCase,
   longestWord,
+  acronymBuilder,
 };
