@@ -72,3 +72,11 @@ preClassDrills.isInteger(`7`); // === false
 preClassDrills.isInteger(7); // === true
 preClassDrills.isInteger(4.3); // === false
 ```
+
+### Is a String a Pangram
+
+Does it contain once instance at least of every letter of the alphabet?
+
+```js
+preClassDrills.isPangram(`Watch Jeopardy, Alex Trebek’s fun TV quiz game`); // === true
+```
