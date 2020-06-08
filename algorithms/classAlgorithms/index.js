@@ -14,6 +14,7 @@ const factorial = require(`./factorial`);
 const titleCase = require(`./titleCase`);
 const longestWord = require(`./longestWord`);
 const acronymBuilder = require(`./acronymBuilder`);
+const reverseWords = require(`./reverseWords`);
 
 module.exports = {
   arithmetic,
@@ -31,4 +32,5 @@ module.exports = {
   titleCase,
   longestWord,
   acronymBuilder,
+  reverseWords,
 };

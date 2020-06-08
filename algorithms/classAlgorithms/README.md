@@ -115,3 +115,11 @@ classAlgorithms.longestWord(`I love programming`); // === `programming`
 ```js
 classAlgorithms.acronymBuilder(`Always be coding`); // === `ABC`
 ```
+
+### Reverse the order of words in a string
+
+```js
+classAlgorithms.reverseWords(
+  `it does not matter how slowly you go as long as you do not stop`
+); // === stop not do you as long as go you slowly how matter not does it
+```
