@@ -17,6 +17,7 @@ const acronymBuilder = require(`./acronymBuilder`);
 const reverseWords = require(`./reverseWords`);
 const reverseInPlace = require(`./reverseInPlace`);
 const lookAndSay = require(`./lookAndSay`);
+const isNumeric = require(`./isNumeric`);
 
 module.exports = {
   arithmetic,
@@ -37,4 +38,5 @@ module.exports = {
   reverseWords,
   reverseInPlace,
   lookAndSay,
+  isNumeric,
 };

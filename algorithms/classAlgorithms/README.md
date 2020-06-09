@@ -137,3 +137,9 @@ The look and say sequence can be understood by reading a number out loud, digit 
 ```js
 classAlgorithms.lookAndSay(114333877); // === 2114331827
 ```
+
+### Is a String a Valid Number
+
+```js
+classAlgorithms.isNumeric(`-0.3.2`); // === false
+```
