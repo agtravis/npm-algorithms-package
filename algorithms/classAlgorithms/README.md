@@ -123,3 +123,9 @@ classAlgorithms.reverseWords(
   `it does not matter how slowly you go as long as you do not stop`
 ); // === stop not do you as long as go you slowly how matter not does it
 ```
+
+### Reverse an Array Without Using `reverse` nor Creating a New Array
+
+```js
+classAlgorithms.reverseInPlace([1, 2, 3, 4, 5]); // === [5, 4, 3, 2, 1]
+```
