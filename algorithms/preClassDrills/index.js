@@ -19,6 +19,7 @@ const averageArray = require(`./averageArray`);
 const isInteger = require(`./isInteger`);
 const isPangram = require(`./isPangram`);
 const dayNumber = require(`./dayNumber`);
+const reverseString = require(`./reverseString`);
 
 module.exports = {
   greatestOfTwo,
@@ -38,4 +39,5 @@ module.exports = {
   isInteger,
   isPangram,
   dayNumber,
+  reverseString,
 };

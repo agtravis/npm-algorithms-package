@@ -86,3 +86,9 @@ preClassDrills.isPangram(`Watch Jeopardy, Alex Trebek’s fun TV quiz game`); //
 ```js
 preClassDrills.dayNumber(1); // === `Monday`
 ```
+
+### Reverse a String
+
+```js
+preClassDrills.reverseString(`Hello World!`); // === `!dlroW olleH`
+```
