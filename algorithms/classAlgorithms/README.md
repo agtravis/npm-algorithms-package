@@ -155,3 +155,10 @@ classAlgorithms.characterCount(`peter piper picked a pack of pickled peppers`); 
 ```js
 classAlgorithms.productOfLargestTwo([4, 8, 15, 16, 23, 42]); // === 966
 ```
+
+### Return a String in camelCase
+
+```js
+classAlgorithms.camelCaseConcatenation(`Hello World`); // === `helloWorld`
+classAlgorithms.camelCaseMap(`The rain in spain falls mainly on the plain`); // === `theRainInSpainFallsMainlyOnThePlain`
+```

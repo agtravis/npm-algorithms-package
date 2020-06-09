@@ -20,6 +20,7 @@ const lookAndSay = require(`./lookAndSay`);
 const isNumeric = require(`./isNumeric`);
 const characterCount = require(`./characterCount`);
 const productOfLargestTwo = require(`./productOfLargestTwo`);
+const { camelCaseConcatenation, camelCaseMap } = require(`./camelCase`);
 
 module.exports = {
   arithmetic,
@@ -43,4 +44,6 @@ module.exports = {
   isNumeric,
   characterCount,
   productOfLargestTwo,
+  camelCaseConcatenation,
+  camelCaseMap,
 };
