@@ -36,6 +36,7 @@ const intervalIntersection = require(`./intervalIntersection`);
 const elephantTree = require(`./elephantTree`);
 const vowelsConsonantsSort = require(`./vowelsConsonantsSort`);
 const minimumSortCost = require(`./minimumCostSort`);
+const mergeKSortedArrays = require(`./mergeKSortedArrays`);
 
 module.exports = {
   take5,
@@ -72,4 +73,5 @@ module.exports = {
   elephantTree,
   vowelsConsonantsSort,
   minimumSortCost,
+  mergeKSortedArrays,
 };

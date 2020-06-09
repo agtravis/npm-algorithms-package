@@ -305,3 +305,20 @@ Given a list of integers nums, return the minimum cost of sorting the list in as
 ```js
 binarySearch.minimumSortCost([1, 4, 3]); // === 2
 ```
+
+### Merge K Sorted Arrays
+
+Given lists of sorted list of integers, merge them into one large sorted list.
+
+```js
+binarySearch.mergeKSortedArrays([
+  [],
+  [],
+  [10, 12],
+  [],
+  [3, 3, 13],
+  [3],
+  [10],
+  [0, 7],
+]); // === [0, 3, 3, 3, 7, 10, 10, 12, 13]
+```
