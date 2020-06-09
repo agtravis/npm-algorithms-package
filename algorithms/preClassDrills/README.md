@@ -92,3 +92,9 @@ preClassDrills.dayNumber(1); // === `Monday`
 ```js
 preClassDrills.reverseString(`Hello World!`); // === `!dlroW olleH`
 ```
+
+### Switch the Case of All Letters in a String
+
+```js
+preClassDrills.swapCase(`ImAgInE If i WrOtE LiKe tHiS`); // === `iMaGiNe iF I wRoTe lIkE ThIs`
+```
