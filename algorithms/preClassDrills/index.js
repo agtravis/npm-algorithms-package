@@ -18,6 +18,7 @@ const firstNonMultiple = require(`./firstNonMultiple`);
 const averageArray = require(`./averageArray`);
 const isInteger = require(`./isInteger`);
 const isPangram = require(`./isPangram`);
+const dayNumber = require(`./dayNumber`);
 
 module.exports = {
   greatestOfTwo,
@@ -36,4 +37,5 @@ module.exports = {
   averageArray,
   isInteger,
   isPangram,
+  dayNumber,
 };

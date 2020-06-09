@@ -80,3 +80,9 @@ Does it contain once instance at least of every letter of the alphabet?
 ```js
 preClassDrills.isPangram(`Watch Jeopardy, Alex Trebek’s fun TV quiz game`); // === true
 ```
+
+### Input the Day of the Week By Number and Retrieve the Day Name
+
+```js
+preClassDrills.dayNumber(1); // === `Monday`
+```
