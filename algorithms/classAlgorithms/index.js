@@ -19,6 +19,7 @@ const reverseInPlace = require(`./reverseInPlace`);
 const lookAndSay = require(`./lookAndSay`);
 const isNumeric = require(`./isNumeric`);
 const characterCount = require(`./characterCount`);
+const productOfLargestTwo = require(`./productOfLargestTwo`);
 
 module.exports = {
   arithmetic,
@@ -41,4 +42,5 @@ module.exports = {
   lookAndSay,
   isNumeric,
   characterCount,
+  productOfLargestTwo,
 };
