@@ -143,3 +143,9 @@ classAlgorithms.lookAndSay(114333877); // === 2114331827
 ```js
 classAlgorithms.isNumeric(`-0.3.2`); // === false
 ```
+
+### Return an Object Containing a Count of Each Character in a String
+
+```js
+classAlgorithms.characterCount(`peter piper picked a pack of pickled peppers`); // === { p: 9, e: 7, t: 1, r: 3, ' ': 7, i: 3, c: 3, k: 3, d: 2, a: 2, o: 1, f: 1, l: 1, s: 1 }
+```

@@ -18,6 +18,7 @@ const reverseWords = require(`./reverseWords`);
 const reverseInPlace = require(`./reverseInPlace`);
 const lookAndSay = require(`./lookAndSay`);
 const isNumeric = require(`./isNumeric`);
+const characterCount = require(`./characterCount`);
 
 module.exports = {
   arithmetic,
@@ -39,4 +40,5 @@ module.exports = {
   reverseInPlace,
   lookAndSay,
   isNumeric,
+  characterCount,
 };
