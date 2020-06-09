@@ -129,3 +129,11 @@ classAlgorithms.reverseWords(
 ```js
 classAlgorithms.reverseInPlace([1, 2, 3, 4, 5]); // === [5, 4, 3, 2, 1]
 ```
+
+### Look and Say
+
+The look and say sequence can be understood by reading a number out loud, digit by digit, but first saying the number of times each digit appears in a row.
+
+```js
+classAlgorithms.lookAndSay(114333877); // === 2114331827
+```

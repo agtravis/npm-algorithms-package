@@ -16,6 +16,7 @@ const longestWord = require(`./longestWord`);
 const acronymBuilder = require(`./acronymBuilder`);
 const reverseWords = require(`./reverseWords`);
 const reverseInPlace = require(`./reverseInPlace`);
+const lookAndSay = require(`./lookAndSay`);
 
 module.exports = {
   arithmetic,
@@ -35,4 +36,5 @@ module.exports = {
   acronymBuilder,
   reverseWords,
   reverseInPlace,
+  lookAndSay,
 };
