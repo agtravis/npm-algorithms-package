@@ -297,3 +297,11 @@ Given a lowercase alphabet string s, return a string with all the vowels of s in
 ```js
 binarySearch.vowelsConsonantsSort(`decalin`); // === `aeicdln`
 ```
+
+### Minimum Sort Cost
+
+Given a list of integers nums, return the minimum cost of sorting the list in ascending or descending order. The cost is defined as the sum of differences between any element's old and new value.
+
+```js
+binarySearch.minimumSortCost([1, 4, 3]); // === 2
+```
