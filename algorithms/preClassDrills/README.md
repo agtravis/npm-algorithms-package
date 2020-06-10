@@ -98,3 +98,9 @@ preClassDrills.reverseString(`Hello World!`); // === `!dlroW olleH`
 ```js
 preClassDrills.swapCase(`ImAgInE If i WrOtE LiKe tHiS`); // === `iMaGiNe iF I wRoTe lIkE ThIs`
 ```
+
+### Return the First Duplicate in an Array
+
+```js
+preClassDrills.firstDuplicate([1, 3, 4, 1, 3, 4]); // === 1
+```

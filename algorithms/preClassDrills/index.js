@@ -21,6 +21,7 @@ const isPangram = require(`./isPangram`);
 const dayNumber = require(`./dayNumber`);
 const reverseString = require(`./reverseString`);
 const swapCase = require(`./swapCase`);
+const firstDuplicate = require(`./firstDuplicate`);
 
 module.exports = {
   greatestOfTwo,
@@ -42,4 +43,5 @@ module.exports = {
   dayNumber,
   reverseString,
   swapCase,
+  firstDuplicate,
 };
