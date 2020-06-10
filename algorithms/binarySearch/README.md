@@ -330,3 +330,11 @@ Given a positive integer num, return the sum of its digits.
 ```js
 binarySearch.sumOfTheDigits(123); // === 6
 ```
+
+### Digital Sum
+
+The same as above but without converting to a string
+
+```js
+binarySearch.digitalSum(123); // === 6
+```

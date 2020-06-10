@@ -38,6 +38,7 @@ const vowelsConsonantsSort = require(`./vowelsConsonantsSort`);
 const minimumSortCost = require(`./minimumCostSort`);
 const mergeKSortedArrays = require(`./mergeKSortedArrays`);
 const sumOfTheDigits = require(`./sumOfTheDigits`);
+const digitalSum = require(`./digitalSum`);
 
 module.exports = {
   take5,
@@ -76,4 +77,5 @@ module.exports = {
   minimumSortCost,
   mergeKSortedArrays,
   sumOfTheDigits,
+  digitalSum,
 };
