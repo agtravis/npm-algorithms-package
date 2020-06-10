@@ -126,3 +126,13 @@ leetCode.lastStoneWeight([2, 7, 4, 1, 8, 1]); // === 1
 ```js
 leetCode.defangIPAddress(`255.100.50.0`); // === `255[.]100[.]50[.]0`
 ```
+
+### Add Two Numbers Formed Each from Linked Lists, and Return a Linked List
+
+[https://leetcode.com/problems/add-two-numbers/](https://leetcode.com/problems/add-two-numbers/)
+
+NOTE: Needs [this](./linkedList.md) to run successfully (`Linked List` set up)
+
+```js
+leetCode.addTwoNumbers(linkedList1, linkedList2);
+```
