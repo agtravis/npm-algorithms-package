@@ -322,3 +322,11 @@ binarySearch.mergeKSortedArrays([
   [0, 7],
 ]); // === [0, 3, 3, 3, 7, 10, 10, 12, 13]
 ```
+
+### Sum of the Digits
+
+Given a positive integer num, return the sum of its digits.
+
+```js
+binarySearch.sumOfTheDigits(123); // === 6
+```

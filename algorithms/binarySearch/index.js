@@ -37,6 +37,7 @@ const elephantTree = require(`./elephantTree`);
 const vowelsConsonantsSort = require(`./vowelsConsonantsSort`);
 const minimumSortCost = require(`./minimumCostSort`);
 const mergeKSortedArrays = require(`./mergeKSortedArrays`);
+const sumOfTheDigits = require(`./sumOfTheDigits`);
 
 module.exports = {
   take5,
@@ -74,4 +75,5 @@ module.exports = {
   vowelsConsonantsSort,
   minimumSortCost,
   mergeKSortedArrays,
+  sumOfTheDigits,
 };
