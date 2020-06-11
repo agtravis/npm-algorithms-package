@@ -30,8 +30,21 @@ udemy.hasPairWithSumSet([6, 4, 3, 2, 1, 7], 9); // === true
 
 ### Reverse a String by Using a Scratch Built Array-Type Data Structure
 
-See the code for the custome built array [here](./array.md)
+See the code for the custom built array [here](./array.md)
 
 ```js
 udemy.reverseStringScratchArray(`Hello, my name is George!`); // === `!egroeG si eman ym ,olleH`
+```
+
+### Merge Two Sorted Arrays
+
+```js
+udemy.mergeTwoSortedArraysDoublePointer(
+  [4, 6, 30, 31, 32, 33, 34],
+  [0, 3, 4, 31]
+); // === [0,  3,  4,  4,  6, 30, 31, 31, 32, 33, 34]
+udemy.mergeTwoSortedArraysReverseSortFirst(
+  [0, 3, 4, 31],
+  [4, 6, 30, 31, 32, 33, 34]
+); // === [0,  3,  4,  4,  6, 30, 31, 31, 32, 33, 34]
 ```
