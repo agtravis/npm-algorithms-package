@@ -27,3 +27,11 @@ udemy.commonItems(['a', 'b', 'c', 'x'], ['z', 'y', 'c']); // === true
 udemy.hasPairWithSumSortDoublePointer([6, 4, 3, 2, 1, 7], 9); // === true
 udemy.hasPairWithSumSet([6, 4, 3, 2, 1, 7], 9); // === true
 ```
+
+### Reverse a String by Using a Scratch Built Array-Type Data Structure
+
+See the code for the custome built array [here](./array.md)
+
+```js
+udemy.reverseStringScratchArray(`Hello, my name is George!`); // === `!egroeG si eman ym ,olleH`
+```
