@@ -81,4 +81,39 @@ module.exports = {
     // finally returning it
     return output;
   },
+  mergeTwoSortedArraysSimpleWhile: (arr1, arr2) => {
+    // first organize inputs so we know which is longer
+    if (arr2.length > arr1.length) {
+      let temp = arr1;
+      arr1 = arr2;
+      arr2 = temp;
+    }
+    // establish trackers for double pointer
+    let l = 0;
+    let r = 0;
+    // and output array
+    const output = [];
+    // loop until the shorter array is depleted
+    while (r < arr2.length) {
+      // compare the two iterated elements, pushing to the output whichever is lower
+      // and incrementing the pointer for the array from which was pushed
+      if (arr1[l] < arr2[r]) {
+        output.push(arr1[l]);
+        ++l;
+      } else {
+        output.push(arr2[r]);
+        ++r;
+      }
+    }
+    // // loop through the remainder of the longer array
+    // // i starts at the value of l
+    // // and push every element left
+    // for (let i = l; i < arr1.length; ++i) {
+    //   output.push(arr1[i]);
+    // }
+    // spread out the remainder of the longer array starting at index `l` and slicing, and push to the output
+    output.push(...arr1.slice(l));
+    // and return
+    return output;
+  },
 };

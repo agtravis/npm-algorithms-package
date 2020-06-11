@@ -9,6 +9,7 @@ const reverseStringScratchArray = require(`./reverseStringScratchArray`);
 const {
   mergeTwoSortedArraysDoublePointer,
   mergeTwoSortedArraysReverseSortFirst,
+  mergeTwoSortedArraysSimpleWhile,
 } = require(`./mergeTwoSortedArrays`);
 
 module.exports = {
@@ -18,4 +19,5 @@ module.exports = {
   reverseStringScratchArray,
   mergeTwoSortedArraysDoublePointer,
   mergeTwoSortedArraysReverseSortFirst,
+  mergeTwoSortedArraysSimpleWhile,
 };
