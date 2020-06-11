@@ -104,3 +104,10 @@ preClassDrills.swapCase(`ImAgInE If i WrOtE LiKe tHiS`); // === `iMaGiNe iF I wR
 ```js
 preClassDrills.firstDuplicate([1, 3, 4, 1, 3, 4]); // === 1
 ```
+
+### Return a Negative Form of an Input Number, and Throw an Error if Input is Invalid
+
+```js
+preClassDrills.getNegative(`34`); // === -34
+preClassDrills.getNegative({ foo: 'bar' }); // throws error - `input must be coercible to a number`
+```

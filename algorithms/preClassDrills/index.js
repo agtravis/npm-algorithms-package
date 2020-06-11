@@ -22,6 +22,7 @@ const dayNumber = require(`./dayNumber`);
 const reverseString = require(`./reverseString`);
 const swapCase = require(`./swapCase`);
 const firstDuplicate = require(`./firstDuplicate`);
+const getNegative = require(`./getNegative`);
 
 module.exports = {
   greatestOfTwo,
@@ -44,4 +45,5 @@ module.exports = {
   reverseString,
   swapCase,
   firstDuplicate,
+  getNegative,
 };
