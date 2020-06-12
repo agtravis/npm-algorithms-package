@@ -40,6 +40,7 @@ const mergeKSortedArrays = require(`./mergeKSortedArrays`);
 const sumOfTheDigits = require(`./sumOfTheDigits`);
 const digitalSum = require(`./digitalSum`);
 const stringSequence = require(`./stringSequence`);
+const highFrequency = require(`./highFrequency`);
 
 module.exports = {
   take5,
@@ -80,4 +81,5 @@ module.exports = {
   sumOfTheDigits,
   digitalSum,
   stringSequence,
+  highFrequency,
 };

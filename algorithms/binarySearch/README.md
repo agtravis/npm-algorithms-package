@@ -351,3 +351,11 @@ Given strings s0, s1 and a positive integer n, return the nth term of the sequen
 ```js
 binarySearch.stringSequence(`dx`, `a`, 4); // === `aadxadx`
 ```
+
+### High Frequency
+
+Given a list of integers `nums`, find the most frequently occurring element and return the number of occurrences of that element.
+
+```js
+binarySearch.highFrequency([1, 4, 1, 7, 1, 7, 1, 1]); // === 5
+```
