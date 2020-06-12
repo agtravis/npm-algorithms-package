@@ -41,6 +41,7 @@ const sumOfTheDigits = require(`./sumOfTheDigits`);
 const digitalSum = require(`./digitalSum`);
 const stringSequence = require(`./stringSequence`);
 const highFrequency = require(`./highFrequency`);
+const addMultiplesOf347 = require(`./addMultiplesOf347`);
 
 module.exports = {
   take5,
@@ -82,4 +83,5 @@ module.exports = {
   digitalSum,
   stringSequence,
   highFrequency,
+  addMultiplesOf347,
 };

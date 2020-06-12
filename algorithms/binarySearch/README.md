@@ -359,3 +359,11 @@ Given a list of integers `nums`, find the most frequently occurring element and 
 ```js
 binarySearch.highFrequency([1, 4, 1, 7, 1, 7, 1, 1]); // === 5
 ```
+
+### Add Multiples of 3, 4, & 7
+
+Given a positive integer `n`, return the sum of all numbers less than or equal to n that are multiples of 3, 4, or 7.
+
+```js
+binarySearch.addMultiplesOf347(10); // === 37
+```
