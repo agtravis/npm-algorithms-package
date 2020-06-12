@@ -39,6 +39,7 @@ const minimumSortCost = require(`./minimumCostSort`);
 const mergeKSortedArrays = require(`./mergeKSortedArrays`);
 const sumOfTheDigits = require(`./sumOfTheDigits`);
 const digitalSum = require(`./digitalSum`);
+const stringSequence = require(`./stringSequence`);
 
 module.exports = {
   take5,
@@ -78,4 +79,5 @@ module.exports = {
   mergeKSortedArrays,
   sumOfTheDigits,
   digitalSum,
+  stringSequence,
 };

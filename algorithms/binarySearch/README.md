@@ -338,3 +338,16 @@ The same as above but without converting to a string
 ```js
 binarySearch.digitalSum(123); // === 6
 ```
+
+### String Sequence
+
+Given strings s0, s1 and a positive integer n, return the nth term of the sequence A where:
+
+    A[0] = s0
+    A[1] = s1
+    A[n] = A[n - 1] + A[n - 2] if n is even,
+    otherwise A[n] = A[n - 2] + A[n - 1].
+
+```js
+binarySearch.stringSequence(`dx`, `a`, 4); // === `aadxadx`
+```
