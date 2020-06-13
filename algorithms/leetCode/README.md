@@ -136,3 +136,12 @@ NOTE: Needs [this](./linkedList.md) to run successfully (`Linked List` set up)
 ```js
 leetCode.addTwoNumbers(linkedList1, linkedList2);
 ```
+
+### Fair Candy Swap
+
+[https://leetcode.com/problems/fair-candy-swap/](https://leetcode.com/problems/fair-candy-swap/)
+
+```js
+leetCode.shareCandies([1, 2, 5], [2, 4]); // === [5, 4]
+leetCode.shareCandiesWithSet([2, 4], [1, 2, 5]); // === [4, 5]
+```

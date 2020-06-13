@@ -17,6 +17,7 @@ const mergeKSortedLists = require(`./mergeKSortedLists`);
 const lastStoneWeight = require(`./lastStoneWeight`);
 const defangIPAddress = require(`./defangIPAddress`);
 const addTwoNumbers = require(`./addTwoNumbers`);
+const { shareCandiesWithSet, shareCandies } = require(`./shareCandies`);
 
 module.exports = {
   smallerNumbersThanCurrent,
@@ -34,4 +35,6 @@ module.exports = {
   lastStoneWeight,
   defangIPAddress,
   addTwoNumbers,
+  shareCandiesWithSet,
+  shareCandies,
 };
