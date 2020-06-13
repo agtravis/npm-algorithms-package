@@ -42,6 +42,7 @@ const digitalSum = require(`./digitalSum`);
 const stringSequence = require(`./stringSequence`);
 const highFrequency = require(`./highFrequency`);
 const addMultiplesOf347 = require(`./addMultiplesOf347`);
+const { fibonacci, fibonacciRecursion } = require(`./nthFibonacci`);
 
 module.exports = {
   take5,
@@ -84,4 +85,6 @@ module.exports = {
   stringSequence,
   highFrequency,
   addMultiplesOf347,
+  fibonacci,
+  fibonacciRecursion,
 };

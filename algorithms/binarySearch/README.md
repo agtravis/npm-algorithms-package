@@ -367,3 +367,12 @@ Given a positive integer `n`, return the sum of all numbers less than or equal t
 ```js
 binarySearch.addMultiplesOf347(10); // === 37
 ```
+
+### Nth Fibonaccis
+
+Write a function that takes an integer n and returns the nth Fibonacci number in the sequence.
+
+```js
+binarySearch.fibonacci(7); // === 13
+binarySearch.fibonacciRecursion(7); // === 13
+```
