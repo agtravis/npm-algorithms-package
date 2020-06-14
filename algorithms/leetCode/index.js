@@ -18,6 +18,7 @@ const lastStoneWeight = require(`./lastStoneWeight`);
 const defangIPAddress = require(`./defangIPAddress`);
 const addTwoNumbers = require(`./addTwoNumbers`);
 const { shareCandiesWithSet, shareCandies } = require(`./shareCandies`);
+const maximumSubarray = require(`./maximumSubarray`);
 
 module.exports = {
   smallerNumbersThanCurrent,
@@ -37,4 +38,5 @@ module.exports = {
   addTwoNumbers,
   shareCandiesWithSet,
   shareCandies,
+  maximumSubarray,
 };

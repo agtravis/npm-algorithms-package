@@ -145,3 +145,11 @@ leetCode.addTwoNumbers(linkedList1, linkedList2);
 leetCode.shareCandies([1, 2, 5], [2, 4]); // === [5, 4]
 leetCode.shareCandiesWithSet([2, 4], [1, 2, 5]); // === [4, 5]
 ```
+
+### Maximum Contiguous Sub Array
+
+[https://leetcode.com/problems/maximum-subarray/](https://leetcode.com/problems/maximum-subarray/)
+
+```js
+leetCode.maximumSubarray([-2, 1, -3, 4, -1, 2, 1, -5, 4]); // === 6
+```
