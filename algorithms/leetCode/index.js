@@ -21,6 +21,11 @@ const { shareCandiesWithSet, shareCandies } = require(`./shareCandies`);
 const maximumSubarray = require(`./maximumSubarray`);
 const moveZeros = require(`./moveZeros`);
 const containsDuplicate = require(`./containsDuplicate`);
+const {
+  rotateArrayLikeUnshift,
+  rotateArrayWithCopy,
+  rotateArrayUnshift,
+} = require(`./rotateArray`);
 
 module.exports = {
   smallerNumbersThanCurrent,
@@ -43,4 +48,7 @@ module.exports = {
   maximumSubarray,
   moveZeros,
   containsDuplicate,
+  rotateArrayLikeUnshift,
+  rotateArrayWithCopy,
+  rotateArrayUnshift,
 };

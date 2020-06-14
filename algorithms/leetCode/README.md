@@ -169,3 +169,15 @@ leetCode.moveZeros([0, 1, 0, 3, 12]); // === [1,3,12,0,0]
 ```js
 leetCode.containsDuplicate([1, 2, 3, 1]); // === true
 ```
+
+### Rotate Array
+
+[https://leetcode.com/problems/rotate-array/](https://leetcode.com/problems/rotate-array/)
+
+NOTE: This problem does not take a return statement on leetcode, I have added to make my functions work correctly
+
+```js
+leetCode.rotateArrayUnshift([1, 2, 3, 4, 5, 6, 7], 3); // === [5, 6, 7, 1, 2, 3, 4]
+leetCode.rotateArrayLikeUnshift([1, 2, 3, 4, 5, 6, 7], 3); // === [5, 6, 7, 1, 2, 3, 4]
+leetCode.rotateArrayWithCopy([1, 2, 3, 4, 5, 6, 7], 3); // === [5, 6, 7, 1, 2, 3, 4]
+```
