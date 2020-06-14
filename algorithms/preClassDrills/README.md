@@ -111,3 +111,11 @@ preClassDrills.firstDuplicate([1, 3, 4, 1, 3, 4]); // === 1
 preClassDrills.getNegative(`34`); // === -34
 preClassDrills.getNegative({ foo: 'bar' }); // throws error - `input must be coercible to a number`
 ```
+
+### Write a Custom Includes Function to See if an Array or String Contains an Element or Character Respectively
+
+```js
+preClassDrills.includes([1, 3, 6], 2); // === false
+preClassDrills.includes(`abc`, `c`); // === true
+preClassDrills.includes(null, `z`); // throws an error
+```

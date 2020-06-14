@@ -23,6 +23,7 @@ const reverseString = require(`./reverseString`);
 const swapCase = require(`./swapCase`);
 const firstDuplicate = require(`./firstDuplicate`);
 const getNegative = require(`./getNegative`);
+const includes = require(`./includes`);
 
 module.exports = {
   greatestOfTwo,
@@ -46,4 +47,5 @@ module.exports = {
   swapCase,
   firstDuplicate,
   getNegative,
+  includes,
 };
