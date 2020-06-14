@@ -21,6 +21,7 @@ const isNumeric = require(`./isNumeric`);
 const characterCount = require(`./characterCount`);
 const productOfLargestTwo = require(`./productOfLargestTwo`);
 const { camelCaseConcatenation, camelCaseMap } = require(`./camelCase`);
+const linearSearch = require(`./linearSearch`);
 
 module.exports = {
   arithmetic,
@@ -46,4 +47,5 @@ module.exports = {
   productOfLargestTwo,
   camelCaseConcatenation,
   camelCaseMap,
+  linearSearch,
 };

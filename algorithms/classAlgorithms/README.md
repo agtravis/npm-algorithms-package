@@ -162,3 +162,9 @@ classAlgorithms.productOfLargestTwo([4, 8, 15, 16, 23, 42]); // === 966
 classAlgorithms.camelCaseConcatenation(`Hello World`); // === `helloWorld`
 classAlgorithms.camelCaseMap(`The rain in spain falls mainly on the plain`); // === `theRainInSpainFallsMainlyOnThePlain`
 ```
+
+### Linear Search
+
+```js
+classAlgorithms.linearSearch([8, 22, 3, 0, -2], 3); // === 2
+```
