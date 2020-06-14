@@ -20,6 +20,7 @@ const addTwoNumbers = require(`./addTwoNumbers`);
 const { shareCandiesWithSet, shareCandies } = require(`./shareCandies`);
 const maximumSubarray = require(`./maximumSubarray`);
 const moveZeros = require(`./moveZeros`);
+const containsDuplicate = require(`./containsDuplicate`);
 
 module.exports = {
   smallerNumbersThanCurrent,
@@ -41,4 +42,5 @@ module.exports = {
   shareCandies,
   maximumSubarray,
   moveZeros,
+  containsDuplicate,
 };

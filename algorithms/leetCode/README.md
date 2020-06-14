@@ -161,3 +161,11 @@ leetCode.maximumSubarray([-2, 1, -3, 4, -1, 2, 1, -5, 4]); // === 6
 ```js
 leetCode.moveZeros([0, 1, 0, 3, 12]); // === [1,3,12,0,0]
 ```
+
+### Contains Duplicate
+
+[https://leetcode.com/problems/contains-duplicate/](https://leetcode.com/problems/contains-duplicate/)
+
+```js
+leetCode.containsDuplicate([1, 2, 3, 1]); // === true
+```
