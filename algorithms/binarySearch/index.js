@@ -43,6 +43,11 @@ const stringSequence = require(`./stringSequence`);
 const highFrequency = require(`./highFrequency`);
 const addMultiplesOf347 = require(`./addMultiplesOf347`);
 const { fibonacci, fibonacciRecursion } = require(`./nthFibonacci`);
+const {
+  factorialFactory,
+  factorialFactoryWithRecursion,
+  factorialFactoryWithReduce,
+} = require(`./factorialFactory`);
 
 module.exports = {
   take5,
@@ -87,4 +92,7 @@ module.exports = {
   addMultiplesOf347,
   fibonacci,
   fibonacciRecursion,
+  factorialFactory,
+  factorialFactoryWithRecursion,
+  factorialFactoryWithReduce,
 };

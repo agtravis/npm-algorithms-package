@@ -376,3 +376,13 @@ Write a function that takes an integer n and returns the nth Fibonacci number in
 binarySearch.fibonacci(7); // === 13
 binarySearch.fibonacciRecursion(7); // === 13
 ```
+
+### Factorial Factory
+
+Given an integer n less than or equal to 10, compute its factorial.
+
+```js
+binarySearch.factorialFactory(5); // === 120
+binarySearch.factorialFactoryWithRecursion(5); // === 120
+binarySearch.factorialFactoryWithReduce(5); // === 120
+```
