@@ -153,3 +153,11 @@ leetCode.shareCandiesWithSet([2, 4], [1, 2, 5]); // === [4, 5]
 ```js
 leetCode.maximumSubarray([-2, 1, -3, 4, -1, 2, 1, -5, 4]); // === 6
 ```
+
+### Move Zeros to the End of an Array IN PLACE (No Copy)
+
+[https://leetcode.com/problems/move-zeroes/](https://leetcode.com/problems/move-zeroes/)
+
+```js
+leetCode.moveZeros([0, 1, 0, 3, 12]); // === [1,3,12,0,0]
+```

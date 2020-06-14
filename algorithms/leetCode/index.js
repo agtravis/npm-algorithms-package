@@ -19,6 +19,7 @@ const defangIPAddress = require(`./defangIPAddress`);
 const addTwoNumbers = require(`./addTwoNumbers`);
 const { shareCandiesWithSet, shareCandies } = require(`./shareCandies`);
 const maximumSubarray = require(`./maximumSubarray`);
+const moveZeros = require(`./moveZeros`);
 
 module.exports = {
   smallerNumbersThanCurrent,
@@ -39,4 +40,5 @@ module.exports = {
   shareCandiesWithSet,
   shareCandies,
   maximumSubarray,
+  moveZeros,
 };
