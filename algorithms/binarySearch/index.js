@@ -48,6 +48,7 @@ const {
   factorialFactoryWithRecursion,
   factorialFactoryWithReduce,
 } = require(`./factorialFactory`);
+const { evenStevens, evenStevensConstantSpace } = require(`./evenStevens`);
 
 module.exports = {
   take5,
@@ -95,4 +96,6 @@ module.exports = {
   factorialFactory,
   factorialFactoryWithRecursion,
   factorialFactoryWithReduce,
+  evenStevens,
+  evenStevensConstantSpace,
 };

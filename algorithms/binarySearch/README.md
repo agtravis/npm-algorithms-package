@@ -386,3 +386,12 @@ binarySearch.factorialFactory(5); // === 120
 binarySearch.factorialFactoryWithRecursion(5); // === 120
 binarySearch.factorialFactoryWithReduce(5); // === 120
 ```
+
+### Even Stevens
+
+Given an integer list nums, swap every consecutive even integer with each other.
+
+```js
+binarySearch.evenStevens([2, 3, 4, 6, 8]); // === [4, 3, 2, 8, 6]
+binarySearch.evenStevensConstantSpace([2, 3, 4, 6]); // === [4, 3, 2, 6]
+```
