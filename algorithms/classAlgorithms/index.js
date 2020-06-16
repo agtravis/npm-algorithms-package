@@ -23,6 +23,7 @@ const productOfLargestTwo = require(`./productOfLargestTwo`);
 const { camelCaseConcatenation, camelCaseMap } = require(`./camelCase`);
 const linearSearch = require(`./linearSearch`);
 const isUnique = require(`./isUnique`);
+const { isAnagramSort, isAnagramMap } = require(`./isAnagram`);
 
 module.exports = {
   arithmetic,
@@ -50,4 +51,6 @@ module.exports = {
   camelCaseMap,
   linearSearch,
   isUnique,
+  isAnagramSort,
+  isAnagramMap,
 };

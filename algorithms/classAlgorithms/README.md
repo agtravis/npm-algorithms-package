@@ -174,3 +174,10 @@ classAlgorithms.linearSearch([8, 22, 3, 0, -2], 3); // === 2
 ```js
 classAlgorithms.isUnique([2, 8, 7, 5, 4, 3]); // === true
 ```
+
+### Are Two Strings Anagrams of Eachother?
+
+```js
+classAlgorithms.isAnagramSort(`octagonal`, `tganoalco`); // === true
+classAlgorithms.isAnagramMap(`octagonal`, `hello`); // === false
+```
