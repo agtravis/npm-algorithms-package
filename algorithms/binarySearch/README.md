@@ -389,9 +389,19 @@ binarySearch.factorialFactoryWithReduce(5); // === 120
 
 ### Even Stevens
 
-Given an integer list nums, swap every consecutive even integer with each other.
+Given an integer list `nums`, swap every consecutive even integer with each other.
 
 ```js
 binarySearch.evenStevens([2, 3, 4, 6, 8]); // === [4, 3, 2, 8, 6]
 binarySearch.evenStevensConstantSpace([2, 3, 4, 6]); // === [4, 3, 2, 6]
+```
+
+### Median Minimization
+
+Given a list of integers `nums`, split it into two lists of equal size where the absolute difference between each list's median is as small as possible and return this difference.
+
+Note: `nums` is guaranteed to have an even length.
+
+```js
+binarySearch.medianMinimization([1, 9, 7, 4, 3, 6]); // === 2
 ```

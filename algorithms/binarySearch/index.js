@@ -49,6 +49,7 @@ const {
   factorialFactoryWithReduce,
 } = require(`./factorialFactory`);
 const { evenStevens, evenStevensConstantSpace } = require(`./evenStevens`);
+const medianMinimization = require(`./medianMinimization`);
 
 module.exports = {
   take5,
@@ -98,4 +99,5 @@ module.exports = {
   factorialFactoryWithReduce,
   evenStevens,
   evenStevensConstantSpace,
+  medianMinimization,
 };
