@@ -168,3 +168,9 @@ classAlgorithms.camelCaseMap(`The rain in spain falls mainly on the plain`); // 
 ```js
 classAlgorithms.linearSearch([8, 22, 3, 0, -2], 3); // === 2
 ```
+
+### Is Every Element in an Array Unique
+
+```js
+classAlgorithms.isUnique([2, 8, 7, 5, 4, 3]); // === true
+```
