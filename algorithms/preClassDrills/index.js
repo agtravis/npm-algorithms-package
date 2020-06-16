@@ -24,6 +24,11 @@ const swapCase = require(`./swapCase`);
 const firstDuplicate = require(`./firstDuplicate`);
 const getNegative = require(`./getNegative`);
 const includes = require(`./includes`);
+const {
+  printPyramid,
+  printPyramidWhile,
+  printPyramidForwards,
+} = require(`./printPyramid`);
 
 module.exports = {
   greatestOfTwo,
@@ -48,4 +53,7 @@ module.exports = {
   firstDuplicate,
   getNegative,
   includes,
+  printPyramid,
+  printPyramidWhile,
+  printPyramidForwards,
 };

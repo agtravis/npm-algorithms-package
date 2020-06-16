@@ -119,3 +119,11 @@ preClassDrills.includes([1, 3, 6], 2); // === false
 preClassDrills.includes(`abc`, `c`); // === true
 preClassDrills.includes(null, `z`); // throws an error
 ```
+
+### Log Pyramids of `X`s to the Console
+
+```js
+preClassDrills.printPyramid(10); // run in a JS environment will log a pyramid to the console
+preClassDrills.printPyramidWhile(15); // run in a JS environment will log a pyramid to the console
+preClassDrills.printPyramidForwards(20); // run in a JS environment will log a pyramid to the console
+```
