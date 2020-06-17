@@ -52,6 +52,7 @@ const { evenStevens, evenStevensConstantSpace } = require(`./evenStevens`);
 const medianMinimization = require(`./medianMinimization`);
 const mergeTwoSortedLists = require(`./mergeTwoSortedLists`);
 const removeExtraneousSpaces = require(`./removeExtraneousSpaces`);
+const roomba = require(`./roomba`);
 
 module.exports = {
   take5,
@@ -104,4 +105,5 @@ module.exports = {
   medianMinimization,
   mergeTwoSortedLists,
   removeExtraneousSpaces,
+  roomba,
 };

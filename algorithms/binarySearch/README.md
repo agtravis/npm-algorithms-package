@@ -423,3 +423,13 @@ binarySearch.removeExtraneousSpaces(
   `     wise    as       an            owl         `
 ); // === `wise as an owl`
 ```
+
+### Roomba
+
+A Roomba robot is currently sitting in a cartesian plane at (0, 0). You are given a list of its moves that it will make, containing NORTH, SOUTH, WEST, and EAST.
+
+Return whether after its moves it will end up in the coordinate (x, y).
+
+```js
+binarySearch.roomba([`NORTH`, `EAST`], 1, 1); // === true
+```
