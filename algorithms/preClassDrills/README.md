@@ -132,7 +132,7 @@ preClassDrills.printPyramidForwards(20); // run in a JS environment will log a p
 
 ```js
 const isEven = (num) => num % 2 === 0;
-const isGreaterThanTwo = (num) => num === 2;
+const isGreaterThanTwo = (num) => num > 2;
 preClassDrills.callbackFilterLoop([1, 2, 3, 4], isEven); // === [2, 4]
 preClassDrills.callbackFilterFilter([1, 2, 3, 4], isGreaterThanTwo); // === [3, 4]
 ```
