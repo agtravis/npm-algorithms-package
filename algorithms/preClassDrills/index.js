@@ -29,6 +29,10 @@ const {
   printPyramidWhile,
   printPyramidForwards,
 } = require(`./printPyramid`);
+const {
+  callbackFilterFilter,
+  callbackFilterLoop,
+} = require(`./callbackFilter`);
 
 module.exports = {
   greatestOfTwo,
@@ -56,4 +60,6 @@ module.exports = {
   printPyramid,
   printPyramidWhile,
   printPyramidForwards,
+  callbackFilterLoop,
+  callbackFilterFilter,
 };

@@ -127,3 +127,12 @@ preClassDrills.printPyramid(10); // run in a JS environment will log a pyramid t
 preClassDrills.printPyramidWhile(15); // run in a JS environment will log a pyramid to the console
 preClassDrills.printPyramidForwards(20); // run in a JS environment will log a pyramid to the console
 ```
+
+### A Function that Takes a Callback Function as an Argument to Filter an Array
+
+```js
+const isEven = (num) => num % 2 === 0;
+const isGreaterThanTwo = (num) => num === 2;
+preClassDrills.callbackFilterLoop([1, 2, 3, 4], isEven); // === [2, 4]
+preClassDrills.callbackFilterFilter([1, 2, 3, 4], isGreaterThanTwo); // === [3, 4]
+```
