@@ -413,3 +413,13 @@ Given two sorted lists of integers, merge them into one large sorted list.
 ```js
 binarySearch.mergeTwoSortedLists([5, 10, 15], [3, 8, 9]); // === [3, 5, 8, 9, 10, 15]
 ```
+
+### Remove Extraneous Spaces in a String
+
+Given a string `s` representing a sentence, strip all irrelevant spaces. That is, remove all leading and trailing spaces as well as extraneous spaces between words.
+
+```js
+binarySearch.removeExtraneousSpaces(
+  `     wise    as       an            owl         `
+); // === `wise as an owl`
+```
