@@ -50,6 +50,7 @@ const {
 } = require(`./factorialFactory`);
 const { evenStevens, evenStevensConstantSpace } = require(`./evenStevens`);
 const medianMinimization = require(`./medianMinimization`);
+const mergeTwoSortedLists = require(`./mergeTwoSortedLists`);
 
 module.exports = {
   take5,
@@ -100,4 +101,5 @@ module.exports = {
   evenStevens,
   evenStevensConstantSpace,
   medianMinimization,
+  mergeTwoSortedLists,
 };

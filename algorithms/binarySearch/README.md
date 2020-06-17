@@ -405,3 +405,11 @@ Note: `nums` is guaranteed to have an even length.
 ```js
 binarySearch.medianMinimization([1, 9, 7, 4, 3, 6]); // === 2
 ```
+
+### Merge Two Sorted Lists
+
+Given two sorted lists of integers, merge them into one large sorted list.
+
+```js
+binarySearch.mergeTwoSortedLists([5, 10, 15], [3, 8, 9]); // === [3, 5, 8, 9, 10, 15]
+```
