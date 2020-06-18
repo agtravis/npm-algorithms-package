@@ -54,6 +54,7 @@ const mergeTwoSortedLists = require(`./mergeTwoSortedLists`);
 const removeExtraneousSpaces = require(`./removeExtraneousSpaces`);
 const roomba = require(`./roomba`);
 const lengthOfALinkedList = require(`./lengthOfALinkedList`);
+const vigenereCipher = require(`./VigenereCipher`);
 
 module.exports = {
   take5,
@@ -108,4 +109,5 @@ module.exports = {
   removeExtraneousSpaces,
   roomba,
   lengthOfALinkedList,
+  vigenereCipher,
 };
