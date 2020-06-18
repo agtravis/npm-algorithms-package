@@ -181,3 +181,34 @@ classAlgorithms.isUnique([2, 8, 7, 5, 4, 3]); // === true
 classAlgorithms.isAnagramSort(`octagonal`, `tganoalco`); // === true
 classAlgorithms.isAnagramMap(`octagonal`, `hello`); // === false
 ```
+
+### Return the Maximum Number of Songs from an Array (of Song Durations) that Can Fit in a 60 Minute Playlist
+
+```js
+classAlgorithms.mostSongsInAPlaylist([
+  3,
+  5,
+  7,
+  2,
+  1,
+  4,
+  8,
+  5,
+  3,
+  2,
+  2,
+  1,
+  5,
+  7,
+  4,
+  2,
+  3,
+  1,
+  3,
+  4,
+  7,
+  8,
+  8,
+  2,
+]); // === 19
+```

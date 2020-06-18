@@ -24,6 +24,7 @@ const { camelCaseConcatenation, camelCaseMap } = require(`./camelCase`);
 const linearSearch = require(`./linearSearch`);
 const isUnique = require(`./isUnique`);
 const { isAnagramSort, isAnagramMap } = require(`./isAnagram`);
+const mostSongsInAPlaylist = require(`./mostSongsInAPlaylist`);
 
 module.exports = {
   arithmetic,
@@ -53,4 +54,5 @@ module.exports = {
   isUnique,
   isAnagramSort,
   isAnagramMap,
+  mostSongsInAPlaylist,
 };
