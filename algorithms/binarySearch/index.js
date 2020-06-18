@@ -53,6 +53,7 @@ const medianMinimization = require(`./medianMinimization`);
 const mergeTwoSortedLists = require(`./mergeTwoSortedLists`);
 const removeExtraneousSpaces = require(`./removeExtraneousSpaces`);
 const roomba = require(`./roomba`);
+const lengthOfALinkedList = require(`./lengthOfALinkedList`);
 
 module.exports = {
   take5,
@@ -106,4 +107,5 @@ module.exports = {
   mergeTwoSortedLists,
   removeExtraneousSpaces,
   roomba,
+  lengthOfALinkedList,
 };

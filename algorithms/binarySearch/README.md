@@ -433,3 +433,12 @@ Return whether after its moves it will end up in the coordinate (x, y).
 ```js
 binarySearch.roomba([`NORTH`, `EAST`], 1, 1); // === true
 ```
+
+### Length of a Linked List
+
+Given a singly linked list, return its length. The linked list has fields `next` and `val`.
+This needs a linked list in order to work, use [this](./linkedlist.md) as a simple linked list
+
+```js
+binarySearch.lengthOfALinkedList(list); // === requires construction of a linked list to run on
+```
