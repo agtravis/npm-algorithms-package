@@ -3,8 +3,8 @@
 module.exports = {
   // this one liner compares the original string to a split, reversed,
   // and joined version of the string and returns a boolean based on the comparison
-  isPalindromeSplitReverse: (s) => s === s.split('').reverse().join(''),
-  isPalindromeDoublePointer: (s) => {
+  tacocatSplitReverse: (s) => s === s.split('').reverse().join(''),
+  tacocatDoublePointer: (s) => {
     // loop through the input with a double pointer, i starts at the beginning, j starts at the end
     for (let i = 0, j = s.length - 1; i < j; ++i, --j) {
       // if a character at the beginning doesn't match the equivalent at the end

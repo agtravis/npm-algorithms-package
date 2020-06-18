@@ -55,6 +55,7 @@ const removeExtraneousSpaces = require(`./removeExtraneousSpaces`);
 const roomba = require(`./roomba`);
 const lengthOfALinkedList = require(`./lengthOfALinkedList`);
 const vigenereCipher = require(`./VigenereCipher`);
+const { tacocatDoublePointer, tacocatSplitReverse } = require(`./tacocat`);
 
 module.exports = {
   take5,
@@ -110,4 +111,6 @@ module.exports = {
   roomba,
   lengthOfALinkedList,
   vigenereCipher,
+  tacocatDoublePointer,
+  tacocatSplitReverse,
 };

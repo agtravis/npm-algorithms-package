@@ -452,3 +452,14 @@ Note: If the letter overflows past `z`, it gets wrapped around the other side.
 ```js
 binarySearch.vigenereCipher(`bcd`, `bbb`); // === `cde`
 ```
+
+### Tacocat
+
+Given a string `s`, return whether it is a palindrome. A palindrome is when the word is the same forwards and backwards.
+
+For example, "tacocat" is a palindrome.
+
+```js
+binarySearch.tacocatDoublePointer(`tacocat`); // === true
+binarySearch.tacocatSplitReverse(`burritocat`); // === false
+```
