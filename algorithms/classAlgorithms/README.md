@@ -212,3 +212,10 @@ classAlgorithms.mostSongsInAPlaylist([
   2,
 ]); // === 19
 ```
+
+### Is a Number a Perfect Square (is the Square Root an Integer)
+
+```js
+classAlgorithms.isPerfectSquareLoop(16); // === true
+classAlgorithms.isPerfectSquareSqrt(15); // === false
+```

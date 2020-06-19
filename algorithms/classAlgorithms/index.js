@@ -25,6 +25,10 @@ const linearSearch = require(`./linearSearch`);
 const isUnique = require(`./isUnique`);
 const { isAnagramSort, isAnagramMap } = require(`./isAnagram`);
 const mostSongsInAPlaylist = require(`./mostSongsInAPlaylist`);
+const {
+  isPerfectSquareLoop,
+  isPerfectSquareSqrt,
+} = require(`./isPerfectSquare`);
 
 module.exports = {
   arithmetic,
@@ -55,4 +59,6 @@ module.exports = {
   isAnagramSort,
   isAnagramMap,
   mostSongsInAPlaylist,
+  isPerfectSquareLoop,
+  isPerfectSquareSqrt,
 };
