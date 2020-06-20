@@ -29,6 +29,7 @@ const {
   isPerfectSquareLoop,
   isPerfectSquareSqrt,
 } = require(`./isPerfectSquare`);
+const arraySearch2D = require(`./arraySearch2D`);
 
 module.exports = {
   arithmetic,
@@ -61,4 +62,5 @@ module.exports = {
   mostSongsInAPlaylist,
   isPerfectSquareLoop,
   isPerfectSquareSqrt,
+  arraySearch2D,
 };

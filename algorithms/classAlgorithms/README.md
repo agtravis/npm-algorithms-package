@@ -219,3 +219,14 @@ classAlgorithms.mostSongsInAPlaylist([
 classAlgorithms.isPerfectSquareLoop(16); // === true
 classAlgorithms.isPerfectSquareSqrt(15); // === false
 ```
+
+### Return the Number of `X`s in a 2D Array
+
+```js
+classAlgorithms.arraySearch2D([
+  [`X`, `O`, `O`, `O`],
+  [`O`, `O`, `O`, `O`],
+  [`X`, `X`, `X`, `X`],
+  [`O`, `O`, `O`, `O`],
+]); // === 5
+```
