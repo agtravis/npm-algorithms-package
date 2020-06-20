@@ -136,3 +136,9 @@ const isGreaterThanTwo = (num) => num > 2;
 preClassDrills.callbackFilterLoop([1, 2, 3, 4], isEven); // === [2, 4]
 preClassDrills.callbackFilterFilter([1, 2, 3, 4], isGreaterThanTwo); // === [3, 4]
 ```
+
+### Return a Single Flattened Array
+
+```js
+preClassDrills.flatten(['a', 54, null], [[]], [], ['pizza', 42]); // === ['a', 54, null, 'pizza', 42]
+```

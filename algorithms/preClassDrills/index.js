@@ -33,6 +33,7 @@ const {
   callbackFilterFilter,
   callbackFilterLoop,
 } = require(`./callbackFilter`);
+const flatten = require(`./flatten`);
 
 module.exports = {
   greatestOfTwo,
@@ -62,4 +63,5 @@ module.exports = {
   printPyramidForwards,
   callbackFilterLoop,
   callbackFilterFilter,
+  flatten,
 };
