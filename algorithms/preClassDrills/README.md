@@ -140,5 +140,5 @@ preClassDrills.callbackFilterFilter([1, 2, 3, 4], isGreaterThanTwo); // === [3, 
 ### Return a Single Flattened Array
 
 ```js
-preClassDrills.flatten(['a', 54, null], [[]], [], ['pizza', 42]); // === ['a', 54, null, 'pizza', 42]
+preClassDrills.flatten(['a', 54, null], [[]], [], ['pizza', 42]); // === ['a', 54, null, [], 'pizza', 42]
 ```
