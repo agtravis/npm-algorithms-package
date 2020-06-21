@@ -34,6 +34,7 @@ const {
   callbackFilterLoop,
 } = require(`./callbackFilter`);
 const flatten = require(`./flatten`);
+const { hasSome, hasAll, hasNone, hasMost } = require(`./passConditions`);
 
 module.exports = {
   greatestOfTwo,
@@ -64,4 +65,8 @@ module.exports = {
   callbackFilterLoop,
   callbackFilterFilter,
   flatten,
+  hasSome,
+  hasAll,
+  hasNone,
+  hasMost,
 };

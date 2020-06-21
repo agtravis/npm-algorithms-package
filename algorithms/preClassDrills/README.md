@@ -142,3 +142,18 @@ preClassDrills.callbackFilterFilter([1, 2, 3, 4], isGreaterThanTwo); // === [3, 
 ```js
 preClassDrills.flatten(['a', 54, null], [[]], [], ['pizza', 42]); // === ['a', 54, null, [], 'pizza', 42]
 ```
+
+### Write Functions that Return Booleans Based on Whether an Input Array Passes an Input Callback
+
+```js
+const isEven = (num) => num % 2 === 0;
+preClassDrills.hasSome([1, 2, 3], isEven); // === true
+preClassDrills.hasAll([1, 2, 3], isEven); // === false
+preClassDrills.hasNone([1, 2, 3], isEven); // === false
+preClassDrills.hasMost([2, 3, 4], isEven); // === true
+```
+
+hasSome,
+hasAll,
+hasNone,
+hasMost,
