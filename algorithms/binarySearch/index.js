@@ -56,6 +56,7 @@ const roomba = require(`./roomba`);
 const lengthOfALinkedList = require(`./lengthOfALinkedList`);
 const vigenereCipher = require(`./VigenereCipher`);
 const { tacocatDoublePointer, tacocatSplitReverse } = require(`./tacocat`);
+const largestGap = require(`./largestGap`);
 
 module.exports = {
   take5,
@@ -113,4 +114,5 @@ module.exports = {
   vigenereCipher,
   tacocatDoublePointer,
   tacocatSplitReverse,
+  largestGap,
 };

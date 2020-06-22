@@ -463,3 +463,11 @@ For example, "tacocat" is a palindrome.
 binarySearch.tacocatDoublePointer(`tacocat`); // === true
 binarySearch.tacocatSplitReverse(`burritocat`); // === false
 ```
+
+### Largest Gap
+
+Given a list of integers `nums`, return the largest difference of two consecutive integers in the sorted version of `nums`.
+
+```js
+binarySearch.largestGap([4, 1, 2, 8, 9, 10]); // === 4
+```
