@@ -30,6 +30,7 @@ const {
   isPerfectSquareSqrt,
 } = require(`./isPerfectSquare`);
 const arraySearch2D = require(`./arraySearch2D`);
+const multiplyInto20 = require(`./multiplyInto20`);
 
 module.exports = {
   arithmetic,
@@ -63,4 +64,5 @@ module.exports = {
   isPerfectSquareLoop,
   isPerfectSquareSqrt,
   arraySearch2D,
+  multiplyInto20,
 };

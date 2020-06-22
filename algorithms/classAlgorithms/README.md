@@ -230,3 +230,9 @@ classAlgorithms.arraySearch2D([
   [`O`, `O`, `O`, `O`],
 ]); // === 5
 ```
+
+### Does an Array Contain Two Numbers that Multiply Together to Make a Product of 20
+
+```js
+classAlgorithms.multiplyInto20([2, 8, 7, 5, 4, 3]); // === true
+```

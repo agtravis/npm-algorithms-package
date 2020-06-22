@@ -152,8 +152,3 @@ preClassDrills.hasAll([1, 2, 3], isEven); // === false
 preClassDrills.hasNone([1, 2, 3], isEven); // === false
 preClassDrills.hasMost([2, 3, 4], isEven); // === true
 ```
-
-hasSome,
-hasAll,
-hasNone,
-hasMost,
