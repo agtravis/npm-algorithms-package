@@ -471,3 +471,11 @@ Given a list of integers `nums`, return the largest difference of two consecutiv
 ```js
 binarySearch.largestGap([4, 1, 2, 8, 9, 10]); // === 4
 ```
+
+### Consecutive Duplicates
+
+Given a string `s`, consisting of "X" and "Y", delete the minimum number of characters such that there's no consecutive "X" and no consecutive "Y".
+
+```js
+binarySearch.consecutiveDuplicates(`YYYXYXX`); // === `YXYX`
+```

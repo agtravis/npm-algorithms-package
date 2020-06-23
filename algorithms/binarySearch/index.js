@@ -57,6 +57,7 @@ const lengthOfALinkedList = require(`./lengthOfALinkedList`);
 const vigenereCipher = require(`./VigenereCipher`);
 const { tacocatDoublePointer, tacocatSplitReverse } = require(`./tacocat`);
 const largestGap = require(`./largestGap`);
+const consecutiveDuplicates = require(`./consecutiveDuplicates`);
 
 module.exports = {
   take5,
@@ -115,4 +116,5 @@ module.exports = {
   tacocatDoublePointer,
   tacocatSplitReverse,
   largestGap,
+  consecutiveDuplicates,
 };
