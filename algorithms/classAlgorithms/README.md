@@ -236,3 +236,10 @@ classAlgorithms.arraySearch2D([
 ```js
 classAlgorithms.multiplyInto20([2, 8, 7, 5, 4, 3]); // === true
 ```
+
+### Is a String Containing Only Zeros and Ones Balanced
+
+```js
+classAlgorithms.zerosAndOnesLoop(`10101010`); // === true
+classAlgorithms.zerosAndOnesReduce(`1010101`); // === false
+```
