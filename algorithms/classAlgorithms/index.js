@@ -32,6 +32,7 @@ const {
 const arraySearch2D = require(`./arraySearch2D`);
 const multiplyInto20 = require(`./multiplyInto20`);
 const { zerosAndOnesLoop, zerosAndOnesReduce } = require(`./zerosAndOnes`);
+const mergeKSorted = require(`./mergeKSorted`);
 
 module.exports = {
   arithmetic,
@@ -68,4 +69,5 @@ module.exports = {
   multiplyInto20,
   zerosAndOnesLoop,
   zerosAndOnesReduce,
+  mergeKSorted,
 };

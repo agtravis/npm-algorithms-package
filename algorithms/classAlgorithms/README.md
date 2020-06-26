@@ -243,3 +243,15 @@ classAlgorithms.multiplyInto20([2, 8, 7, 5, 4, 3]); // === true
 classAlgorithms.zerosAndOnesLoop(`10101010`); // === true
 classAlgorithms.zerosAndOnesReduce(`1010101`); // === false
 ```
+
+### Merge K Sorted Arrays (Where the Arrays are Individual Arguments)
+
+```js
+classAlgorithms.mergeKSorted(
+  [-50, 0, 99, 100],
+  [0, 2],
+  [],
+  [-30, 1, 4, 5],
+  [3]
+); // === [-50, -30, 0, 0, 1, 2, 3, 4, 5, 99, 100]
+```
