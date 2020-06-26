@@ -58,6 +58,7 @@ const vigenereCipher = require(`./VigenereCipher`);
 const { tacocatDoublePointer, tacocatSplitReverse } = require(`./tacocat`);
 const largestGap = require(`./largestGap`);
 const consecutiveDuplicates = require(`./consecutiveDuplicates`);
+const numeronym = require(`./numeronym`);
 
 module.exports = {
   take5,
@@ -117,4 +118,5 @@ module.exports = {
   tacocatSplitReverse,
   largestGap,
   consecutiveDuplicates,
+  numeronym,
 };

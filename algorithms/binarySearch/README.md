@@ -479,3 +479,11 @@ Given a string `s`, consisting of "X" and "Y", delete the minimum number of char
 ```js
 binarySearch.consecutiveDuplicates(`YYYXYXX`); // === `YXYX`
 ```
+
+### Numeronym
+
+Given a string `s` with length greater than 2, return a new string where the first and last letter are the same, but the letters in between are replaced by their length.
+
+```js
+binarySearch.numeronym(`extracurricular`); // === `e13r`
+```
