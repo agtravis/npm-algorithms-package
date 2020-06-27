@@ -11,6 +11,7 @@ const {
   mergeTwoSortedArraysReverseSortFirst,
   mergeTwoSortedArraysSimpleWhile,
 } = require(`./mergeTwoSortedArrays`);
+const firstRecurringDuplicate = require(`./firstRecurringDuplicate`);
 
 module.exports = {
   commonItems,
@@ -20,4 +21,5 @@ module.exports = {
   mergeTwoSortedArraysDoublePointer,
   mergeTwoSortedArraysReverseSortFirst,
   mergeTwoSortedArraysSimpleWhile,
+  firstRecurringDuplicate,
 };

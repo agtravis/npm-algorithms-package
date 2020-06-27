@@ -52,3 +52,11 @@ udemy.mergeTwoSortedArraysSimpleWhile(
   [0, 3, 4, 31]
 ); // === [0,  3,  4,  4,  6, 30, 31, 31, 32, 33, 34]
 ```
+
+### Return the First Recurring Duplicate in an Array Using a Scratch Built Hash Table
+
+See the code for the custom built array [here](./hashTable.md)
+
+```js
+udemy.firstRecurringDuplicate([2, 5, 1, 2, 3, 5, 1, 2, 4]); // === 2
+```
