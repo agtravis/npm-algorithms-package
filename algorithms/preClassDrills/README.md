@@ -152,3 +152,11 @@ preClassDrills.hasAll([1, 2, 3], isEven); // === false
 preClassDrills.hasNone([1, 2, 3], isEven); // === false
 preClassDrills.hasMost([2, 3, 4], isEven); // === true
 ```
+
+### Reverse a Number
+
+A function that takes in a number and reverses the order of the digits.
+
+```js
+preClassDrills.reverseNumber(-1234); // === -4321
+```

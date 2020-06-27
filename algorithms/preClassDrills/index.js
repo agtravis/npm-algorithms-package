@@ -35,6 +35,7 @@ const {
 } = require(`./callbackFilter`);
 const flatten = require(`./flatten`);
 const { hasSome, hasAll, hasNone, hasMost } = require(`./passConditions`);
+const reverseNumber = require(`./reverseNumber`);
 
 module.exports = {
   greatestOfTwo,
@@ -69,4 +70,5 @@ module.exports = {
   hasAll,
   hasNone,
   hasMost,
+  reverseNumber,
 };
