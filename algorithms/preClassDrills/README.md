@@ -160,3 +160,9 @@ A function that takes in a number and reverses the order of the digits.
 ```js
 preClassDrills.reverseNumber(-1234); // === -4321
 ```
+
+## Remove Spaces from a String and Convert to Lower Case
+
+```js
+preClassDrills.removeSpaces(`I liKe        PIZZA`); // === `ilikepizza`
+```

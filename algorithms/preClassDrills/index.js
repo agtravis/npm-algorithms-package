@@ -36,6 +36,7 @@ const {
 const flatten = require(`./flatten`);
 const { hasSome, hasAll, hasNone, hasMost } = require(`./passConditions`);
 const reverseNumber = require(`./reverseNumber`);
+const removeSpaces = require(`./removeSpaces`);
 
 module.exports = {
   greatestOfTwo,
@@ -71,4 +72,5 @@ module.exports = {
   hasNone,
   hasMost,
   reverseNumber,
+  removeSpaces,
 };
