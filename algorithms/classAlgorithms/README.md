@@ -255,3 +255,9 @@ classAlgorithms.mergeKSorted(
   [3]
 ); // === [-50, -30, 0, 0, 1, 2, 3, 4, 5, 99, 100]
 ```
+
+### Two Arrays Share a Common Element, Return that Element
+
+```js
+classAlgorithms.commonElement([5, 3, 4, 10], [0, 4, 9, 99]); // === 4
+```
