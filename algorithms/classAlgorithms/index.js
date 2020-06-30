@@ -34,6 +34,7 @@ const multiplyInto20 = require(`./multiplyInto20`);
 const { zerosAndOnesLoop, zerosAndOnesReduce } = require(`./zerosAndOnes`);
 const mergeKSorted = require(`./mergeKSorted`);
 const commonElement = require(`./commonElement`);
+const permutationSubstring = require(`./permutationSubstring`);
 
 module.exports = {
   arithmetic,
@@ -72,4 +73,5 @@ module.exports = {
   zerosAndOnesReduce,
   mergeKSorted,
   commonElement,
+  permutationSubstring,
 };

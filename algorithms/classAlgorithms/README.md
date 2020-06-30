@@ -261,3 +261,9 @@ classAlgorithms.mergeKSorted(
 ```js
 classAlgorithms.commonElement([5, 3, 4, 10], [0, 4, 9, 99]); // === 4
 ```
+
+### Is a Substring Constructed Using Exclusively Letters Contained Within a String
+
+```js
+classAlgorithms.permutationSubstring(`tbacowa`, `bat`); // === true
+```
