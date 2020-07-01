@@ -35,6 +35,7 @@ const { zerosAndOnesLoop, zerosAndOnesReduce } = require(`./zerosAndOnes`);
 const mergeKSorted = require(`./mergeKSorted`);
 const commonElement = require(`./commonElement`);
 const permutationSubstring = require(`./permutationSubstring`);
+const stringMap = require(`./stringMap`);
 
 module.exports = {
   arithmetic,
@@ -74,4 +75,5 @@ module.exports = {
   mergeKSorted,
   commonElement,
   permutationSubstring,
+  stringMap,
 };

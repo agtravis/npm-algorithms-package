@@ -267,3 +267,9 @@ classAlgorithms.commonElement([5, 3, 4, 10], [0, 4, 9, 99]); // === 4
 ```js
 classAlgorithms.permutationSubstring(`tbacowa`, `bat`); // === true
 ```
+
+### Take a String and Return an Object Containing a Map Where Each Key Holds an Array of the indeces of Each Letter
+
+```js
+classAlgorithms.stringMap(`hello world`); // === {"h":[0],"e":[1],"l":[2, 3, 9],"o":[4, 7]," ":[5],"w":[6],"r":[8],"d":[10]}
+```
