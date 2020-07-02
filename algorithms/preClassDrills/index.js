@@ -41,6 +41,7 @@ const {
   haveSameTotalPosition,
   haveSameTotalPositionEvery,
 } = require(`./haveSameTotalPosition`);
+const multipleAnagrams = require(`./multipleAnagrams`);
 
 module.exports = {
   greatestOfTwo,
@@ -79,4 +80,5 @@ module.exports = {
   removeSpaces,
   haveSameTotalPosition,
   haveSameTotalPositionEvery,
+  multipleAnagrams,
 };

@@ -173,3 +173,15 @@ preClassDrills.removeSpaces(`I liKe        PIZZA`); // === `ilikepizza`
 preClassDrills.haveSameTotalPosition(`abc`, `f`, `cba`); // === true
 preClassDrills.haveSameTotalPositionEvery(`abc`, `bcd`); // === false
 ```
+
+### Determine if All Strings Passed as Arguments are Anagrams of Eachother
+
+```js
+preClassDrills.multipleAnagrams(
+  `the morse code`,
+  `here come dots`,
+  `e ooesmhcrdt e`
+); // === true
+preClassDrills.multipleAnagrams(`pizza`, `pzza`); // === false
+preClassDrills.multipleAnagrams(`pzza`, `pizza`); // === false
+```
