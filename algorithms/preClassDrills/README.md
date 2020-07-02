@@ -161,8 +161,15 @@ A function that takes in a number and reverses the order of the digits.
 preClassDrills.reverseNumber(-1234); // === -4321
 ```
 
-## Remove Spaces from a String and Convert to Lower Case
+### Remove Spaces from a String and Convert to Lower Case
 
 ```js
 preClassDrills.removeSpaces(`I liKe        PIZZA`); // === `ilikepizza`
+```
+
+### Determine if the Sum of all Positions of Characters in a Word are Equal, Given Any Number of Strings
+
+```js
+preClassDrills.haveSameTotalPosition(`abc`, `f`, `cba`); // === true
+preClassDrills.haveSameTotalPositionEvery(`abc`, `bcd`); // === false
 ```
