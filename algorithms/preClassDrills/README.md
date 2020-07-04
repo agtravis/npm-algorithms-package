@@ -185,3 +185,10 @@ preClassDrills.multipleAnagrams(
 preClassDrills.multipleAnagrams(`pizza`, `pzza`); // === false
 preClassDrills.multipleAnagrams(`pzza`, `pizza`); // === false
 ```
+
+### Determine if a Subword is Contained in All of Any Amount of Inputs
+
+```js
+preClassDrills.haveSubWord(`car`, `racecar`, `haircare`, `carbon`); // === true
+preClassDrills.haveSubWord(`car`, `racecar`, `haircare`, `carbon`, `pizza`); // === false
+```
