@@ -59,6 +59,7 @@ const { tacocatDoublePointer, tacocatSplitReverse } = require(`./tacocat`);
 const largestGap = require(`./largestGap`);
 const consecutiveDuplicates = require(`./consecutiveDuplicates`);
 const numeronym = require(`./numeronym`);
+const narcissisticNumber = require(`./narcissisticNumber`);
 
 module.exports = {
   take5,
@@ -119,4 +120,5 @@ module.exports = {
   largestGap,
   consecutiveDuplicates,
   numeronym,
+  narcissisticNumber,
 };

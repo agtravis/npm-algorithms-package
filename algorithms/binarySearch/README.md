@@ -487,3 +487,11 @@ Given a string `s` with length greater than 2, return a new string where the fir
 ```js
 binarySearch.numeronym(`extracurricular`); // === `e13r`
 ```
+
+### Narcissistic Number
+
+Given an integer `n`, return whether it is equal to the sum of its own digits raised to the power of the number of digits.
+
+```js
+binarySearch.narcissisticNumber(153); // === true
+```
