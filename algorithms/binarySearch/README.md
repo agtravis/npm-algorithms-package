@@ -495,3 +495,21 @@ Given an integer `n`, return whether it is equal to the sum of its own digits ra
 ```js
 binarySearch.narcissisticNumber(153); // === true
 ```
+
+### Galaxy Brain Scrum Master
+
+You are given a two-dimensional list of integers `intervals` and an integer `time`. Each element contains `[start, end]` representing the times when a programmer worked.
+
+Return the number of programmers that were working at `time`.
+
+```js
+binarySearch.galaxyBrainScrumMaster(
+  [
+    [1, 5],
+    [3, 9],
+    [4, 8],
+    [10, 13],
+  ],
+  4
+); // === 3
+```

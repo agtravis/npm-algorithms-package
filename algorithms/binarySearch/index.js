@@ -60,6 +60,7 @@ const largestGap = require(`./largestGap`);
 const consecutiveDuplicates = require(`./consecutiveDuplicates`);
 const numeronym = require(`./numeronym`);
 const narcissisticNumber = require(`./narcissisticNumber`);
+const galaxyBrainScrumMaster = require(`./galaxyBrainScrumMaster`);
 
 module.exports = {
   take5,
@@ -121,4 +122,5 @@ module.exports = {
   consecutiveDuplicates,
   numeronym,
   narcissisticNumber,
+  galaxyBrainScrumMaster,
 };
