@@ -273,3 +273,9 @@ classAlgorithms.permutationSubstring(`tbacowa`, `bat`); // === true
 ```js
 classAlgorithms.stringMap(`hello world`); // === {"h":[0],"e":[1],"l":[2, 3, 9],"o":[4, 7]," ":[5],"w":[6],"r":[8],"d":[10]}
 ```
+
+### Take an Input Array of Integers, and Map it to an Array where Each Integer is either Doubled or Tripled based on if it is Even or Odd Respectively
+
+```js
+classAlgorithms.doubleTripleMap([1, 2, 3, 4]); // === [3, 4, 9, 8]
+```
