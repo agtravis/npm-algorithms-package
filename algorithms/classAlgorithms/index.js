@@ -37,6 +37,7 @@ const commonElement = require(`./commonElement`);
 const permutationSubstring = require(`./permutationSubstring`);
 const stringMap = require(`./stringMap`);
 const doubleTripleMap = require(`./doubleTripleMap`);
+const arrayIntersection = require(`./arrayIntersection`);
 
 module.exports = {
   arithmetic,
@@ -78,4 +79,5 @@ module.exports = {
   permutationSubstring,
   stringMap,
   doubleTripleMap,
+  arrayIntersection,
 };

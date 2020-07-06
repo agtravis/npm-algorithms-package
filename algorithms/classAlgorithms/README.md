@@ -279,3 +279,9 @@ classAlgorithms.stringMap(`hello world`); // === {"h":[0],"e":[1],"l":[2, 3, 9],
 ```js
 classAlgorithms.doubleTripleMap([1, 2, 3, 4]); // === [3, 4, 9, 8]
 ```
+
+### Return the Intersections of Two Arrays
+
+```js
+classAlgorithms.arrayIntersection([1, 2, 3, 4, 5], [5, 0, 3, 10, -2, 1]); // === [1, 3, 5]
+```
