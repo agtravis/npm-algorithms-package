@@ -61,6 +61,7 @@ const consecutiveDuplicates = require(`./consecutiveDuplicates`);
 const numeronym = require(`./numeronym`);
 const narcissisticNumber = require(`./narcissisticNumber`);
 const galaxyBrainScrumMaster = require(`./galaxyBrainScrumMaster`);
+const contains369 = require(`./contains369`);
 
 module.exports = {
   take5,
@@ -123,4 +124,5 @@ module.exports = {
   numeronym,
   narcissisticNumber,
   galaxyBrainScrumMaster,
+  contains369,
 };

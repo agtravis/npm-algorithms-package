@@ -513,3 +513,11 @@ binarySearch.galaxyBrainScrumMaster(
   4
 ); // === 3
 ```
+
+### Contains 3-6-9
+
+Given an integer `n`, return a list with each number from 1 to n, except if it's a multiple of 3 or has a 3, 6, or 9 in the number, it should be the string `"clap"`.
+
+```js
+binarySearch.contains369(16); // === [`1`, `2`, `clap`, `4`, `5`, `clap`, `7`, `8`, `clap`, `10`, `11`, `clap`, `clap`, `14`, `clap`, `clap`]
+```
