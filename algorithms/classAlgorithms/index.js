@@ -38,6 +38,11 @@ const permutationSubstring = require(`./permutationSubstring`);
 const stringMap = require(`./stringMap`);
 const doubleTripleMap = require(`./doubleTripleMap`);
 const arrayIntersection = require(`./arrayIntersection`);
+const {
+  sortedSquaresWithSort,
+  sortedSquaresNoSort,
+  sortedSquaresNoSortCleaner,
+} = require(`./sortedSquares`);
 
 module.exports = {
   arithmetic,
@@ -80,4 +85,7 @@ module.exports = {
   stringMap,
   doubleTripleMap,
   arrayIntersection,
+  sortedSquaresWithSort,
+  sortedSquaresNoSort,
+  sortedSquaresNoSortCleaner,
 };

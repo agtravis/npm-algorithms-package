@@ -285,3 +285,11 @@ classAlgorithms.doubleTripleMap([1, 2, 3, 4]); // === [3, 4, 9, 8]
 ```js
 classAlgorithms.arrayIntersection([1, 2, 3, 4, 5], [5, 0, 3, 10, -2, 1]); // === [1, 3, 5]
 ```
+
+### Return a Sorted Array with its Elements Squared and Sorted
+
+```js
+classAlgorithms.sortedSquaresWithSort([-4, -1, 0, 3, 10]); // === [0, 1, 9, 16, 100]
+classAlgorithms.sortedSquaresNoSort([-7, -3, 2, 3, 11]); // === [4, 9, 9, 49, 121]
+classAlgorithms.sortedSquaresNoSortCleaner([-7, -3, 2, 3, 11]); // === [4, 9, 9, 49, 121]
+```
