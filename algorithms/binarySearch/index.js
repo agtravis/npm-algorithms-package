@@ -62,6 +62,7 @@ const numeronym = require(`./numeronym`);
 const narcissisticNumber = require(`./narcissisticNumber`);
 const galaxyBrainScrumMaster = require(`./galaxyBrainScrumMaster`);
 const contains369 = require(`./contains369`);
+const sumOfTwoNumbers = require(`./sumOfTwoNumbers`);
 
 module.exports = {
   take5,
@@ -125,4 +126,5 @@ module.exports = {
   narcissisticNumber,
   galaxyBrainScrumMaster,
   contains369,
+  sumOfTwoNumbers,
 };

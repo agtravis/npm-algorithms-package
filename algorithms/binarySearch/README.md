@@ -521,3 +521,11 @@ Given an integer `n`, return a list with each number from 1 to n, except if it's
 ```js
 binarySearch.contains369(16); // === [`1`, `2`, `clap`, `4`, `5`, `clap`, `7`, `8`, `clap`, `10`, `11`, `clap`, `clap`, `14`, `clap`, `clap`]
 ```
+
+### Sum of Two Numbers
+
+Given a list of numbers `nums` and a number `k`, return whether any two numbers from the list add up to `k`. You may not use the same element twice.
+
+```js
+binarySearch.sumOfTwoNumbers([35, 8, 18, 3, 22], 11); // === true
+```
