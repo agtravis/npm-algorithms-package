@@ -181,3 +181,13 @@ leetCode.rotateArrayUnshift([1, 2, 3, 4, 5, 6, 7], 3); // === [5, 6, 7, 1, 2, 3,
 leetCode.rotateArrayLikeUnshift([1, 2, 3, 4, 5, 6, 7], 3); // === [5, 6, 7, 1, 2, 3, 4]
 leetCode.rotateArrayWithCopy([1, 2, 3, 4, 5, 6, 7], 3); // === [5, 6, 7, 1, 2, 3, 4]
 ```
+
+### Merge Two Sorted Lists
+
+[https://leetcode.com/problems/merge-two-sorted-lists/](https://leetcode.com/problems/merge-two-sorted-lists/)
+
+NOTE: Needs [this](./linkedList.md) to run successfully (`Linked List` set up)
+
+```js
+leetCode.mergeTwoSortedLists(linkedList1, linkedList2);
+```

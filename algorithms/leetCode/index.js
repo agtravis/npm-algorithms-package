@@ -26,6 +26,7 @@ const {
   rotateArrayWithCopy,
   rotateArrayUnshift,
 } = require(`./rotateArray`);
+const mergeTwoSortedLists = require(`./mergeTwoSortedLists`);
 
 module.exports = {
   smallerNumbersThanCurrent,
@@ -51,4 +52,5 @@ module.exports = {
   rotateArrayLikeUnshift,
   rotateArrayWithCopy,
   rotateArrayUnshift,
+  mergeTwoSortedLists,
 };
