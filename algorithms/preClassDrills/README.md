@@ -192,3 +192,10 @@ preClassDrills.multipleAnagrams(`pzza`, `pizza`); // === false
 preClassDrills.haveSubWord(`car`, `racecar`, `haircare`, `carbon`); // === true
 preClassDrills.haveSubWord(`car`, `racecar`, `haircare`, `carbon`, `pizza`); // === false
 ```
+
+### Determine if a String Contains a Palindrome
+
+```js
+preClassDrills.hasPalindrome(`aqabac`); // === true
+preClassDrills.hasPalindrome(`aqaac`); // === true
+```

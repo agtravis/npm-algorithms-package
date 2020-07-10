@@ -43,6 +43,7 @@ const {
 } = require(`./haveSameTotalPosition`);
 const multipleAnagrams = require(`./multipleAnagrams`);
 const haveSubWord = require(`./haveSubWord`);
+const hasPalindrome = require(`./hasPalindrome`);
 
 module.exports = {
   greatestOfTwo,
@@ -83,4 +84,5 @@ module.exports = {
   haveSameTotalPositionEvery,
   multipleAnagrams,
   haveSubWord,
+  hasPalindrome,
 };
