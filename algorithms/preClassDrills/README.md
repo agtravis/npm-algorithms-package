@@ -199,3 +199,9 @@ preClassDrills.haveSubWord(`car`, `racecar`, `haircare`, `carbon`, `pizza`); // 
 preClassDrills.hasPalindrome(`aqabac`); // === true
 preClassDrills.hasPalindrome(`aqaac`); // === true
 ```
+
+### Find the Longest Palindrome in a String (Return `null` if None Exists)
+
+```js
+preClassDrills.longestPalindrome(`abaqcabbap`); // abba
+```
