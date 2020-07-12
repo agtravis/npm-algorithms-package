@@ -63,6 +63,7 @@ const narcissisticNumber = require(`./narcissisticNumber`);
 const galaxyBrainScrumMaster = require(`./galaxyBrainScrumMaster`);
 const contains369 = require(`./contains369`);
 const sumOfTwoNumbers = require(`./sumOfTwoNumbers`);
+const runLengthEncoding = require(`./runLengthEncoding`);
 
 module.exports = {
   take5,
@@ -127,4 +128,5 @@ module.exports = {
   galaxyBrainScrumMaster,
   contains369,
   sumOfTwoNumbers,
+  runLengthEncoding,
 };

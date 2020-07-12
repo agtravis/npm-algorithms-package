@@ -529,3 +529,11 @@ Given a list of numbers `nums` and a number `k`, return whether any two numbers 
 ```js
 binarySearch.sumOfTwoNumbers([35, 8, 18, 3, 22], 11); // === true
 ```
+
+### Run-Length Encoding
+
+Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
+
+```js
+binarySearch.runLengthEncoding(`AAAABBBCCDAA`); // === 4A3B2C1D2A
+```
