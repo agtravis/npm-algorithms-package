@@ -537,3 +537,12 @@ Run-length encoding is a fast and simple method of encoding strings. The basic i
 ```js
 binarySearch.runLengthEncoding(`AAAABBBCCDAA`); // === 4A3B2C1D2A
 ```
+
+### Strictly Increasing or Decreasing
+
+Given an list of numbers, determine whether the list is strictly increasing or strictly decreasing.
+
+```js
+binarySearch.strictlyIncOrDec([1, 2, 3, 4, 6]); // === true
+binarySearch.strictlyIncOrDec([1, 2, 2, 4, 5]); // === false
+```
