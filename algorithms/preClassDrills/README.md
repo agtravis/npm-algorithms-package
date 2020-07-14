@@ -205,3 +205,9 @@ preClassDrills.hasPalindrome(`aqaac`); // === true
 ```js
 preClassDrills.longestPalindrome(`abaqcabbap`); // abba
 ```
+
+### Return the Indices of Two Numbers in an Array that Sum a Target Input
+
+```js
+preClassDrills.findSumIndices(3, [0, 1, 2, 3, 4, 5]); // === [0, 3]
+```

@@ -45,6 +45,7 @@ const multipleAnagrams = require(`./multipleAnagrams`);
 const haveSubWord = require(`./haveSubWord`);
 const hasPalindrome = require(`./hasPalindrome`);
 const longestPalindrome = require(`./longestPalindrome`);
+const findSumIndices = require(`./findSumIndices`);
 
 module.exports = {
   greatestOfTwo,
@@ -87,4 +88,5 @@ module.exports = {
   haveSubWord,
   hasPalindrome,
   longestPalindrome,
+  findSumIndices,
 };
