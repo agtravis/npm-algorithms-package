@@ -546,3 +546,11 @@ Given an list of numbers, determine whether the list is strictly increasing or s
 binarySearch.strictlyIncOrDec([1, 2, 3, 4, 6]); // === true
 binarySearch.strictlyIncOrDec([1, 2, 2, 4, 5]); // === false
 ```
+
+### Largest by Double
+
+Given a list of integers, return whether the largest number is bigger than the second-largest number by more than two times.
+
+```js
+binarySearch.largestByDouble([6, 3, 15]); // === true
+```

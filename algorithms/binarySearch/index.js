@@ -65,6 +65,7 @@ const contains369 = require(`./contains369`);
 const sumOfTwoNumbers = require(`./sumOfTwoNumbers`);
 const runLengthEncoding = require(`./runLengthEncoding`);
 const strictlyIncOrDec = require(`./strictlyIncOrDec`);
+const largestByDouble = require(`./largestByDouble`);
 
 module.exports = {
   take5,
@@ -131,4 +132,5 @@ module.exports = {
   sumOfTwoNumbers,
   runLengthEncoding,
   strictlyIncOrDec,
+  largestByDouble,
 };
