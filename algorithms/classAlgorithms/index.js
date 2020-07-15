@@ -43,6 +43,7 @@ const {
   sortedSquaresNoSort,
   sortedSquaresNoSortCleaner,
 } = require(`./sortedSquares`);
+const squareRoot = require(`./squareRoot`);
 
 module.exports = {
   arithmetic,
@@ -88,4 +89,5 @@ module.exports = {
   sortedSquaresWithSort,
   sortedSquaresNoSort,
   sortedSquaresNoSortCleaner,
+  squareRoot,
 };
