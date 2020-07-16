@@ -191,3 +191,13 @@ NOTE: Needs [this](./linkedList.md) to run successfully (`Linked List` set up)
 ```js
 leetCode.mergeTwoSortedLists(linkedList1, linkedList2);
 ```
+
+### Remove the Nth Node from the End of a Linked List
+
+[https://leetcode.com/problems/remove-nth-node-from-end-of-list/](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+
+NOTE: Needs [this](./linkedList.md) to run successfully (`Linked List` set up)
+
+```js
+leetCode.removeNthFromEndNode(linkedList1, 2);
+```
