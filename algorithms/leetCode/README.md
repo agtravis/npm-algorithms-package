@@ -105,7 +105,7 @@ leetCode.twoSum([2, 7, 11, 15], 9); // === [0, 1]
 
 [https://leetcode.com/problems/merge-k-sorted-lists/](https://leetcode.com/problems/merge-k-sorted-lists/)
 
-NOTE: Needs [this](./linkedList.md) to run successfully (`Linked List` set up)
+NOTE: Needs [this code (maybe with minor edits to the list inputs to see effects)](./linkedList.md) to run successfully (`Linked List` set up)
 
 ```js
 leetCode.mergeKSortedLists([linkedList1, linkedList2, linkedList3]);
@@ -131,7 +131,7 @@ leetCode.defangIPAddress(`255.100.50.0`); // === `255[.]100[.]50[.]0`
 
 [https://leetcode.com/problems/add-two-numbers/](https://leetcode.com/problems/add-two-numbers/)
 
-NOTE: Needs [this](./linkedList.md) to run successfully (`Linked List` set up)
+NOTE: Needs [this code (maybe with minor edits to the list inputs to see effects)](./linkedList.md) to run successfully (`Linked List` set up)
 
 ```js
 leetCode.addTwoNumbers(linkedList1, linkedList2);
@@ -186,7 +186,7 @@ leetCode.rotateArrayWithCopy([1, 2, 3, 4, 5, 6, 7], 3); // === [5, 6, 7, 1, 2, 3
 
 [https://leetcode.com/problems/merge-two-sorted-lists/](https://leetcode.com/problems/merge-two-sorted-lists/)
 
-NOTE: Needs [this](./linkedList.md) to run successfully (`Linked List` set up)
+NOTE: Needs [this code (maybe with minor edits to the list inputs to see effects)](./linkedList.md) to run successfully (`Linked List` set up)
 
 ```js
 leetCode.mergeTwoSortedLists(linkedList1, linkedList2);
@@ -196,8 +196,18 @@ leetCode.mergeTwoSortedLists(linkedList1, linkedList2);
 
 [https://leetcode.com/problems/remove-nth-node-from-end-of-list/](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 
-NOTE: Needs [this](./linkedList.md) to run successfully (`Linked List` set up)
+NOTE: Needs [this code (maybe with minor edits to the list inputs to see effects)](./linkedList.md) to run successfully (`Linked List` set up)
 
 ```js
 leetCode.removeNthFromEndNode(linkedList1, 2);
+```
+
+### Remove Duplicates from a Sorted Linked List
+
+[https://leetcode.com/problems/remove-duplicates-from-sorted-list/](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+
+NOTE: Needs [this code (maybe with minor edits to the list inputs to see effects)](./linkedList.md) to run successfully (`Linked List` set up)
+
+```js
+leetCode.removeDuplicatesFromSortedList(linkedList1);
 ```

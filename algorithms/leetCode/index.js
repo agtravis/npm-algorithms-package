@@ -28,6 +28,7 @@ const {
 } = require(`./rotateArray`);
 const mergeTwoSortedLists = require(`./mergeTwoSortedLists`);
 const removeNthFromEndNode = require(`./removeNthFromEndNode`);
+const removeDuplicatesFromSortedList = require(`./removeDuplicatesFromSortedList`);
 
 module.exports = {
   smallerNumbersThanCurrent,
@@ -55,4 +56,5 @@ module.exports = {
   rotateArrayUnshift,
   mergeTwoSortedLists,
   removeNthFromEndNode,
+  removeDuplicatesFromSortedList,
 };
