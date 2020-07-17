@@ -554,3 +554,11 @@ Given a list of integers, return whether the largest number is bigger than the s
 ```js
 binarySearch.largestByDouble([6, 3, 15]); // === true
 ```
+
+### Generate Primes
+
+Given a number `n`, return a list of all prime numbers smaller than or equal to `n` in ascending order.
+
+```js
+binarySearch.generatePrimes(10); // === [2, 3, 5, 7]
+```

@@ -66,6 +66,7 @@ const sumOfTwoNumbers = require(`./sumOfTwoNumbers`);
 const runLengthEncoding = require(`./runLengthEncoding`);
 const strictlyIncOrDec = require(`./strictlyIncOrDec`);
 const largestByDouble = require(`./largestByDouble`);
+const generatePrimes = require(`./generatePrimes`);
 
 module.exports = {
   take5,
@@ -133,4 +134,5 @@ module.exports = {
   runLengthEncoding,
   strictlyIncOrDec,
   largestByDouble,
+  generatePrimes,
 };
