@@ -211,3 +211,11 @@ NOTE: Needs [this code (maybe with minor edits to the list inputs to see effects
 ```js
 leetCode.removeDuplicatesFromSortedList(linkedList1);
 ```
+
+### Does a Linked List Contain a Loop?
+
+[https://leetcode.com/problems/linked-list-cycle/](https://leetcode.com/problems/linked-list-cycle/)
+
+```js
+leetCode.linkedListCycle(loopedLinkList);
+```
