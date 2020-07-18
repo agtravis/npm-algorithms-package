@@ -30,6 +30,7 @@ const mergeTwoSortedLists = require(`./mergeTwoSortedLists`);
 const removeNthFromEndNode = require(`./removeNthFromEndNode`);
 const removeDuplicatesFromSortedList = require(`./removeDuplicatesFromSortedList`);
 const linkedListCycle = require(`./linkedListCycle`);
+const intersectionTwoLinkedLists = require(`./intersectionTwoLinkedLists`);
 
 module.exports = {
   smallerNumbersThanCurrent,
@@ -59,4 +60,5 @@ module.exports = {
   removeNthFromEndNode,
   removeDuplicatesFromSortedList,
   linkedListCycle,
+  intersectionTwoLinkedLists,
 };

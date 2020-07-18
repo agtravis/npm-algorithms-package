@@ -212,10 +212,18 @@ NOTE: Needs [this code (maybe with minor edits to the list inputs to see effects
 leetCode.removeDuplicatesFromSortedList(linkedList1);
 ```
 
-### Does a Linked List Contain a Loop?
+### Does a Linked List Contain a Loop
 
 [https://leetcode.com/problems/linked-list-cycle/](https://leetcode.com/problems/linked-list-cycle/)
 
 ```js
 leetCode.linkedListCycle(loopedLinkList);
+```
+
+### Where do Two Linked Lists Intersect
+
+[https://leetcode.com/problems/intersection-of-two-linked-lists/](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+
+```js
+leetCode.intersectionTwoLinkedLists(linkedListA, linkedListB);
 ```
