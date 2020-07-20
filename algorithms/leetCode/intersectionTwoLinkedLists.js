@@ -1,6 +1,6 @@
 'use strict';
 
-const SinglyLinkedList = require(`../../dataStructures/singlyLinkedList`);
+// const SinglyLinkedList = require(`../../dataStructures/singlyLinkedList`);
 
 module.exports = (headA, headB) => {
   let left = headA.head;

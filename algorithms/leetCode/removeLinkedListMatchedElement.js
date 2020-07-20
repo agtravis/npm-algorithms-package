@@ -1,13 +1,6 @@
 'use strict';
 
-const LinkedList = require(`../../dataStructures/singlyLinkedList`);
-
-const linkedList = new LinkedList();
-const values = [6, 6, 1, 2, 3, 4, 5, 6, 7, 6, 6, 8, 6, 6, 6, 9, 0, 6];
-for (const value of values) {
-  linkedList.append(value);
-}
-var removeElements = function (head, val) {
+module.exports = (head, val) => {
   class Node {
     constructor(val, next) {
       this.val = val === undefined ? 0 : val;
@@ -30,5 +23,3 @@ var removeElements = function (head, val) {
   }
   return dummyHead.next;
 };
-removeElements(linkedList, 6);
-linkedList.printList();
