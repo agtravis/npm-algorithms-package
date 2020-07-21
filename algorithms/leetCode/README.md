@@ -227,3 +227,11 @@ leetCode.linkedListCycle(loopedLinkList);
 ```js
 leetCode.intersectionTwoLinkedLists(linkedListA, linkedListB);
 ```
+
+### Remove a Node that Matches an Input Value in a Linked List
+
+[https://leetcode.com/problems/remove-linked-list-elements/](https://leetcode.com/problems/remove-linked-list-elements/)
+
+```js
+leetCode.removeLinkedListMatchedElement(linkedList, 6);
+```
