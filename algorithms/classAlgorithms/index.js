@@ -44,6 +44,7 @@ const {
   sortedSquaresNoSortCleaner,
 } = require(`./sortedSquares`);
 const squareRoot = require(`./squareRoot`);
+const needleInTheHaystack = require(`./needleInTheHaystack`);
 
 module.exports = {
   arithmetic,
@@ -90,4 +91,5 @@ module.exports = {
   sortedSquaresNoSort,
   sortedSquaresNoSortCleaner,
   squareRoot,
+  needleInTheHaystack,
 };

@@ -299,3 +299,9 @@ classAlgorithms.sortedSquaresNoSortCleaner([-7, -3, 2, 3, 11]); // === [4, 9, 9,
 ```js
 classAlgorithms.squareRoot(1452); // === 38
 ```
+
+### Does a String Contain Another String, and Where
+
+```js
+classAlgorithms.needleInTheHaystack(`JavaScript`, `aSc`); // === 3
+```
