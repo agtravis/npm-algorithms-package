@@ -562,3 +562,11 @@ Given a number `n`, return a list of all prime numbers smaller than or equal to 
 ```js
 binarySearch.generatePrimes(10); // === [2, 3, 5, 7]
 ```
+
+### A Unique String
+
+Given a string `s`, determine whether it has all unique characters.
+
+```js
+binarySearch.uniqueString(`abcdefg`); // === true
+```

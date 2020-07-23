@@ -67,6 +67,7 @@ const runLengthEncoding = require(`./runLengthEncoding`);
 const strictlyIncOrDec = require(`./strictlyIncOrDec`);
 const largestByDouble = require(`./largestByDouble`);
 const generatePrimes = require(`./generatePrimes`);
+const uniqueString = require(`./uniqueString`);
 
 module.exports = {
   take5,
@@ -135,4 +136,5 @@ module.exports = {
   strictlyIncOrDec,
   largestByDouble,
   generatePrimes,
+  uniqueString,
 };
