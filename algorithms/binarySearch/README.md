@@ -570,3 +570,12 @@ Given a string `s`, determine whether it has all unique characters.
 ```js
 binarySearch.uniqueString(`abcdefg`); // === true
 ```
+
+### The Lonely Product
+
+Given three numbers, `a`, `b`, and `c`, return their product, but if any two numbers are the same, they do not count.
+
+```js
+binarySearch.lonelyProduct(2, 3, 4); // === 24
+binarySearch.lonelyProduct(2, 2, 4); // === 4
+```

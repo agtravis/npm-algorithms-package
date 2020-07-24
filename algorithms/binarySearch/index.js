@@ -68,6 +68,7 @@ const strictlyIncOrDec = require(`./strictlyIncOrDec`);
 const largestByDouble = require(`./largestByDouble`);
 const generatePrimes = require(`./generatePrimes`);
 const uniqueString = require(`./uniqueString`);
+const lonelyProduct = require(`./lonelyProduct`);
 
 module.exports = {
   take5,
@@ -137,4 +138,5 @@ module.exports = {
   largestByDouble,
   generatePrimes,
   uniqueString,
+  lonelyProduct,
 };
