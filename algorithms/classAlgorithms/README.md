@@ -305,3 +305,9 @@ classAlgorithms.squareRoot(1452); // === 38
 ```js
 classAlgorithms.needleInTheHaystack(`JavaScript`, `aSc`); // === 3
 ```
+
+### Remove Duplicates in an Array without Creating a New Array
+
+```js
+classAlgorithms.removeDuplicatesInPlace([1, 1, 1, 2, 2, 3, 3, 3, 3, 3, 3, 3]); // === [1, 2, 3]
+```
