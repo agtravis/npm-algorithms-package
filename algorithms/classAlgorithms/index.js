@@ -46,6 +46,7 @@ const {
 const squareRoot = require(`./squareRoot`);
 const needleInTheHaystack = require(`./needleInTheHaystack`);
 const removeDuplicatesInPlace = require(`./removeDuplicatesInPlace`);
+const missingNumber = require(`./missingNumber`);
 
 module.exports = {
   arithmetic,
@@ -94,4 +95,5 @@ module.exports = {
   squareRoot,
   needleInTheHaystack,
   removeDuplicatesInPlace,
+  missingNumber,
 };

@@ -311,3 +311,9 @@ classAlgorithms.needleInTheHaystack(`JavaScript`, `aSc`); // === 3
 ```js
 classAlgorithms.removeDuplicatesInPlace([1, 1, 1, 2, 2, 3, 3, 3, 3, 3, 3, 3]); // === [1, 2, 3]
 ```
+
+### Find the Missing Number in an Unsorted Input Array of Consecutive Integers
+
+```js
+classAlgorithms.missingNumber([0, 9, 7, 6, 5, 2, 3, 1, 4, 8]); // === 10
+```
