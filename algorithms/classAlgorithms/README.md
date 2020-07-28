@@ -317,3 +317,9 @@ classAlgorithms.removeDuplicatesInPlace([1, 1, 1, 2, 2, 3, 3, 3, 3, 3, 3, 3]); /
 ```js
 classAlgorithms.missingNumber([0, 9, 7, 6, 5, 2, 3, 1, 4, 8]); // === 10
 ```
+
+### Rotate Elements in an Array to the Left by a Defined Amount of Indices
+
+```js
+classAlgorithms.rotateLeft([1, 2, 3, 4], 1); // === [2, 3, 4, 1]
+```
