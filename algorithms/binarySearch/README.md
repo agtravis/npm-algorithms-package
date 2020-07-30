@@ -579,3 +579,11 @@ Given three numbers, `a`, `b`, and `c`, return their product, but if any two num
 binarySearch.lonelyProduct(2, 3, 4); // === 24
 binarySearch.lonelyProduct(2, 2, 4); // === 4
 ```
+
+### Palindrome Integer
+
+Given a non-negative integer `num`, return whether it is a palindrome.
+
+```js
+binarySearch.numberPalindrome(121); // === true
+```

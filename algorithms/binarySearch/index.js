@@ -69,6 +69,7 @@ const largestByDouble = require(`./largestByDouble`);
 const generatePrimes = require(`./generatePrimes`);
 const uniqueString = require(`./uniqueString`);
 const lonelyProduct = require(`./lonelyProduct`);
+const numberPalindrome = require(`./numberPalindrome`);
 
 module.exports = {
   take5,
@@ -139,4 +140,5 @@ module.exports = {
   generatePrimes,
   uniqueString,
   lonelyProduct,
+  numberPalindrome,
 };
