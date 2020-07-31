@@ -70,6 +70,7 @@ const generatePrimes = require(`./generatePrimes`);
 const uniqueString = require(`./uniqueString`);
 const lonelyProduct = require(`./lonelyProduct`);
 const numberPalindrome = require(`./numberPalindrome`);
+const wolfOfWallStreet = require(`./wolfOfWallStreet`);
 
 module.exports = {
   take5,
@@ -141,4 +142,5 @@ module.exports = {
   uniqueString,
   lonelyProduct,
   numberPalindrome,
+  wolfOfWallStreet,
 };

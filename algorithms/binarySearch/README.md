@@ -587,3 +587,11 @@ Given a non-negative integer `num`, return whether it is a palindrome.
 ```js
 binarySearch.numberPalindrome(121); // === true
 ```
+
+### Wolf Of Wall Street
+
+Given a list of integers `prices` representing the stock prices of a company in chronological order, return the maximum profit you could have made from buying and selling that stock once. You must buy before you can sell it. You are not required to buy or sell the stock.
+
+```js
+binarySearch.wolfOfWallStreet([9, 11, 8, 5, 7, 10]); // === 5
+```
