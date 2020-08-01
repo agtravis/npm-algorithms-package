@@ -595,3 +595,11 @@ Given a list of integers `prices` representing the stock prices of a company in 
 ```js
 binarySearch.wolfOfWallStreet([9, 11, 8, 5, 7, 10]); // === 5
 ```
+
+### Recurring Character
+
+Given a string, return the index of the first recurring character in it. If there are no recurring characters, return `-1`.
+
+```js
+binarySearch.recurringCharacter(`abcda`); // === 4
+```
