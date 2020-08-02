@@ -603,3 +603,11 @@ Given a string, return the index of the first recurring character in it. If ther
 ```js
 binarySearch.recurringCharacter(`abcda`); // === 4
 ```
+
+### Package Versioning
+
+Given strings `older` and `newer`, each representing software package versions in the format `major.minor.patch`, return whether the `newer` version is actually newer than the `older`.
+
+```js
+binarySearch.packageVersioning(`11.1.2`, `11.1.3`); // === true
+```
