@@ -73,6 +73,7 @@ const numberPalindrome = require(`./numberPalindrome`);
 const wolfOfWallStreet = require(`./wolfOfWallStreet`);
 const recurringCharacter = require(`./recurringCharacter`);
 const packageVersioning = require(`./packageVersioning`);
+const groupIntegers = require(`./groupIntegers`);
 
 module.exports = {
   take5,
@@ -147,4 +148,5 @@ module.exports = {
   wolfOfWallStreet,
   recurringCharacter,
   packageVersioning,
+  groupIntegers,
 };

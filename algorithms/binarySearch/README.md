@@ -611,3 +611,14 @@ Given strings `older` and `newer`, each representing software package versions i
 ```js
 binarySearch.packageVersioning(`11.1.2`, `11.1.3`); // === true
 ```
+
+### Group Integers
+
+Given a list of integers `nums`, return whether you can split the list into 1 or more groups where:
+
+The size of each group is equal and larger than 1
+All the integers in each group are the same.
+
+```js
+binarySearch.groupIntegers([2, 3, 5, 8, 3, 2, 5, 8]); // === true
+```
