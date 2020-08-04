@@ -622,3 +622,11 @@ All the integers in each group are the same.
 ```js
 binarySearch.groupIntegers([2, 3, 5, 8, 3, 2, 5, 8]); // === true
 ```
+
+### Unique Integers in an Array
+
+Given a list of sorted integers `nums` return the number of unique integers in the list.
+
+```js
+binarySearch.uniqueIntegers([2, 2, 2, 3, 4, 6, 6]); // === 4
+```

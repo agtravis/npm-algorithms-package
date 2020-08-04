@@ -74,6 +74,7 @@ const wolfOfWallStreet = require(`./wolfOfWallStreet`);
 const recurringCharacter = require(`./recurringCharacter`);
 const packageVersioning = require(`./packageVersioning`);
 const groupIntegers = require(`./groupIntegers`);
+const uniqueIntegers = require(`./uniqueIntegers`);
 
 module.exports = {
   take5,
@@ -149,4 +150,5 @@ module.exports = {
   recurringCharacter,
   packageVersioning,
   groupIntegers,
+  uniqueIntegers,
 };
