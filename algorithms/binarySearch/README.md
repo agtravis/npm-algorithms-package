@@ -630,3 +630,13 @@ Given a list of sorted integers `nums` return the number of unique integers in t
 ```js
 binarySearch.uniqueIntegers([2, 2, 2, 3, 4, 6, 6]); // === 4
 ```
+
+### Making List Values Equal
+
+You are given a list of integers `nums`. Consider an operation where we select some subset of integers in the list and increment all of them by one.
+
+Return the minimum number of operations needed to make all values in the list equal to each other.
+
+```js
+binarySearch.equalize([1, 3, 0]); // === 3
+```

@@ -75,6 +75,7 @@ const recurringCharacter = require(`./recurringCharacter`);
 const packageVersioning = require(`./packageVersioning`);
 const groupIntegers = require(`./groupIntegers`);
 const uniqueIntegers = require(`./uniqueIntegers`);
+const equalize = require(`./equalize`);
 
 module.exports = {
   take5,
@@ -151,4 +152,5 @@ module.exports = {
   packageVersioning,
   groupIntegers,
   uniqueIntegers,
+  equalize,
 };
