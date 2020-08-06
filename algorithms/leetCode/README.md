@@ -235,3 +235,11 @@ leetCode.intersectionTwoLinkedLists(linkedListA, linkedListB);
 ```js
 leetCode.removeLinkedListMatchedElement(linkedList, 6);
 ```
+
+### Reverse a Linked List
+
+[https://leetcode.com/problems/reverse-linked-list/](https://leetcode.com/problems/reverse-linked-list/)
+
+```js
+leetCode.reverseLinkedList(linkedList);
+```
