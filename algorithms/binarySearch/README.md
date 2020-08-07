@@ -640,3 +640,13 @@ Return the minimum number of operations needed to make all values in the list eq
 ```js
 binarySearch.equalize([1, 3, 0]); // === 3
 ```
+
+### List Calculator
+
+Given a list of integers `nums`, a string op representing either "+", "-", "/", or "\*", and an integer `val`, perform the operation on every number in `nums` with `val` and return the result.
+
+Note: "/" is integer division (round it down).
+
+```js
+binarySearch.listCalculator([3, 1, 6], `+`, 4); // === [7, 5, 10]
+```
