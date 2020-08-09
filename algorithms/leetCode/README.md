@@ -243,3 +243,11 @@ leetCode.removeLinkedListMatchedElement(linkedList, 6);
 ```js
 leetCode.reverseLinkedList(linkedList);
 ```
+
+### Reverse a Number
+
+[https://leetcode.com/problems/reverse-integer/](https://leetcode.com/problems/reverse-integer/)
+
+```js
+leetCode.reverseNumber(-123); // === -321;
+```
