@@ -34,6 +34,7 @@ const intersectionTwoLinkedLists = require(`./intersectionTwoLinkedLists`);
 const removeLinkedListMatchedElement = require(`./removeLinkedListMatchedElement`);
 const reverseLinkedList = require(`./reverseLinkedList`);
 const reverseNumber = require(`./reverseNumber`);
+const palindromeNumber = require(`./palindromeNumber`);
 
 module.exports = {
   smallerNumbersThanCurrent,
@@ -67,4 +68,5 @@ module.exports = {
   removeLinkedListMatchedElement,
   reverseLinkedList,
   reverseNumber,
+  palindromeNumber,
 };

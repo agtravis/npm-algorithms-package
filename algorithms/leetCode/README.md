@@ -251,3 +251,11 @@ leetCode.reverseLinkedList(linkedList);
 ```js
 leetCode.reverseNumber(-123); // === -321;
 ```
+
+### Palindrom Number
+
+[https://leetcode.com/problems/palindrome-number/](https://leetcode.com/problems/palindrome-number/)
+
+```js
+leetCode.palindromeNumber(12321); // === true
+```
