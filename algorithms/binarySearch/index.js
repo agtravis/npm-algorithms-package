@@ -77,6 +77,7 @@ const groupIntegers = require(`./groupIntegers`);
 const uniqueIntegers = require(`./uniqueIntegers`);
 const equalize = require(`./equalize`);
 const listCalculator = require(`./listCalculator`);
+const dominoPlacement = require(`./dominoPlacement`);
 
 module.exports = {
   take5,
@@ -155,4 +156,5 @@ module.exports = {
   uniqueIntegers,
   equalize,
   listCalculator,
+  dominoPlacement,
 };
