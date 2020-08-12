@@ -660,3 +660,13 @@ Return the maximum number of dominos that can be placed on the board such that t
 ```js
 binarySearch.dominoPlacement(2, 2); // === 2
 ```
+
+### Compress a String
+
+Given a string `s`, eliminate consecutive duplicate characters from the string and return it.
+
+That is, if a list contains repeated characters, they should be replaced with a single copy of the character. The order of the elements should not be changed.
+
+```js
+binarySearch.compressString(`aaaaaabbbccccaaaaddf`); // === `abcadf`
+```
