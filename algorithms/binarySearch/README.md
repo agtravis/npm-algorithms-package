@@ -670,3 +670,11 @@ That is, if a list contains repeated characters, they should be replaced with a 
 ```js
 binarySearch.compressString(`aaaaaabbbccccaaaaddf`); // === `abcadf`
 ```
+
+### Mischievous Number
+
+Given a list of integers `nums`, return whether there's an integer whose frequency in the list is same as its value.
+
+```js
+binarySearch.mischievousNumber([7, 9, 3, 3, 3]); // === true
+```

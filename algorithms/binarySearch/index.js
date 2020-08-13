@@ -79,6 +79,7 @@ const equalize = require(`./equalize`);
 const listCalculator = require(`./listCalculator`);
 const dominoPlacement = require(`./dominoPlacement`);
 const compressString = require(`./compressString`);
+const mischievousNumber = require(`./mischievousNumber`);
 
 module.exports = {
   take5,
@@ -159,4 +160,5 @@ module.exports = {
   listCalculator,
   dominoPlacement,
   compressString,
+  mischievousNumber,
 };
