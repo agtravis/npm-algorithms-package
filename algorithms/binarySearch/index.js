@@ -80,6 +80,7 @@ const listCalculator = require(`./listCalculator`);
 const dominoPlacement = require(`./dominoPlacement`);
 const compressString = require(`./compressString`);
 const mischievousNumber = require(`./mischievousNumber`);
+const bobsGame = require(`./bobsGame`);
 
 module.exports = {
   take5,
@@ -161,4 +162,5 @@ module.exports = {
   dominoPlacement,
   compressString,
   mischievousNumber,
+  bobsGame,
 };

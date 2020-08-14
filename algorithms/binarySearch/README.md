@@ -678,3 +678,13 @@ Given a list of integers `nums`, return whether there's an integer whose frequen
 ```js
 binarySearch.mischievousNumber([7, 9, 3, 3, 3]); // === true
 ```
+
+### Bob's Game
+
+Bob is playing a game with himself. He gives himself a list `nums`. Each round, Bob chooses two elements of the list and replaces them with one positive integer with the same sum as the numbers he selected. Bob declares victory when all of the number in the array are even.
+
+Return the minimum number of rounds Bob must make before he can declare victory, or return `-1` if Bob can never declare victory.
+
+```js
+binarySearch.bobsGame([1, 1, 3, 7, 6, 12]); // === 2
+```
