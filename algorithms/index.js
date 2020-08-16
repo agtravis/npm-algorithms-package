@@ -7,6 +7,7 @@ const binarySearch = require(`./binarySearch`);
 const leetCode = require(`./leetCode`);
 const udemy = require(`./udemy`);
 const hackerRank = require(`./hackerRank`);
+const misc = require(`./misc`);
 
 module.exports = {
   preClassDrills,
@@ -16,4 +17,5 @@ module.exports = {
   leetCode,
   udemy,
   hackerRank,
+  misc,
 };
