@@ -81,6 +81,7 @@ const dominoPlacement = require(`./dominoPlacement`);
 const compressString = require(`./compressString`);
 const mischievousNumber = require(`./mischievousNumber`);
 const bobsGame = require(`./bobsGame`);
+const rookieMistake = require(`./rookieMistake`);
 
 module.exports = {
   take5,
@@ -163,4 +164,5 @@ module.exports = {
   compressString,
   mischievousNumber,
   bobsGame,
+  rookieMistake,
 };
