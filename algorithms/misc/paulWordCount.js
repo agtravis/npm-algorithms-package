@@ -1,6 +1,7 @@
 'use strict';
 
 const wordCount = (string) => {
+  if (!string || typeof string !== `string`) throw `not a string bud!`;
   // This is a helper function to determine if a character is considered whitespace
   // (if there is a shortcut for a generic whitespace character I wouldn't know without googling it which I couldn't do in an interview)
   // it simply returns a boolean value
@@ -79,5 +80,6 @@ a               a`
   8
 );
 console.log(wordCount(`The complete works of Shakespeare. Condensed.`), 6);
+console.log(wordCount(1), 6);
 
 // This took me ~30 minutes (not including comment writing)
