@@ -1,6 +1,6 @@
 'use strict';
 
-const wordCount = (string) => {
+module.exports = (string) => {
   if (!string || typeof string !== `string`) throw `not a string bud!`;
   // This is a helper function to determine if a character is considered whitespace
   // (if there is a shortcut for a generic whitespace character I wouldn't know without googling it which I couldn't do in an interview)
@@ -52,34 +52,28 @@ const wordCount = (string) => {
 };
 
 // each console log should return the function count followed by the expected count
-console.log(wordCount(`     `), 0);
-console.log(
-  wordCount(`
+// console.log(wordCount(`     `), 0);
+// console.log(
+//   wordCount(`
 
+// `),
+//   0
+// );
+// console.log(wordCount(`                     `), 0);
+// console.log(wordCount(`       hello world       `), 2);
+// console.log(wordCount(`hello world hi there`), 4);
+// console.log(wordCount(`1234567890`), 1);
+// console.log(wordCount(`@%$^#%&^%*$%&(&(&#))`), 1);
+// console.log(wordCount(`a      a`), 2);
+// console.log(
+//   wordCount(
+//     ` a a a a     a   a
 
-`),
-  0
-);
-console.log(wordCount(`                     `), 0);
-console.log(wordCount(`       hello world       `), 2);
-console.log(wordCount(`hello world hi there`), 4);
-console.log(wordCount(`1234567890`), 1);
-console.log(wordCount(`@%$^#%&^%*$%&(&(&#))`), 1);
-console.log(wordCount(`a      a`), 2);
-console.log(
-  wordCount(
-    ` a a a a     a   a
-
-
-
-
-
-
-a               a`
-  ),
-  8
-);
-console.log(wordCount(`The complete works of Shakespeare. Condensed.`), 6);
-console.log(wordCount(1), 6);
+// a               a`
+//   ),
+//   8
+// );
+// console.log(wordCount(`The complete works of Shakespeare. Condensed.`), 6);
+// console.log(wordCount(1), `Error`);
 
 // This took me ~30 minutes (not including comment writing)

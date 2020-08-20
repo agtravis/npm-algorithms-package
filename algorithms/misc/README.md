@@ -18,3 +18,15 @@ console.log(
   )}, ${misc.hilleberg(`sand`, `sv`)}, and ${misc.hilleberg(`blue`, `sv`)}`
 );
 ```
+
+### Word Count
+
+Write a function that returns the number of words (as separated by whitespace characters).
+
+```js
+misc.paulWordCount(
+  ` a a a a     a   a
+
+ a               a  `
+); // === 8
+```
