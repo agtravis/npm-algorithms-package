@@ -267,3 +267,22 @@ leetCode.palindromeNumber(12321); // === true
 ```js
 leetCode.romanToInteger(`MCMXCIV`); // === 1994
 ```
+
+### Implement Queue Using Stacks
+
+[https://leetcode.com/problems/implement-queue-using-stacks](https://leetcode.com/problems/implement-queue-using-stacks)
+
+```js
+const MyQueue = leetCode.MyQueue;
+const myQueue = new MyQueue();
+console.log(`length`, myQueue.array.length, myQueue.empty());
+myQueue.push(1);
+myQueue.push(2);
+myQueue.push(3);
+console.log(`length`, myQueue.array.length, myQueue.empty());
+console.log(`peek`, myQueue.peek());
+console.log(myQueue.pop());
+console.log(myQueue.pop());
+console.log(myQueue.pop());
+console.log(`length`, myQueue.array.length, myQueue.empty());
+```

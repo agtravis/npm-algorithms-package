@@ -36,6 +36,7 @@ const reverseLinkedList = require(`./reverseLinkedList`);
 const reverseNumber = require(`./reverseNumber`);
 const palindromeNumber = require(`./palindromeNumber`);
 const romanToInteger = require(`./romanToInteger`);
+const MyQueue = require(`./queueUsingStacks`);
 
 module.exports = {
   smallerNumbersThanCurrent,
@@ -71,4 +72,5 @@ module.exports = {
   reverseNumber,
   palindromeNumber,
   romanToInteger,
+  MyQueue,
 };
