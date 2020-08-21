@@ -35,6 +35,7 @@ const removeLinkedListMatchedElement = require(`./removeLinkedListMatchedElement
 const reverseLinkedList = require(`./reverseLinkedList`);
 const reverseNumber = require(`./reverseNumber`);
 const palindromeNumber = require(`./palindromeNumber`);
+const romanToInteger = require(`./romanToInteger`);
 
 module.exports = {
   smallerNumbersThanCurrent,
@@ -69,4 +70,5 @@ module.exports = {
   reverseLinkedList,
   reverseNumber,
   palindromeNumber,
+  romanToInteger,
 };

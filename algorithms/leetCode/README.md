@@ -259,3 +259,11 @@ leetCode.reverseNumber(-123); // === -321;
 ```js
 leetCode.palindromeNumber(12321); // === true
 ```
+
+### Roman Numeral to Integer Conversion
+
+[https://leetcode.com/problems/roman-to-integer/](https://leetcode.com/problems/roman-to-integer/)
+
+```js
+leetCode.romanToInteger(`MCMXCIV`); // === 1994
+```
