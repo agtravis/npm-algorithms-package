@@ -710,3 +710,11 @@ Note: The list is guaranteed to have at least one element, and k is guaranteed t
 ```js
 binarySearch.rotateLeftByK([1, 2, 3, 4, 5, 6], 2); // === [3, 4, 5, 6, 1, 2]
 ```
+
+### An Anagram I am
+
+Given two strings s0 and s1, return whether they are anagrams of each other. Two words are anagrams when you can rearrange one to become the other. For example, "listen" and "silent" are anagrams.
+
+```js
+binarySearch.isAnagram(`listen`, `silent`); // === true
+```

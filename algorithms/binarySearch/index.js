@@ -83,6 +83,7 @@ const mischievousNumber = require(`./mischievousNumber`);
 const bobsGame = require(`./bobsGame`);
 const rookieMistake = require(`./rookieMistake`);
 const rotateLeftByK = require(`./rotateLeftByK`);
+const isAnagram = require(`./isAnagram`);
 
 module.exports = {
   take5,
@@ -167,4 +168,5 @@ module.exports = {
   bobsGame,
   rookieMistake,
   rotateLeftByK,
+  isAnagram,
 };
