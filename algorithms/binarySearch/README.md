@@ -700,3 +700,13 @@ Return true if you can reach either the leftmost or the rightmost position, or f
 ```js
 binarySearch.rookieMistake(`......B....R..............`); // === true
 ```
+
+### Rotate a List Left by `K` amount
+
+Write a function that rotates a list of numbers to the left by k elements. Numbers should wrap around.
+
+Note: The list is guaranteed to have at least one element, and k is guaranteed to be less than or equal to the length of the list.
+
+```js
+binarySearch.rotateLeftByK([1, 2, 3, 4, 5, 6], 2); // === [3, 4, 5, 6, 1, 2]
+```

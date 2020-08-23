@@ -82,6 +82,7 @@ const compressString = require(`./compressString`);
 const mischievousNumber = require(`./mischievousNumber`);
 const bobsGame = require(`./bobsGame`);
 const rookieMistake = require(`./rookieMistake`);
+const rotateLeftByK = require(`./rotateLeftByK`);
 
 module.exports = {
   take5,
@@ -165,4 +166,5 @@ module.exports = {
   mischievousNumber,
   bobsGame,
   rookieMistake,
+  rotateLeftByK,
 };
