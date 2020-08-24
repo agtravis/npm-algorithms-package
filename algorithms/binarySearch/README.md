@@ -718,3 +718,11 @@ Given two strings s0 and s1, return whether they are anagrams of each other. Two
 ```js
 binarySearch.isAnagram(`listen`, `silent`); // === true
 ```
+
+### Buying Cars
+
+Given a list of integers `prices` representing prices of cars for sale, and a budget `k`, return the maximum number of cars you can buy.
+
+```js
+binarySearch.buyingCars([90, 30, 20, 40, 90], 95); // === 3
+```
