@@ -323,3 +323,9 @@ classAlgorithms.missingNumber([0, 9, 7, 6, 5, 2, 3, 1, 4, 8]); // === 10
 ```js
 classAlgorithms.rotateLeft([1, 2, 3, 4], 1); // === [2, 3, 4, 1]
 ```
+
+### Write a function that takes two strings and determines returns true if every word found in the second string is present in the first string.
+
+```js
+classAlgorithms.ransomNote(`hello world`, `world`); // === true
+```

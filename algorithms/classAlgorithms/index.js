@@ -48,6 +48,7 @@ const needleInTheHaystack = require(`./needleInTheHaystack`);
 const removeDuplicatesInPlace = require(`./removeDuplicatesInPlace`);
 const missingNumber = require(`./missingNumber`);
 const rotateLeft = require(`./rotateLeft`);
+const ransomNote = require(`./ransomNote`);
 
 module.exports = {
   arithmetic,
@@ -98,4 +99,5 @@ module.exports = {
   removeDuplicatesInPlace,
   missingNumber,
   rotateLeft,
+  ransomNote,
 };
