@@ -329,3 +329,9 @@ classAlgorithms.rotateLeft([1, 2, 3, 4], 1); // === [2, 3, 4, 1]
 ```js
 classAlgorithms.ransomNote(`hello world`, `world`); // === true
 ```
+
+### Take a String and Return True if it Contains Valid Sets of Matching Brackets, Else Return False
+
+```js
+classAlgorithms.matchingBrackets(`{ } [ ( [] ) ]`); // === true
+```

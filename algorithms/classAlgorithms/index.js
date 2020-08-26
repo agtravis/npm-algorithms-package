@@ -49,6 +49,7 @@ const removeDuplicatesInPlace = require(`./removeDuplicatesInPlace`);
 const missingNumber = require(`./missingNumber`);
 const rotateLeft = require(`./rotateLeft`);
 const ransomNote = require(`./ransomNote`);
+const matchingBrackets = require(`./matchingBrackets`);
 
 module.exports = {
   arithmetic,
@@ -100,4 +101,5 @@ module.exports = {
   missingNumber,
   rotateLeft,
   ransomNote,
+  matchingBrackets,
 };
