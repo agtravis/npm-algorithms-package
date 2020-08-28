@@ -335,3 +335,9 @@ classAlgorithms.ransomNote(`hello world`, `world`); // === true
 ```js
 classAlgorithms.matchingBrackets(`{ } [ ( [] ) ]`); // === true
 ```
+
+### Return the Minimum Number of Increments Required Across an Input Array of Integers to Ensure that Every Number is Unique
+
+```js
+classAlgorithms.minIncrements([3, 2, 1, 2, 1, 7]); // === 6
+```

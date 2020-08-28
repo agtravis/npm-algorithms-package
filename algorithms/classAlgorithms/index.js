@@ -50,6 +50,7 @@ const missingNumber = require(`./missingNumber`);
 const rotateLeft = require(`./rotateLeft`);
 const ransomNote = require(`./ransomNote`);
 const matchingBrackets = require(`./matchingBrackets`);
+const minIncrements = require(`./minIncrements`);
 
 module.exports = {
   arithmetic,
@@ -102,4 +103,5 @@ module.exports = {
   rotateLeft,
   ransomNote,
   matchingBrackets,
+  minIncrements,
 };
