@@ -51,6 +51,7 @@ const rotateLeft = require(`./rotateLeft`);
 const ransomNote = require(`./ransomNote`);
 const matchingBrackets = require(`./matchingBrackets`);
 const minIncrements = require(`./minIncrements`);
+const peakFinder = require(`./peakFinder`);
 
 module.exports = {
   arithmetic,
@@ -104,4 +105,5 @@ module.exports = {
   ransomNote,
   matchingBrackets,
   minIncrements,
+  peakFinder,
 };

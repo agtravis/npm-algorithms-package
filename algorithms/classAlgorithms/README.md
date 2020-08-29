@@ -341,3 +341,9 @@ classAlgorithms.matchingBrackets(`{ } [ ( [] ) ]`); // === true
 ```js
 classAlgorithms.minIncrements([3, 2, 1, 2, 1, 7]); // === 6
 ```
+
+### Find the Single Peak in an Array
+
+```js
+classAlgorithms.peakFinder([-3, -2, -1, 0, 1, -9, -11, -18, -70]); // === 1
+```
