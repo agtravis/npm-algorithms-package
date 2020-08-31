@@ -52,6 +52,7 @@ const ransomNote = require(`./ransomNote`);
 const matchingBrackets = require(`./matchingBrackets`);
 const minIncrements = require(`./minIncrements`);
 const peakFinder = require(`./peakFinder`);
+const isArmstrong = require(`./isArmstrong`);
 
 module.exports = {
   arithmetic,
@@ -106,4 +107,5 @@ module.exports = {
   matchingBrackets,
   minIncrements,
   peakFinder,
+  isArmstrong,
 };

@@ -347,3 +347,11 @@ classAlgorithms.minIncrements([3, 2, 1, 2, 1, 7]); // === 6
 ```js
 classAlgorithms.peakFinder([-3, -2, -1, 0, 1, -9, -11, -18, -70]); // === 1
 ```
+
+### Return True if an Integer is an Armstrong Number
+
+[https://www.quora.com/What-is-an-Armstrong-number](https://www.quora.com/What-is-an-Armstrong-number)
+
+```js
+classAlgorithms.isArmstrong(153); // === true
+```
