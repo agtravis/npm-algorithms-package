@@ -355,3 +355,9 @@ classAlgorithms.peakFinder([-3, -2, -1, 0, 1, -9, -11, -18, -70]); // === 1
 ```js
 classAlgorithms.isArmstrong(153); // === true
 ```
+
+### Return the Maximum Profit that Can be Made from Buying and Selling a Single Stock. Takes an Array of Integers Representing the Price of a Stock on Different Days.
+
+```js
+classAlgorithms.maxProfit([7, 1, 5, 3, 6, 4]); // === 5
+```

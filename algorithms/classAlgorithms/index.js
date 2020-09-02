@@ -53,6 +53,7 @@ const matchingBrackets = require(`./matchingBrackets`);
 const minIncrements = require(`./minIncrements`);
 const peakFinder = require(`./peakFinder`);
 const isArmstrong = require(`./isArmstrong`);
+const maxProfit = require(`./maxProfit`);
 
 module.exports = {
   arithmetic,
@@ -108,4 +109,5 @@ module.exports = {
   minIncrements,
   peakFinder,
   isArmstrong,
+  maxProfit,
 };
