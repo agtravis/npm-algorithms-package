@@ -361,3 +361,9 @@ classAlgorithms.isArmstrong(153); // === true
 ```js
 classAlgorithms.maxProfit([7, 1, 5, 3, 6, 4]); // === 5
 ```
+
+### Return a Pair of Numbers (One From Each of Two Sorted Arrays) with the Smallest Difference
+
+```js
+classAlgorithms.smallestDifference([2, 4, 6, 8, 15, 20], [17, 25, 30, 47]); // [15, 17]
+```
