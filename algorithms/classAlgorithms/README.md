@@ -365,5 +365,11 @@ classAlgorithms.maxProfit([7, 1, 5, 3, 6, 4]); // === 5
 ### Return a Pair of Numbers (One From Each of Two Sorted Arrays) with the Smallest Difference
 
 ```js
-classAlgorithms.smallestDifference([2, 4, 6, 8, 15, 20], [17, 25, 30, 47]); // [15, 17]
+classAlgorithms.smallestDifference([2, 4, 6, 8, 15, 20], [17, 25, 30, 47]); // === [15, 17]
+```
+
+### Return the Continuous Sub-Array with the Maximum Total Value
+
+```js
+classAlgorithms.maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]); // === 6
 ```

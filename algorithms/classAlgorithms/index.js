@@ -55,6 +55,7 @@ const peakFinder = require(`./peakFinder`);
 const isArmstrong = require(`./isArmstrong`);
 const maxProfit = require(`./maxProfit`);
 const smallestDifference = require(`./smallestDifference`);
+const maxSubArray = require(`./maxSubArray`);
 
 module.exports = {
   arithmetic,
@@ -112,4 +113,5 @@ module.exports = {
   isArmstrong,
   maxProfit,
   smallestDifference,
+  maxSubArray,
 };
