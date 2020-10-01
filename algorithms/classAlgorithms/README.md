@@ -373,3 +373,20 @@ classAlgorithms.smallestDifference([2, 4, 6, 8, 15, 20], [17, 25, 30, 47]); // =
 ```js
 classAlgorithms.maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]); // === 6
 ```
+
+### With a 2D Array of Meeting Times, (Representing a Start and End Time), Return a New 2D Array such that Overlapping Meeting Blocks are Condensed into Combined Meeting Blocks
+
+```js
+classAlgorithms.mergeMeetingTimes([
+  [5, 8],
+  [1, 4],
+  [6, 8],
+]); // === [[1, 4], [5, 8]]
+classAlgorithms.mergeMeetingTimes([
+  [1, 10],
+  [2, 5],
+  [6, 8],
+  [9, 10],
+  [10, 12],
+]); // === [[1, 12]]
+```

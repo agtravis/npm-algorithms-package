@@ -56,6 +56,7 @@ const isArmstrong = require(`./isArmstrong`);
 const maxProfit = require(`./maxProfit`);
 const smallestDifference = require(`./smallestDifference`);
 const maxSubArray = require(`./maxSubArray`);
+const mergeMeetingTimes = require(`./mergeMeetingTimes`);
 
 module.exports = {
   arithmetic,
@@ -114,4 +115,5 @@ module.exports = {
   maxProfit,
   smallestDifference,
   maxSubArray,
+  mergeMeetingTimes,
 };
