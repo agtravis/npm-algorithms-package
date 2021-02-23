@@ -37,6 +37,7 @@ const reverseNumber = require(`./reverseNumber`);
 const palindromeNumber = require(`./palindromeNumber`);
 const romanToInteger = require(`./romanToInteger`);
 const MyQueue = require(`./queueUsingStacks`);
+const searchInsertPosition = require(`./searchInsertPosition`);
 
 module.exports = {
   smallerNumbersThanCurrent,
@@ -73,4 +74,5 @@ module.exports = {
   palindromeNumber,
   romanToInteger,
   MyQueue,
+  searchInsertPosition,
 };

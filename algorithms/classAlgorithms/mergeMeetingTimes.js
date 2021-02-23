@@ -30,19 +30,19 @@ const mergeMeetingTimes = (arr) => {
   return result;
 };
 
-console.log(
-  mergeMeetingTimes([
-    [5, 8],
-    [1, 4],
-    [6, 8],
-  ])
-); // === [[1, 4], [5, 8]]
-console.log(
-  mergeMeetingTimes([
-    [1, 10],
-    [2, 5],
-    [6, 8],
-    [9, 10],
-    [10, 12],
-  ])
-); // === [[1, 12]]
+// console.log(
+//   mergeMeetingTimes([
+//     [5, 8],
+//     [1, 4],
+//     [6, 8],
+//   ])
+// ); // === [[1, 4], [5, 8]]
+// console.log(
+//   mergeMeetingTimes([
+//     [1, 10],
+//     [2, 5],
+//     [6, 8],
+//     [9, 10],
+//     [10, 12],
+//   ])
+// ); // === [[1, 12]]

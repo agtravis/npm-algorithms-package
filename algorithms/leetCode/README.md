@@ -286,3 +286,11 @@ console.log(myQueue.pop());
 console.log(myQueue.pop());
 console.log(`length`, myQueue.array.length, myQueue.empty());
 ```
+
+### Search Insert Position
+
+[https://leetcode.com/problems/search-insert-position](https://leetcode.com/problems/search-insert-position/)
+
+```js
+leetCode.searchInsertPosition([1, 3, 5, 6], 5); // === 2
+```

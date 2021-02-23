@@ -16,7 +16,7 @@ const { classAlgorithms } = algorithms;
 
 Then you can run the following functions:
 
-### Basic Functions
+## Basic Functions
 
 ```js
 classAlgorithms.arithmetic.add(10, 2); // === 12
@@ -25,7 +25,7 @@ classAlgorithms.arithmetic.multiply(10, 2); // === 20
 classAlgorithms.arithmetic.divide(10, 2); // === 5
 ```
 
-### Even or Odd
+## Even or Odd
 
 ```js
 classAlgorithms.oddOrEven(10); // === `even`
@@ -33,32 +33,32 @@ classAlgorithms.oddOrEven(9); // === `odd`
 classAlgorithms.oddOrEven(`10`); // === false
 ```
 
-### Log Numbers
+## Log Numbers
 
 ```js
 classAlgorithms.logNums(10); // logs all positive integers from 1 to 10 (function logs, no return)
 ```
 
-### Log Even Numbers
+## Log Even Numbers
 
 ```js
 classAlgorithms.logEvens(10); // logs all positive integers divisible by 2 (with return)
 ```
 
-### Log Numbers Counting Down
+## Log Numbers Counting Down
 
 ```js
 classAlgorithms.countdown(10); // logs all positive integers from 10 to 1 (with return)
 ```
 
-### Sum All Numbers in an Array
+## Sum All Numbers in an Array
 
 ```js
 classAlgorithms.sumArrayForEach([4, 8, 15, 16, 23, 42]); // === 108
 classAlgorithms.sumArrayReduce([4, 8, 15, 16, 23, 42]); // === 108
 ```
 
-### Fizz Buzz
+## Fizz Buzz
 
 Log `Fizz`, `Buzz`, or `Fizz Buzz`, or a number, based on divisibility
 
@@ -68,7 +68,7 @@ This is different to [here](../binarySearch/fizzBuzz.js) because the output here
 classAlgorithms.fizzBuzz([6, 7, 8, 9, 10, 11, 12, 13, 14, 15]); // logs Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz sequentially to the console
 ```
 
-### Output the Highest Number in an Array
+## Output the Highest Number in an Array
 
 This has already been solved multiple ways [here](../preClassDrills/maxNum.js), this is another way
 
@@ -76,7 +76,7 @@ This has already been solved multiple ways [here](../preClassDrills/maxNum.js), 
 classAlgorithms.maxNum([1, 5, 9, 0, -5]); // === 9
 ```
 
-### Count Vowels in a String
+## Count Vowels in a String
 
 This has already been solved [here](../preClassDrills/numVowels.js), this is another way
 
@@ -84,13 +84,13 @@ This has already been solved [here](../preClassDrills/numVowels.js), this is ano
 classAlgorithms.vowelCount(`I think, therefore I am.`); // === 8
 ```
 
-### Is a String a Palindrom
+## Is a String a Palindrom
 
 ```js
 classAlgorithms.isPalindrome(`racecar`); // === true
 ```
 
-### Output the Factorial of a Number
+## Output the Factorial of a Number
 
 A factorial of a number is the product of all of all positive integers less than or equal to the number.
 
@@ -98,25 +98,25 @@ A factorial of a number is the product of all of all positive integers less than
 classAlgorithms.factorial(4); // === 24
 ```
 
-### Convert a String to Capital Case
+## Convert a String to Capital Case
 
 ```js
 classAlgorithms.titleCase(`the quick brown fox jumps over the lazy dog`); // === `The Quick Brown Fox Jumps Over The Lazy Dog`
 ```
 
-### Return the Longest Word in a String
+## Return the Longest Word in a String
 
 ```js
 classAlgorithms.longestWord(`I love programming`); // === `programming`
 ```
 
-### Return an Acronym of Each Word in a String
+## Return an Acronym of Each Word in a String
 
 ```js
 classAlgorithms.acronymBuilder(`Always be coding`); // === `ABC`
 ```
 
-### Reverse the order of words in a string
+## Reverse the order of words in a string
 
 ```js
 classAlgorithms.reverseWords(
@@ -124,13 +124,13 @@ classAlgorithms.reverseWords(
 ); // === stop not do you as long as go you slowly how matter not does it
 ```
 
-### Reverse an Array Without Using `reverse` nor Creating a New Array
+## Reverse an Array Without Using `reverse` nor Creating a New Array
 
 ```js
 classAlgorithms.reverseInPlace([1, 2, 3, 4, 5]); // === [5, 4, 3, 2, 1]
 ```
 
-### Look and Say
+## Look and Say
 
 The look and say sequence can be understood by reading a number out loud, digit by digit, but first saying the number of times each digit appears in a row.
 
@@ -138,51 +138,51 @@ The look and say sequence can be understood by reading a number out loud, digit 
 classAlgorithms.lookAndSay(114333877); // === 2114331827
 ```
 
-### Is a String a Valid Number
+## Is a String a Valid Number
 
 ```js
 classAlgorithms.isNumeric(`-0.3.2`); // === false
 ```
 
-### Return an Object Containing a Count of Each Character in a String
+## Return an Object Containing a Count of Each Character in a String
 
 ```js
 classAlgorithms.characterCount(`peter piper picked a pack of pickled peppers`); // === { p: 9, e: 7, t: 1, r: 3, ' ': 7, i: 3, c: 3, k: 3, d: 2, a: 2, o: 1, f: 1, l: 1, s: 1 }
 ```
 
-### Return the Product of the Largest Two Elements in an Unsorted Array
+## Return the Product of the Largest Two Elements in an Unsorted Array
 
 ```js
 classAlgorithms.productOfLargestTwo([4, 8, 15, 16, 23, 42]); // === 966
 ```
 
-### Return a String in camelCase
+## Return a String in camelCase
 
 ```js
 classAlgorithms.camelCaseConcatenation(`Hello World`); // === `helloWorld`
 classAlgorithms.camelCaseMap(`The rain in spain falls mainly on the plain`); // === `theRainInSpainFallsMainlyOnThePlain`
 ```
 
-### Linear Search
+## Linear Search
 
 ```js
 classAlgorithms.linearSearch([8, 22, 3, 0, -2], 3); // === 2
 ```
 
-### Is Every Element in an Array Unique
+## Is Every Element in an Array Unique
 
 ```js
 classAlgorithms.isUnique([2, 8, 7, 5, 4, 3]); // === true
 ```
 
-### Are Two Strings Anagrams of Eachother?
+## Are Two Strings Anagrams of Eachother?
 
 ```js
 classAlgorithms.isAnagramSort(`octagonal`, `tganoalco`); // === true
 classAlgorithms.isAnagramMap(`octagonal`, `hello`); // === false
 ```
 
-### Return the Maximum Number of Songs from an Array (of Song Durations) that Can Fit in a 60 Minute Playlist
+## Return the Maximum Number of Songs from an Array (of Song Durations) that Can Fit in a 60 Minute Playlist
 
 ```js
 classAlgorithms.mostSongsInAPlaylist([
@@ -213,14 +213,14 @@ classAlgorithms.mostSongsInAPlaylist([
 ]); // === 19
 ```
 
-### Is a Number a Perfect Square (is the Square Root an Integer)
+## Is a Number a Perfect Square (is the Square Root an Integer)
 
 ```js
 classAlgorithms.isPerfectSquareLoop(16); // === true
 classAlgorithms.isPerfectSquareSqrt(15); // === false
 ```
 
-### Return the Number of `X`s in a 2D Array
+## Return the Number of `X`s in a 2D Array
 
 ```js
 classAlgorithms.arraySearch2D([
@@ -231,20 +231,20 @@ classAlgorithms.arraySearch2D([
 ]); // === 5
 ```
 
-### Does an Array Contain Two Numbers that Multiply Together to Make a Product of 20
+## Does an Array Contain Two Numbers that Multiply Together to Make a Product of 20
 
 ```js
 classAlgorithms.multiplyInto20([2, 8, 7, 5, 4, 3]); // === true
 ```
 
-### Is a String Containing Only Zeros and Ones Balanced
+## Is a String Containing Only Zeros and Ones Balanced
 
 ```js
 classAlgorithms.zerosAndOnesLoop(`10101010`); // === true
 classAlgorithms.zerosAndOnesReduce(`1010101`); // === false
 ```
 
-### Merge K Sorted Arrays (Where the Arrays are Individual Arguments)
+## Merge K Sorted Arrays (Where the Arrays are Individual Arguments)
 
 ```js
 classAlgorithms.mergeKSorted(
@@ -256,37 +256,37 @@ classAlgorithms.mergeKSorted(
 ); // === [-50, -30, 0, 0, 1, 2, 3, 4, 5, 99, 100]
 ```
 
-### Two Arrays Share a Common Element, Return that Element
+## Two Arrays Share a Common Element, Return that Element
 
 ```js
 classAlgorithms.commonElement([5, 3, 4, 10], [0, 4, 9, 99]); // === 4
 ```
 
-### Is a Substring Constructed Using Exclusively Letters Contained Within a String
+## Is a Substring Constructed Using Exclusively Letters Contained Within a String
 
 ```js
 classAlgorithms.permutationSubstring(`tbacowa`, `bat`); // === true
 ```
 
-### Take a String and Return an Object Containing a Map Where Each Key Holds an Array of the indeces of Each Letter
+## Take a String and Return an Object Containing a Map Where Each Key Holds an Array of the indeces of Each Letter
 
 ```js
 classAlgorithms.stringMap(`hello world`); // === {"h":[0],"e":[1],"l":[2, 3, 9],"o":[4, 7]," ":[5],"w":[6],"r":[8],"d":[10]}
 ```
 
-### Take an Input Array of Integers, and Map it to an Array where Each Integer is either Doubled or Tripled based on if it is Even or Odd Respectively
+## Take an Input Array of Integers, and Map it to an Array where Each Integer is either Doubled or Tripled based on if it is Even or Odd Respectively
 
 ```js
 classAlgorithms.doubleTripleMap([1, 2, 3, 4]); // === [3, 4, 9, 8]
 ```
 
-### Return the Intersections of Two Arrays
+## Return the Intersections of Two Arrays
 
 ```js
 classAlgorithms.arrayIntersection([1, 2, 3, 4, 5], [5, 0, 3, 10, -2, 1]); // === [1, 3, 5]
 ```
 
-### Return a Sorted Array with its Elements Squared and Sorted
+## Return a Sorted Array with its Elements Squared and Sorted
 
 ```js
 classAlgorithms.sortedSquaresWithSort([-4, -1, 0, 3, 10]); // === [0, 1, 9, 16, 100]
@@ -294,61 +294,61 @@ classAlgorithms.sortedSquaresNoSort([-7, -3, 2, 3, 11]); // === [4, 9, 9, 49, 12
 classAlgorithms.sortedSquaresNoSortCleaner([-7, -3, 2, 3, 11]); // === [4, 9, 9, 49, 121]
 ```
 
-### Calculate the Square Root of an Input Positive Integer, Rounded Down
+## Calculate the Square Root of an Input Positive Integer, Rounded Down
 
 ```js
 classAlgorithms.squareRoot(1452); // === 38
 ```
 
-### Does a String Contain Another String, and Where
+## Does a String Contain Another String, and Where
 
 ```js
 classAlgorithms.needleInTheHaystack(`JavaScript`, `aSc`); // === 3
 ```
 
-### Remove Duplicates in an Array without Creating a New Array
+## Remove Duplicates in an Array without Creating a New Array
 
 ```js
 classAlgorithms.removeDuplicatesInPlace([1, 1, 1, 2, 2, 3, 3, 3, 3, 3, 3, 3]); // === [1, 2, 3]
 ```
 
-### Find the Missing Number in an Unsorted Input Array of Consecutive Integers
+## Find the Missing Number in an Unsorted Input Array of Consecutive Integers
 
 ```js
 classAlgorithms.missingNumber([0, 9, 7, 6, 5, 2, 3, 1, 4, 8]); // === 10
 ```
 
-### Rotate Elements in an Array to the Left by a Defined Amount of Indices
+## Rotate Elements in an Array to the Left by a Defined Amount of Indices
 
 ```js
 classAlgorithms.rotateLeft([1, 2, 3, 4], 1); // === [2, 3, 4, 1]
 ```
 
-### Write a function that takes two strings and determines returns true if every word found in the second string is present in the first string.
+## Write a function that takes two strings and determines returns true if every word found in the second string is present in the first string.
 
 ```js
 classAlgorithms.ransomNote(`hello world`, `world`); // === true
 ```
 
-### Take a String and Return True if it Contains Valid Sets of Matching Brackets, Else Return False
+## Take a String and Return True if it Contains Valid Sets of Matching Brackets, Else Return False
 
 ```js
 classAlgorithms.matchingBrackets(`{ } [ ( [] ) ]`); // === true
 ```
 
-### Return the Minimum Number of Increments Required Across an Input Array of Integers to Ensure that Every Number is Unique
+## Return the Minimum Number of Increments Required Across an Input Array of Integers to Ensure that Every Number is Unique
 
 ```js
 classAlgorithms.minIncrements([3, 2, 1, 2, 1, 7]); // === 6
 ```
 
-### Find the Single Peak in an Array
+## Find the Single Peak in an Array
 
 ```js
 classAlgorithms.peakFinder([-3, -2, -1, 0, 1, -9, -11, -18, -70]); // === 1
 ```
 
-### Return True if an Integer is an Armstrong Number
+## Return True if an Integer is an Armstrong Number
 
 [https://www.quora.com/What-is-an-Armstrong-number](https://www.quora.com/What-is-an-Armstrong-number)
 
@@ -356,25 +356,25 @@ classAlgorithms.peakFinder([-3, -2, -1, 0, 1, -9, -11, -18, -70]); // === 1
 classAlgorithms.isArmstrong(153); // === true
 ```
 
-### Return the Maximum Profit that Can be Made from Buying and Selling a Single Stock. Takes an Array of Integers Representing the Price of a Stock on Different Days.
+## Return the Maximum Profit that Can be Made from Buying and Selling a Single Stock. Takes an Array of Integers Representing the Price of a Stock on Different Days.
 
 ```js
 classAlgorithms.maxProfit([7, 1, 5, 3, 6, 4]); // === 5
 ```
 
-### Return a Pair of Numbers (One From Each of Two Sorted Arrays) with the Smallest Difference
+## Return a Pair of Numbers (One From Each of Two Sorted Arrays) with the Smallest Difference
 
 ```js
 classAlgorithms.smallestDifference([2, 4, 6, 8, 15, 20], [17, 25, 30, 47]); // === [15, 17]
 ```
 
-### Return the Continuous Sub-Array with the Maximum Total Value
+## Return the Continuous Sub-Array with the Maximum Total Value
 
 ```js
 classAlgorithms.maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]); // === 6
 ```
 
-### With a 2D Array of Meeting Times, (Representing a Start and End Time), Return a New 2D Array such that Overlapping Meeting Blocks are Condensed into Combined Meeting Blocks
+## With a 2D Array of Meeting Times, (Representing a Start and End Time), Return a New 2D Array such that Overlapping Meeting Blocks are Condensed into Combined Meeting Blocks
 
 ```js
 classAlgorithms.mergeMeetingTimes([
